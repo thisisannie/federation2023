@@ -1,0 +1,28 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0;
+	#logo-container {
+		img {
+			width: 180px;
+		}
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+		font-size: 0;
+		.nav-item {
+			font-size: 14px;
+			text-transform: uppercase;
+			a {
+				padding: 30px;
+			}
+		}
+		.nav-sub-items {
+			height: 0;
+			width: 0;
+			overflow: hidden;
+		}
+	}
+}
