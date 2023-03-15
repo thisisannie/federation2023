@@ -2,27 +2,73 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 40px 0;
+	margin: 20px 40px;
 	#logo-container {
 		img {
-			width: 180px;
+			width: 170px;
 		}
 	}
 	nav {
+		position: relative;
 		display: flex;
 		justify-content: space-between;
 		font-size: 0;
 		.nav-item {
-			font-size: 14px;
+			position: relative;
+			margin: 0 5px;
+			font-size: 12px;
 			text-transform: uppercase;
-			a {
-				padding: 30px;
+			font-weight: 600;
+			 &:last-child {
+				margin-right: 0;
 			}
-		}
-		.nav-sub-items {
-			height: 0;
-			width: 0;
-			overflow: hidden;
+			a {
+				padding: 20px;
+				display: inline-block;
+			}
+			&.has-child {
+				> a {
+					padding-right: 38px;
+					&::after {
+						content: url("../images/utility/chevron-right.svg");
+						position: absolute;
+						display: inline-block;
+						width: 8px;
+						height: 12px;
+						transform: rotate(90deg);
+						right: 12px;
+					}
+				}
+				&.active {
+					.click-out {
+						position: fixed;
+						left: 0;
+						right: 0;
+						top: 0;
+						bottom: 0;
+						display: block;
+						opacity: 0.5;
+						background-color: white;
+						z-index: 10;
+					}
+					.nav-sub-items {
+						max-height: 200px; // Increase for 4+ submenu items
+						transform: scaleY(1);
+						z-index: 20;
+					}
+
+				}
+				
+			}
+			.nav-sub-items {
+				position: absolute;
+				top: 54px;
+				max-height: 0;
+				overflow: hidden;
+				transition: $transition;
+				background-color: white;
+				
+			}
 		}
 	}
 }
