@@ -15,10 +15,17 @@
 				<img src="<?=HTML_ROOT;?>/images/brand/logo-federation.svg" alt="Federation" class="logo">
 			</a>
 		</div>
+		<div id="nav__mobile-toggle">
+			<div class="nav__mobile-toggle__bar"></div>
+			<div class="nav__mobile-toggle__bar"></div>
+			<div class="nav__mobile-toggle__bar"></div>
+			<div class="nav__mobile-toggle__bar"></div>
+		</div>
 		<nav>
+			<div id="nav__click-out"></div>
 			<div class="nav-item"><a>Work</a></div>
 			<div class="nav-item has-child"><a>About </a>
-				<div class="click-out"></div>
+				<div class="has-child__click-out"></div>
 				<div class="nav-sub-items">
 					<div class="nav-sub-item"><a>People</a></div>
 					<div class="nav-sub-item"><a>Places</a></div>
