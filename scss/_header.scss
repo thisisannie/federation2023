@@ -37,7 +37,7 @@ header {
 		.nav__mobile-toggle__bar:nth-child(3) {
 			margin-top: -8px;
 		}
-		@media (min-width: 600px) {
+		@media (min-width: 690px) {
 			display: none;
 			opacity: 0;
 		}
@@ -47,99 +47,100 @@ header {
 		position: relative;
 		font-size: 0;
 		flex-direction: column;
+		transition: $transition;
 		.nav-item {
 			position: relative;
-			margin: 0 5px;
 			font-size: 12px;
 			text-transform: uppercase;
 			font-weight: 600;
-			&:last-child {
-				margin-right: 0;
-			}
 			a {
 				display: inline-block;
 				padding: 20px;
 			}
 		}
-		@media (max-width: 600px) {
-			max-height: 100vh;
+		@media (max-width: 689px) {
 			position: absolute;
-			top: 47px;
-			right: 39px;
+			top: 63px;
+			right: 10 px;
 			max-height: 0;
-			// background-color: rgba(255,255,255,0.5);
 			background-color: white;
 			overflow: hidden;
+			text-align: center;
 			&.active {
 				max-height: 100vh;
 			}
 		}
-		@media (min-width: 600px) {
+		@media (min-width: 690px) {
 			justify-content: space-between;
 			flex-direction: row;
 			.nav-item {
-				&.has-child {
-					> a {
-						padding-right: 38px;
-						&::after {
-							content: url("../images/utility/chevron-right.svg");
-							position: absolute;
-							display: inline-block;
-							width: 8px;
-							height: 12px;
-							transform: rotate(90deg);
-							right: 12px;
-						}
-					}
-					.has-child__click-out {
-						position: fixed;
-						left: 0;
-						right: 0;
-						top: 0;
-						bottom: 0;
-						opacity: 0;
-						visibility: hidden;
-						transition: $transition;
-						background-color: white;
-						z-index: 10;
-					}
-					&.active {
-						.has-child__click-out {
-							visibility: visible;
-							opacity: 0.5;
-						}
-						.nav-sub-items {
-							max-height: 200px; // Increase for 4+ submenu items
-							transform: scaleY(1);
-							z-index: 20;
-						}
-					}
+				margin: 0 5px;
+				&:last-child {
+					margin-right: 0;
 				}
-				.nav-sub-items {
-					position: absolute;
-					top: 54px;
-					max-height: 0;
-					overflow: hidden;
-					transition: $transition;
-					background-color: white;
-				}
+				// // Desktop Submenu styling
+				// &.has-child {
+				// 	> a {
+				// 		padding-right: 38px;
+				// 		&::after {
+				// 			content: url("../images/utility/chevron-right.svg");
+				// 			position: absolute;
+				// 			display: inline-block;
+				// 			width: 8px;
+				// 			height: 12px;
+				// 			transform: rotate(90deg);
+				// 			right: 12px;
+				// 		}
+				// 	}
+				// 	.has-child__click-out {
+				// 		position: fixed;
+				// 		left: 0;
+				// 		right: 0;
+				// 		top: 0;
+				// 		bottom: 0;
+				// 		opacity: 0;
+				// 		visibility: hidden;
+				// 		transition: $transition;
+				// 		background-color: white;
+				// 		z-index: 10;
+				// 	}
+				// 	&.active {
+				// 		.has-child__click-out {
+				// 			visibility: visible;
+				// 			opacity: 0.5;
+				// 		}
+				// 		.nav-sub-items {
+				// 			max-height: 200px; // Increase for 4+ submenu items
+				// 			transform: scaleY(1);
+				// 			z-index: 20;
+				// 		}
+				// 	}
+				// }
+				// .nav-sub-items {
+				// 	position: absolute;
+				// 	top: 54px;
+				// 	max-height: 0;
+				// 	overflow: hidden;
+				// 	transition: $transition;
+				// 	background-color: white;
+				// }
 			}
 		}
-		#nav__click-out {
-			position: fixed;
-			left: 0;
-			right: 0;
-			top: 0;
-			bottom: 0;
-			opacity: 0;
-			visibility: hidden;
-			transition: $transition;
-			background-color: white;
-			// z-index: 10;
-			&.active {
-				visibility: visible;
-				opacity: 0.5;
-			}
+	}
+	#nav__click-out {
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		opacity: 0;
+		visibility: hidden;
+		transition: $transition;
+		background-color: white;
+		// z-index: 10;
+		&.active {
+			visibility: visible;
+			opacity: 0.5;
 		}
 	}
 }

@@ -24,14 +24,16 @@
 		<nav>
 			<div id="nav__click-out"></div>
 			<div class="nav-item"><a>Work</a></div>
-			<div class="nav-item has-child"><a>About </a>
+			<div class="nav-item"><a>About</a></div>
+			<div class="nav-item"><a>Services</a></div>
+			<!-- <div class="nav-item has-child"><a>About </a>
 				<div class="has-child__click-out"></div>
 				<div class="nav-sub-items">
 					<div class="nav-sub-item"><a>People</a></div>
 					<div class="nav-sub-item"><a>Places</a></div>
 					<div class="nav-sub-item"><a>Things</a></div>
 				</div>
-			</div>
+			</div> -->
 			<div class="nav-item"><a>Contact</a></div>
 		</nav>
 	</header>
