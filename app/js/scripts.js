@@ -28,4 +28,22 @@ $(document).ready(function() {
 		$('#nav__click-out').removeClass('active');
 		$('nav').removeClass('active');
 	});
+
+	// Hero Home Animaiton
+	if($('#hero--home').length > 0) {
+		setTimeout(function () {
+			$('#hero--home').addClass('tall');
+			console.log('taller');
+		}, 100);
+	
+		const expandHeroHome = function () {
+			$('#hero--home').addClass('tall wide');
+			if ($(window).scrollTop() < 500) {
+				$([document.documentElement, document.body]).animate({
+					scrollTop: $("#hero--home").offset().top-30
+			}, 200);
+			}
+		}
+		$(window).one("scroll", expandHeroHome );
+	}
 });

@@ -2,7 +2,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 20px 40px;
+	margin: $margin--header--v $margin--widest--h;
 	#logo-container {
 		img {
 			width: 170px;
