@@ -41,7 +41,7 @@ $(document).ready(function() {
 			if ($(window).scrollTop() < 500) {
 				$([document.documentElement, document.body]).animate({
 					scrollTop: $("#hero--home").offset().top-30
-			}, 200);
+			}, 300);
 			}
 		}
 		$(window).one("scroll", expandHeroHome );
