@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Qanalas";
+  src: url("../fonts/Radomir_Tinkov__QanelasSoftHeavy.woff2") format("woff2"),
+       url("../fonts/Radomir_Tinkov__QanelasSoftHeavy.woff") format("woff"),
+       url("../fonts/Radomir_Tinkov__QanelasSoftHeavy.ttf") format("truetype");
+  font-weight: 1000;
+}
+@font-face {
+  font-family: "Qanalas";
+  src: url("../fonts/Radomir_Tinkov__QanelasSoftBold.woff2") format("woff2"),
+       url("../fonts/Radomir_Tinkov__QanelasSoftBold.woff") format("woff"),
+       url("../fonts/Radomir_Tinkov__QanelasSoftBold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Qanalas";
+  src: url("../fonts/Radomir_Tinkov__QanelasSoftRegular.woff2") format("woff2"),
+       url("../fonts/Radomir_Tinkov__QanelasSoftRegular.woff") format("woff"),
+       url("../fonts/Radomir_Tinkov__QanelasSoftRegular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+body {
+	font-family: "Qanalas", sans-serif;
+}
