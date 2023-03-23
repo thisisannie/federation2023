@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bootstrapgrid": "node-sass -w ./node_modules/bootstrap/scss/bootstrap-grid.scss -o app/css/ --output-style compressed",
-    "watch": "node-sass -w ./scss/ -o ./app/css/ --output-style compressed"
+    "watch": "node-sass -w ./scss/ -o ./app/assets/css/ --output-style compressed"
   },
   "repository": {
     "type": "git",
