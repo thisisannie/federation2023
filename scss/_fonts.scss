@@ -1,23 +1,34 @@
 @font-face {
   font-family: "Qanalas";
-  src: url("../fonts/Radomir_Tinkov__QanelasSoftHeavy.woff2") format("woff2"),
-       url("../fonts/Radomir_Tinkov__QanelasSoftHeavy.woff") format("woff"),
-       url("../fonts/Radomir_Tinkov__QanelasSoftHeavy.ttf") format("truetype");
-  font-weight: 1000;
+  src: url("../fonts/QanelasSoft-Heavy.woff2") format("woff2"),
+       url("../fonts/QanelasSoft-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  size-adjust: 103%;
 }
 @font-face {
   font-family: "Qanalas";
-  src: url("../fonts/Radomir_Tinkov__QanelasSoftBold.woff2") format("woff2"),
-       url("../fonts/Radomir_Tinkov__QanelasSoftBold.woff") format("woff"),
-       url("../fonts/Radomir_Tinkov__QanelasSoftBold.ttf") format("truetype");
+  src: url("../fonts/QanelasSoft-Bold.woff2") format("woff2"),
+       url("../fonts/QanelasSoft-Bold.woff") format("woff");
   font-weight: 700;
+  font-style: normal;
+  size-adjust: 103%;
 }
 @font-face {
   font-family: "Qanalas";
-  src: url("../fonts/Radomir_Tinkov__QanelasSoftRegular.woff2") format("woff2"),
-       url("../fonts/Radomir_Tinkov__QanelasSoftRegular.woff") format("woff"),
-       url("../fonts/Radomir_Tinkov__QanelasSoftRegular.ttf") format("truetype");
+  src: url("../fonts/QanelasSoft-Regular.woff2") format("woff2"),
+       url("../fonts/QanelasSoft-Regular.woff") format("woff");
   font-weight: 400;
+  font-style: italic;
+  size-adjust: 103%;
+}
+@font-face {
+  font-family: "Qanalas";
+  src: url("../fonts/QanelasSoft-MediumItalic.woff2") format("woff2"),
+       url("../fonts/QanelasSoft-MediumItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  size-adjust: 103%;
 }
 
 body {
