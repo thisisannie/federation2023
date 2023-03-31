@@ -1,0 +1,48 @@
+footer {
+	background-color: black;
+	padding: 50px 0;
+	color: white;
+	h5, h6, p, a {
+		color: white;
+	}
+	.footer-menu {
+		ul {
+			list-style: none;
+			font-weight: 700;
+			padding: 0;
+		}
+	}
+	.connect {
+		position: relative;
+		top: -10px;
+		text-align: left;
+	}
+	.linkedin.svg {
+		position: relative;
+		top: 10px;
+		width: 35px;
+		padding-left: 15px;
+		path {
+			fill: white;
+		}
+	}
+
+	// max-md
+	@media (max-width: 767px) {
+		.linkedin.svg {
+			top: 7px;
+			width: 25px;
+			padding-left: 10px;
+		}
+		.footer-menu, .address, .connect {
+			margin: 20px;
+		}
+	}
+	// min md
+	@media (min-width: 768px) {
+		padding: 100px 0;
+		.connect {
+			text-align: right;
+		}
+	}
+}

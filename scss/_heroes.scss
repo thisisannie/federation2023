@@ -16,8 +16,8 @@
 }
 #hero--home {
 	width: 70vh;
-	min-width: 45vw;
-	min-height: 45vw;
+	min-width: 40vw;
+	min-height: 40vw;
 	border-radius: $border-radius--full;
 	margin-top: -$margin--header--v;
 	overflow: hidden;
@@ -37,7 +37,6 @@
 	.what {
 		position: absolute;
 		font-size: 70px;
-		font-weight: bold;
 		text-shadow: 0 0 40px rgba(255,255,255,0.8);
 		transition: $transition--slow;
 		&#what1 {
