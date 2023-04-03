@@ -12,3 +12,10 @@ $margin--widest--h: 40px;
 // Transitions
 $transition: all 0.2s ease;
 $transition--slow: all 0.4s ease;
+
+// Breakpoints
+$bp--sm: 576px;
+$bp--md: 768px;
+$bp--lg: 992px;
+$bp--xl: 1200px;
+$bp--xxl: 1400px;

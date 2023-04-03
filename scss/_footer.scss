@@ -28,7 +28,7 @@ footer {
 	}
 
 	// max-md
-	@media (max-width: 767px) {
+	@media (max-width: $bp--md) {
 		.linkedin.svg {
 			top: 7px;
 			width: 25px;
@@ -39,7 +39,7 @@ footer {
 		}
 	}
 	// min md
-	@media (min-width: 768px) {
+	@media (min-width: $bp--md) {
 		padding: 100px 0;
 		.connect {
 			text-align: right;
