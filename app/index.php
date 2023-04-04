@@ -15,24 +15,7 @@
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-8">
 				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
+				<a href="#" class="button">About us</a>
 			</div>
 		</div>	
 	</div>

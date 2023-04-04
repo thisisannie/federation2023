@@ -1,0 +1,17 @@
+.button {
+	display: inline-block;
+	border-radius: 35px;
+	border: 2px $red solid;
+	padding: 5px 15px;
+	background: $red;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	transition: $transition;
+	cursor: pointer;
+	&:hover {
+		border-color: darken($red, 5%);
+		background-color: darken($red, 5%);
+		transform: scale(1.02);
+	}
+}
