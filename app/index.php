@@ -21,6 +21,17 @@
 	</div>
 </section>
 
+<section>
+	<div class="container container-wide">
+		<div class="row">
+			<div class="col col-md-4">
+				<h2>Our work</h2>
+				Arrows <a href="#" class="button button--reverse">See all work</a>
+			</div>
+		</div>
+	</div>
+</section>
+
 <?php 
 	include ABSPATH . '/partials/footer.php';
 ?>

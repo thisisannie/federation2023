@@ -12,6 +12,19 @@
 	&:hover {
 		border-color: darken($red, 5%);
 		background-color: darken($red, 5%);
-		transform: scale(1.02);
+		transform: scale(1.03);
+	}
+	&.button--reverse {
+		border-color: white;
+		background-color: white;
+		color: $red;
+		&::after {
+			content: "→";
+			padding-left: 5px;
+			transition: $transition;
+		}
+		&:hover {
+			color: darken($red, 5%);
+		}
 	}
 }
