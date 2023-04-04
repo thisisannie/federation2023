@@ -22,11 +22,30 @@
 </section>
 
 <section>
-	<div class="container container-wide">
+	<div class="container container-wide container--">
 		<div class="row">
 			<div class="col col-md-4">
 				<h2>Our work</h2>
-				Arrows <a href="#" class="button button--reverse">See all work</a>
+				<a href="" class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt="<"></a>
+				<a href="" class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt=">"></a>
+				<a href="#" class="button button--reverse">See all work <img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/arrow-right.svg" alt=">"></a>
+			</div>
+			<div class="col">
+				<div class="cards">
+					<a href="#" class="card">
+						<img src="<?=HTML_ROOT;?>/assets/images/placeholders/card.jpg" alt="placeholder">
+						<div class="text">
+							<span class="card__header--sm">Maratime NZ</span>
+							<span class="card__header--lg">Kia Mataara</span>
+							<div class="labels">
+								<span class="label">Brand</span>
+								<span class="label">OOH</span>
+								<span class="label">Social</span>
+							</div>
+							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/arrow-right.svg" alt=">"></div>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

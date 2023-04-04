@@ -2,9 +2,11 @@
 	display: inline-block;
 	border-radius: 35px;
 	border: 2px $red solid;
-	padding: 5px 15px;
+	padding: 15px 30px;
 	background: $red;
+	line-height: 1;
 	text-transform: uppercase;
+	letter-spacing: 0.8px;
 	font-weight: 700;
 	color: white;
 	transition: $transition;
@@ -18,13 +20,30 @@
 		border-color: white;
 		background-color: white;
 		color: $red;
-		&::after {
-			content: "→";
-			padding-left: 5px;
+		svg {
+			position: relative;
+			top: -1px;
+			height: 10px;
+		}
+		path {
+			fill: $red;
 			transition: $transition;
 		}
 		&:hover {
 			color: darken($red, 5%);
+			path {
+				fill: darken($red, 5%);
+			}
+		}
+	}
+	&.button--spot {
+		padding: 15px;
+		svg {
+			height: 15px;
+			width: 15px;
+			path {
+				fill: white;
+			}
 		}
 	}
 }
