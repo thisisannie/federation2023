@@ -1,4 +1,6 @@
 <?php 
+	$page_title = "Provocative advertising";
+	$page_description = "We’re Federation, an advertising agency creating provocative ideas that live within advertising, entertainment and technology.";
   include 'config.php';
 	include ABSPATH . '/partials/header.php';
 ?>

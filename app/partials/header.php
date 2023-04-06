@@ -4,7 +4,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Federation</title>
+	<title>
+		<?php echo !empty($page_title) ? $page_title . " | Federation" : 'Federation' ?>
+	</title>
+	<meta name="description" content="<?php echo !empty($page_description) ? $page_description : 'We’re Federation, an advertising agency creating provocative ideas that live within advertising, entertainment and technology.' ?>">
 	<link rel="stylesheet" href="<?=HTML_ROOT;?>/assets/css/bootstrap-grid.css">
 	<link rel="stylesheet" href="<?=HTML_ROOT;?>/assets/css/styles.css">
 </head>
