@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bootstrapgrid": "node-sass -w ./node_modules/bootstrap/scss/bootstrap-grid.scss -o app/assets/css/ --output-style compressed",
+    "slick": "node-sass -w ./node_modules/slick-carousel/slick/slick.scss -o app/assets/css/ --output-style compressed",
     "watch": "node-sass -w ./scss/ -o ./app/assets/css/ --output-style compressed"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/thisisannie/federation2023#readme",
   "dependencies": {
-    "bootstrap": "^5.3.0-alpha1"
+    "bootstrap": "^5.3.0-alpha1",
+    "slick-carousel": "^1.8.1"
   }
 }

@@ -33,7 +33,6 @@ $(document).ready(function() {
 	if($('#hero--home').length > 0) {
 		setTimeout(function () {
 			$('#hero--home').addClass('tall');
-			console.log('taller');
 		}, 100);
 	
 		const expandHeroHome = function () {
@@ -74,6 +73,10 @@ $(document).ready(function() {
 				$img.replaceWith($svg);
 
 		}, 'xml');
+	});
 
-});
+	// Slick Carousel
+	$('#slick__work').slick({
+		slidesToShow: 1,
+	});
 });

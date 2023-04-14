@@ -10,6 +10,11 @@
 	<meta name="description" content="<?php echo !empty($page_description) ? $page_description : 'We’re Federation, an advertising agency creating provocative ideas that live within advertising, entertainment and technology.' ?>">
 	<link rel="stylesheet" href="<?=HTML_ROOT;?>/assets/css/bootstrap-grid.css">
 	<link rel="stylesheet" href="<?=HTML_ROOT;?>/assets/css/styles.css">
+	<?php 
+		foreach ($styles as $style) {
+			echo '<link rel="stylesheet" href="' . HTML_ROOT . '/assets/css/' . $style . '">';
+		}
+	?>
 </head>
 <body>
 	<header>
