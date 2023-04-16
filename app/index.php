@@ -14,6 +14,7 @@
 		"maratime-nz",
 		"massey",
 		"nz-opera",
+		"mission-electric",
 	];
   include 'config.php';
 	include ABSPATH . '/partials/header.php';
@@ -46,7 +47,7 @@
 				<a href="" class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt=">"></a>
 				<a href="#" class="button button--reverse">See all work <img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/arrow-right.svg" alt=">"></a>
 			</div>
-			<div class="col col-md-6">
+			<div class="col col-md-8">
 				<div id="slick__work" class="cards">
 					<!-- Work Cards -->
 					<?php

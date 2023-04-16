@@ -77,6 +77,7 @@ $(document).ready(function() {
 
 	// Slick Carousel
 	$('#slick__work').slick({
-		slidesToShow: 1,
+		infinite: false,
+		slidesToShow: 2,
 	});
 });
