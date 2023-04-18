@@ -1,5 +1,7 @@
 <a href="#" class="card">
-	<img src="<?=HTML_ROOT;?>/assets/images/placeholders/card.jpg" alt="placeholder" class="card__img">
+	<div class="card__img">
+		<img src="<?=HTML_ROOT;?>/assets/images/placeholders/card.jpg" alt="placeholder" class="">
+	</div>
 	<div class="text">
 		<span class="card__header--sm">Maratime NZ</span>
 		<span class="card__header--lg">Kia Mataara</span>
