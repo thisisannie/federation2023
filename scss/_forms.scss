@@ -12,9 +12,15 @@
 	transition: $transition;
 	cursor: pointer;
 	&:hover {
-		border-color: darken($red, 5%);
-		background-color: darken($red, 5%);
-		transform: scale(1.03);
+		border-color: $red-dark;
+		background-color: $red-dark;
+		transform: scale($scale-up);
+		&.prev {
+			transform: rotate(180deg) scale($scale-up);
+		}
+	}
+	&.prev {
+		transform: rotate(180deg);
 	}
 	&.button--reverse {
 		border-color: white;
@@ -30,9 +36,9 @@
 			transition: $transition;
 		}
 		&:hover {
-			color: darken($red, 5%);
+			color: $red-dark;
 			path {
-				fill: darken($red, 5%);
+				fill: $red-dark;
 			}
 		}
 	}

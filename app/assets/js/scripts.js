@@ -75,9 +75,19 @@ $(document).ready(function() {
 		}, 'xml');
 	});
 
-	// Slick Carousel
+	// Slick Carousels
 	$('#slick__work').slick({
 		infinite: false,
 		slidesToShow: 2,
+	});
+
+	$('#slick__testimonials').slick({
+		infinite: true,
+		slidesToShow: 1,
+		speed: 300,
+		fade: true,
+		cssEase: 'ease',
+		prevArrow: $('.slick-testimonial-prev'),
+		nextArrow: $('.slick-testimonial-next'),
 	});
 });

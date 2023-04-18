@@ -1,9 +1,12 @@
 // Colours
 $red: #e51d41;
+$red-dark: darken($red, 5%);
 
 // Borders
 $border-radius--full: 4000px;
 $border-radius--hero: 15px;
+$border-radius--finger--left: 0 $border-radius--full $border-radius--full 0;
+$border-radius--finger--right: $border-radius--full 0 0  $border-radius--full;
 
 // Margins
 $margin--header--v: 20px;
@@ -19,3 +22,6 @@ $bp--md: 768px;
 $bp--lg: 992px;
 $bp--xl: 1200px;
 $bp--xxl: 1400px;
+
+// Scaling
+$scale-up: 1.03;
