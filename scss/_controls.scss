@@ -43,10 +43,14 @@
 		}
 	}
 	&.button--spot {
-		padding: 15px;
+		padding: 12px;
+		img.svg {
+			width: 17px;
+			height: 17px;
+		}
 		svg {
-			height: 15px;
-			width: 15px;
+			height: 17px;
+			width: 17px;
 			path {
 				fill: white;
 			}
