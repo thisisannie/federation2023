@@ -78,7 +78,23 @@ $(document).ready(function() {
 	// Slick Carousels
 	$('#slick__work').slick({
 		infinite: false,
-		slidesToShow: 2,
+		prevArrow: $('.slick-work-prev'),
+		nextArrow: $('.slick-work-next'),
+		slidesToShow: 2.3,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1.3,
+				}
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 1.6,
+				}
+			}
+		]
 	});
 
 	$('#slick__testimonials').slick({

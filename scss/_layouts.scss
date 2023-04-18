@@ -38,4 +38,29 @@ section {
 			}
 		}
 	}
+	&.finger--slick-work {
+		@media (min-width: $bp--md) {
+			display: flex!important;
+			flex-direction: row-reverse;
+			.finger__text {
+				width: 40%;
+			}
+			.finger__image {
+				width: 60%;
+			}
+		}
+		@media (min-width: $bp--lg) {
+			display: flex!important;
+			flex-direction: row-reverse;
+			.finger__text {
+				width: 33%;
+			}
+			.finger__image {
+				width: 67%;
+			}
+		}
+		.finger__image {
+			padding: 0;
+		}
+	}
 }
