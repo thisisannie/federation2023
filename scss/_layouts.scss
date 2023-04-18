@@ -47,6 +47,21 @@ section {
 			.finger__image {
 				width: 60%;
 			}
+			.card {
+				position: relative;
+				&:nth-child(3n + 1) {
+					outline: 1px blue solid;
+					transform: translateY(-40px);
+				}
+				&:nth-child(3n + 2) {
+					outline: 1px green solid;
+					transform: translateY(20px);
+				}
+				&:nth-child(3n) {
+					outline: 1px red solid;
+					transform: translateY(-20px);
+				}
+			}
 		}
 		@media (min-width: $bp--lg) {
 			display: flex!important;
