@@ -1,5 +1,8 @@
 .button {
 	display: inline-block;
+	margin-top: -3px;
+	margin-right: 10px;
+	margin-bottom: 20px;
 	border-radius: 35px;
 	border: 2px $red solid;
 	padding: 15px 30px;
@@ -11,6 +14,9 @@
 	color: white;
 	transition: $transition;
 	cursor: pointer;
+	&:last-child {
+		margin-right: 0;
+	}
 	&:hover {
 		border-color: $red-dark;
 		background-color: $red-dark;
@@ -43,6 +49,9 @@
 		}
 	}
 	&.button--spot {
+		position: relative;
+		top: 3px;
+		margin-top: 0;
 		padding: 12px;
 		img.svg {
 			width: 17px;
@@ -56,4 +65,9 @@
 			}
 		}
 	}
+}
+
+.our-work-button-spacer {
+	display: inline-block;
+	width: 30px;
 }
