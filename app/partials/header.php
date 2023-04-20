@@ -11,9 +11,11 @@
 	<link rel="stylesheet" href="<?=HTML_ROOT;?>/assets/css/bootstrap-grid.css">
 	<link rel="stylesheet" href="<?=HTML_ROOT;?>/assets/css/styles.css">
 	<?php 
-		foreach ($styles as $style) {
-			echo '<link rel="stylesheet" href="' . HTML_ROOT . '/assets/css/' . $style . '">';
-		}
+		if (isset($styles)) {
+			foreach ($styles as $style) {
+				echo '<link rel="stylesheet" href="' . HTML_ROOT . '/assets/css/' . $style . '">';
+			}
+		}		
 	?>
 </head>
 <body>
@@ -31,7 +33,7 @@
 		</div>
 		<nav>
 			<div id="nav__click-out"></div>
-			<div class="nav-item"><a>Work</a></div>
+			<div class="nav-item"><a href="<?=HTML_ROOT;?>/work.php">Work</a></div>
 			<div class="nav-item"><a>About</a></div>
 			<div class="nav-item"><a>Services</a></div>
 			<!-- <div class="nav-item has-child"><a>About </a>
