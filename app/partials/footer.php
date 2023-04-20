@@ -4,8 +4,8 @@
 				<div class="col col-12 col-md-10">
 					<div class="row">
 						<div class="col col-12 col-sm-6 col-md-3">
-							<div class="footer-menu small caps">
-								<ul>
+							<div class="footer-menu">
+								<ul class="small caps">
 									<li><a href="#">Work</a></li>
 									<li><a href="#">About</a></li>
 									<li><a href="#">Services</a></li>
