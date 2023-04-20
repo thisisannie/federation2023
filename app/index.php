@@ -32,13 +32,13 @@
 		<span id="what2" class="what h1 d-none d-md-inline-block">look like to you?</span>
 </div>
 <div class="container">
-	<h1 class="d-md-none">What does success look like to you?</h1>
 </div>
 <section>
 	<div class="container container-wide">
 		<div class="row justify-content-center">
-			<div class="col col-12 col-md-8">
-				<p>We’re Federation, an advertising agency for the new age. We create provocative ideas that live within advertising, entertainment and technology.</p>
+			<div class="col col-12 col-md-8 col-lg-5">
+				<h1 class="d-md-none">What does success look like to you?</h1>
+				<p>We’re Federation, an advertising agency for the new age. We&nbsp;create provocative ideas that live within advertising, entertainment and technology.</p>
 				<a href="#" class="button">About us</a>
 			</div>
 		</div>	
