@@ -1,14 +1,17 @@
 <a href="#" class="card">
 	<div class="card__img">
-		<img src="<?=HTML_ROOT;?>/assets/images/placeholders/card.jpg" alt="placeholder" class="">
+		<img src="<?=HTML_ROOT;?>/assets/images/work/<?= $slug ?>/<?= $img ?>" alt="placeholder" class="">
 	</div>
 	<div class="text">
-		<span class="card__header--sm">Maratime NZ</span>
-		<span class="card__header--lg">Kia Mataara</span>
+		<span class="card__header--sm"><?= $company ?></span>
+		<span class="card__header--lg"><?= $brief ?></span>
 		<div class="labels">
-			<span class="label">Brand</span>
-			<span class="label">OOH</span>
-			<span class="label">Social</span>
+			<?php
+				$three_tags = array_slice($tags, 0, 3);
+				foreach($three_tags as $tag) {
+					echo '<span class="label">' . $tag . '</span>';
+				}
+			?>
 		</div>
 		<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/arrow-right.svg" alt=">"></div>
 	</div>

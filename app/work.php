@@ -1,5 +1,5 @@
 <?php 
-	function includeWorkItem() {
+	function includeWorkItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include('partials/card__work.php');
 	}
 	function includeTestimonial() {
@@ -8,25 +8,7 @@
 	$page_title = "Work Portfolio";
 	$page_description = "From the rich consumer insights and behavioural data we harness, to the creation of a compelling brand narrative.";
 	
-	$work = [
-		"maratime-nz",
-		"massey",
-		"nz-opera",
-		"mission-electric",
-		"maratime-nz",
-		"massey",
-		"nz-opera",
-		"mission-electric",
-		"maratime-nz",
-		"massey",
-		"nz-opera",
-		"mission-electric",
-		"maratime-nz",
-		"massey",
-		"nz-opera",
-		"mission-electric",
-		"mission-electric",
-	];
+	include 'work__data.php';
   include 'config.php';
 	include ABSPATH . '/partials/header.php';
 ?>
@@ -54,7 +36,7 @@
 			<!-- Work Cards -->
 			<?php
 				foreach ($work as $item) {
-					includeWorkItem();
+					includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["img"], $item["gradient"], $item["tags"]);
 				}
 			?>
 		</div>
