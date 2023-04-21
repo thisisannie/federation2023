@@ -1,4 +1,8 @@
 .cards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	row-gap: 30px;
 	.card {
 		display: block;
 		position: relative;

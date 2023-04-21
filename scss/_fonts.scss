@@ -74,6 +74,9 @@ h6 {
 p, ul, ol {
   font-size: 13.6px;
   font-weight: 400;
+  &.intro {
+    font-size: 21px;
+  }
 }
 h4, h5, h6, p, ul, ol {
   margin-bottom: 15px;
@@ -108,6 +111,9 @@ h4, h5, h6, p, ul, ol {
   }
   p, ul, ol {
     font-size: 18px;
+    &.intro {
+      font-size: 26px;
+    }
   }
   h4, h5, h6, p, ul, ol {
     margin-bottom: 23px;

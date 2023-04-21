@@ -36,7 +36,7 @@
 <section>
 	<div class="container container-wide">
 		<div class="row justify-content-center">
-			<div class="col col-12 col-md-8 col-lg-5">
+			<div class="col col-12 col-md-8 col-lg-6">
 				<h1 class="d-md-none">What does success look like to you?</h1>
 				<p>We’re Federation, an advertising agency for the new age. We&nbsp;create provocative ideas that live within advertising, entertainment and technology.</p>
 				<a href="#" class="button">About us</a>

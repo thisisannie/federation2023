@@ -1,0 +1,29 @@
+#work-filters {
+	.filter-by {
+		display: inline-block;
+		text-transform: uppercase;
+		font-size: 15px;		
+	}
+	.label {
+		margin: 5px;
+	}
+}
+#work-cards {
+	margin-top: 20px;
+	.card {
+		width: calc(50% - 2.5%); // account for margin
+	}
+	// first nine are featured
+	.card:nth-child(-n+9) {
+		width: 100%;
+	}
+
+	@media (min-width: $bp--md) {
+		.card {
+			width: calc(25% - 2.5%); // account for margin
+		}
+		.card:nth-child(-n+9) {
+				width: calc(33.3% - 2.5%); // account for margin
+		}
+	}
+}

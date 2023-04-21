@@ -13,6 +13,19 @@
 		"massey",
 		"nz-opera",
 		"mission-electric",
+		"maratime-nz",
+		"massey",
+		"nz-opera",
+		"mission-electric",
+		"maratime-nz",
+		"massey",
+		"nz-opera",
+		"mission-electric",
+		"maratime-nz",
+		"massey",
+		"nz-opera",
+		"mission-electric",
+		"mission-electric",
 	];
   include 'config.php';
 	include ABSPATH . '/partials/header.php';
@@ -24,9 +37,9 @@
 <section>
 	<div class="container container-wide">
 		<div class="row justify-content-center">
-			<div class="col col-12 col-md-8 col-lg-5">
+			<div class="col col-12 col-md-8 col-lg-6">
 				<h1>Our Work</h1>
-				<p>Building brands, engaging people, making tills ring. Here are some of our most talked-about and effective advertising campaigns.</p>
+				<p class="intro">Building brands, engaging people, making tills ring. Here are some of our most talked-about and effective advertising campaigns.</p>
 				<div id="work-filters">
 					<h5 class="filter-by">Filter by service:</h5>
 					<a id="filter--brand" class="label">Brand</a>
@@ -35,16 +48,16 @@
 					<a id="filter--website" class="label">Website</a>
 					<a id="filter--strategy" class="label">Strategy</a>
 				</div>
-				<div id="work-items--primary" class="cards">
-					<!-- Work Cards -->
-					<?php
-						foreach ($work as $item) {
-							includeWorkItem();
-						}
-					?>
-				</div>
 			</div>
-		</div>	
+		</div>
+		<div id="work-cards" class="cards">
+			<!-- Work Cards -->
+			<?php
+				foreach ($work as $item) {
+					includeWorkItem();
+				}
+			?>
+		</div>
 	</div>
 </section>
 
