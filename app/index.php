@@ -1,5 +1,5 @@
 <?php 
-	function includeWorkItem() {
+	function includeWorkItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include('partials/card__work.php');
 	}
 	function includeTestimonial() {
@@ -13,16 +13,11 @@
 	$scripts = [
 		'slick.min.js',
 	];
-	$work = [
-		"maratime-nz",
-		"massey",
-		"nz-opera",
-		"mission-electric",
-	];
 	$testimonial = [
 		"one",
 		"two",
 	];
+	include 'work__data.php';
   include 'config.php';
 	include ABSPATH . '/partials/header.php';
 ?>
@@ -58,8 +53,9 @@
 			<div id="slick__work" class="cards">
 				<!-- Work Cards -->
 				<?php
-					foreach ($work as $item) {
-						includeWorkItem();
+					$four_work_items = array_slice($work, 0, 4);
+					foreach ($four_work_items as $item) {
+						includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["img"], $item["gradient"], $item["tags"]);
 					}
 				?>
 			</div>

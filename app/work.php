@@ -2,9 +2,6 @@
 	function includeWorkItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include('partials/card__work.php');
 	}
-	function includeTestimonial() {
-		include('partials/testimonial.php');
-	}
 	$page_title = "Work Portfolio";
 	$page_description = "From the rich consumer insights and behavioural data we harness, to the creation of a compelling brand narrative.";
 	
