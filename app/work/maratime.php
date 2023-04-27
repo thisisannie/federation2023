@@ -17,12 +17,12 @@
 <section>
 	<div class="container container-wide">
 		<div class="row">
-			<h1 class="h1--work">Maratime</h1><span><!-- keep span to maintain h1 spacing --></span>
+			<h1 class="h1--work maintain-margin">Maratime</h1>
 		</div>
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-6">
 				<h2>Kia Mataara</h2>
-				<p><strong>Services:</strong>
+				<p class="maintain-margin"><strong>Services:</strong>
 					<br>Brand
 					<br>Social
 				</p>

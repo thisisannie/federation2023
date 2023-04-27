@@ -37,7 +37,7 @@ body {
 
 h1, .h1, h2, h3, h4, h5, h6, p, ul, ol {
   margin-top: 0;
-  &:last-child {
+  &:last-child:not(.maintain-margin) {
     margin-bottom: 0;
   }
 }
@@ -72,14 +72,15 @@ h6 {
   font-weight: 700;
 }
 p, ul, ol {
+  margin-bottom: 15px;
   font-size: 13.6px;
   font-weight: 400;
   &.intro {
     font-size: 21px;
   }
 }
-h4, h5, h6, p, ul, ol {
-  margin-bottom: 15px;
+h4, h5, h6 {
+  margin-bottom: 7px;
 }
 .small, .button {
   font-size: 12px;
@@ -110,13 +111,14 @@ h4, h5, h6, p, ul, ol {
     font-size: 12px;
   }
   p, ul, ol {
+    margin-bottom: 23px;
     font-size: 18px;
     &.intro {
       font-size: 26px;
     }
   }
-  h4, h5, h6, p, ul, ol {
-    margin-bottom: 23px;
+  h4, h5, h6 {
+    margin-bottom: 12px;
   }
   .small, .button {
     font-size: 15px;

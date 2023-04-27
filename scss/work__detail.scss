@@ -35,7 +35,7 @@
 			display: flex;
 			object-fit: cover;
 			width: 100%;
-			aspect-ratio: $aspect-ratio--service--h;
+			aspect-ratio: $aspect-ratio--pill--h;
 			border-radius: $border-radius--finger--right;
 			justify-content: center;
 			align-items: center;
@@ -62,6 +62,7 @@
 			padding: 0;
 			> img, .graphic {
 				width: 100%;
+				aspect-ratio: $aspect-ratio--service--h;
 			}
 			.stat-number {
 				font-size: 254px;
