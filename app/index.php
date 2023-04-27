@@ -1,10 +1,15 @@
 <?php 
+  include './config.php';
+
+	// Functions
 	function includeWorkItem($slug, $company, $brief, $img, $gradient, $tags) {
-		include('partials/card__work.php');
+		include(ABSPATH . '/partials/card__work.php');
 	}
 	function includeTestimonial() {
-		include('partials/testimonial.php');
+		include(ABSPATH . '/partials/testimonial.php');
 	}
+
+	// Data
 	$page_title = "Provocative advertising";
 	$page_description = "We’re Federation, an advertising agency creating provocative ideas that live within advertising, entertainment and technology.";
 	$styles = [
@@ -17,8 +22,8 @@
 		"one",
 		"two",
 	];
-	include 'work__data.php';
-  include 'config.php';
+	include ABSPATH . '/work__data.php';
+
 	include ABSPATH . '/partials/header.php';
 ?>
 <div id="hero--home" class="hero hero--home">

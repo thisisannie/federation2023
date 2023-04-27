@@ -1,12 +1,16 @@
 <?php 
+  include './config.php';
+
+	// Functions
 	function includeWorkItem($slug, $company, $brief, $img, $gradient, $tags) {
-		include('partials/card__work.php');
+		include(ABSPATH . '/partials/card__work.php');
 	}
+
+	// Data
 	$page_title = "Work Portfolio";
 	$page_description = "From the rich consumer insights and behavioural data we harness, to the creation of a compelling brand narrative.";
-	
-	include 'work__data.php';
-  include 'config.php';
+	include ABSPATH . '/work__data.php';
+
 	include ABSPATH . '/partials/header.php';
 ?>
 <div class="hero">

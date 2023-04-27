@@ -1,0 +1,74 @@
+@import 'variables.scss';
+
+.h1--work {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.service-section:nth-child(2n) .service {
+	flex-direction: row;
+	.service__image {
+		padding: 0 5% 0 0;
+		> img, .graphic {
+			border-radius: $border-radius--finger--left;
+		}
+	}
+	.graphic {
+    padding: 5% 10% 5% 5%;
+	}
+	.service__text {
+		text-align: left;
+	}
+}
+
+.service {
+	width: 100%;
+	flex-direction: row-reverse;
+	.service__text {
+		padding: 5% 5% 0 5%;
+		text-align: right;
+	}
+	.service__image {
+		padding: 0 0 0 5%;
+		> img, .graphic {
+			display: flex;
+			object-fit: cover;
+			width: 100%;
+			aspect-ratio: $aspect-ratio--service--h;
+			border-radius: $border-radius--finger--right;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			font-weight: 900;
+		}
+		.stat-number {
+			font-size: 100px;
+			margin: 0 2.5%;
+		}
+		.graphic {
+			padding: 5% 5% 5% 10%;
+		}
+	}
+	@media (min-width: $bp--md) {
+		display: flex;
+		
+		.service__text {
+			width: 20%;
+			padding: 0 2.5% 0 5%;
+		}
+		.service__image {
+			width: 80%;
+			padding: 0;
+			> img, .graphic {
+				width: 100%;
+			}
+			.stat-number {
+				font-size: 254px;
+			}
+			.stat {
+				font-size: 38px;
+			}
+		}
+	}
+}

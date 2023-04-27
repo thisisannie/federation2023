@@ -1,4 +1,4 @@
-<a href="#" class="card">
+<a href="<?=HTML_ROOT;?>/work/<?= $slug ?>.php" class="card">
 	<div class="card__img">
 		<img src="<?=HTML_ROOT;?>/assets/images/work/<?= $slug ?>/<?= $img ?>" alt="placeholder" class="">
 	</div>
