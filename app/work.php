@@ -37,7 +37,7 @@
 			<!-- Work Cards -->
 			<?php
 				foreach ($work as $item) {
-					includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["img"], $item["gradient"], $item["tags"]);
+					includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["thumb"], $item["gradient"], $item["tags"]);
 				}
 			?>
 		</div>
