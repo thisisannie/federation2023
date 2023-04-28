@@ -29,8 +29,6 @@
 		$next_page_data = $work[$keys[$index+1]]; 
 	}
 
-	print_r($next_page_data);
-
 	$img_path = HTML_ROOT . '/assets/images/work/' . $page_data['slug'] . '/';
 	// $video_path = HTML_ROOT . '/assets/videos/work/' . $page_data['slug'] . '/';
 
