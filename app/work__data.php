@@ -7,6 +7,7 @@ $work = [
 		"company" => "Maratime NZ",
 		"brief" => "Kia Mataara",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -18,6 +19,7 @@ $work = [
 		"company" => "Massey",
 		"brief" => "Success from a thousand&nbsp;moments",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb_sq-650x650.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -30,6 +32,7 @@ $work = [
 		"company" => "NZ Opera",
 		"brief" => "Macbeth",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -42,6 +45,7 @@ $work = [
 		"company" => "Auckland Transport",
 		"brief" => "Mission Electric",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -54,6 +58,7 @@ $work = [
 		"company" => "Auckland Airport",
 		"brief" => "Looking beyond",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -66,6 +71,7 @@ $work = [
 		"company" => "True Honey Co.",
 		"brief" => "True Honey e&#8209;commerce",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -81,6 +87,7 @@ $work = [
 		"company" => "Eke Panuku",
 		"brief" => "Rebrand",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -93,6 +100,7 @@ $work = [
 		"company" => "Blues",
 		"brief" => "Paint it Blue",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -105,6 +113,7 @@ $work = [
 		"company" => "L'Oréal",
 		"brief" => "Campaign name",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -117,6 +126,7 @@ $work = [
 		"company" => "Auckland Unlimited",
 		"brief" => "Iconic Eats",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -129,6 +139,7 @@ $work = [
 		"company" => "Auckland Transport",
 		"brief" => "Bike Helmets",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -141,6 +152,7 @@ $work = [
 		"company" => "Emirates",
 		"brief" => "Door to Bali",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -153,6 +165,7 @@ $work = [
 		"company" => "Auckland Transport",
 		"brief" => "Drive Karma",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -165,6 +178,7 @@ $work = [
 		"company" => "Auckland Transport",
 		"brief" => "Airport link",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -177,6 +191,7 @@ $work = [
 		"company" => "Bayer",
 		"brief" => "Easy Fleasy",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -189,6 +204,7 @@ $work = [
 		"company" => "Auckland Council",
 		"brief" => "Whanua",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -201,6 +217,7 @@ $work = [
 		"company" => "Auckland Transport",
 		"brief" => "Proof of delivery",
 		"img" => "thumb-420x680.webp",
+		"thumb_sq" => "thumb-420x680.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
