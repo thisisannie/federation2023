@@ -1,5 +1,6 @@
 <?php 
-	
+
+// Note: key must be identical to slug value, matching the corrisponding detail page in the work folder and folder in assets/images/work/
 $work = [
 	"maratime" => [
 		"slug" => "maratime",

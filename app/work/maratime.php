@@ -9,22 +9,34 @@
 	];
 	include ABSPATH . '/work__data.php';
 
+	// Get this page data from work__data.php, based on current slug
+	$url= $_SERVER['REQUEST_URI'];
+	$slug_with_php = substr($url, strrpos($url, "/") + 1);
+	$slug = preg_replace('/.php/', '', $slug_with_php);
+	$page_data = $work[$slug];
+
+	$img_path = HTML_ROOT . '/assets/images/work/' . $page_data['slug'] . '/';
+	// $video_path = HTML_ROOT . '/assets/videos/work/' . $page_data['slug'] . '/';
+
 	include ABSPATH . '/partials/header.php';
 ?>
 <div class="hero">
-	<img src="<?=HTML_ROOT;?>/assets/images/work/maratime/banner-1600x800.webp" alt="" class="feature-img">
+	<img src="<?=$img_path;?>banner-1600x800.webp" alt="" class="feature-img">
 </div>
 <section>
 	<div class="container container-wide">
 		<div class="row">
-			<h1 class="h1--work maintain-margin">Maratime</h1>
+			<h1 class="h1--work maintain-margin"><?=$page_data['company']?></h1>
 		</div>
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-6">
-				<h2>Kia Mataara</h2>
+				<h2><?=$page_data['brief']?></h2>
 				<p class="maintain-margin"><strong>Services:</strong>
-					<br>Brand
-					<br>Social
+					<?php
+						foreach($page_data['tags'] as $tag) {
+							echo '<br>' . $tag;
+						}
+					?>
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
@@ -55,7 +67,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-				<img src="<?=HTML_ROOT;?>/assets/images/work/maratime/service-tvc-1200x600.webp" alt="placeholder">
+				<img src="<?=$img_path;?>service-tvc-1200x600.webp" alt="placeholder">
 			</div>
 			<div class="service__text">
 				<h4>TVC</h4>
@@ -65,7 +77,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-				<img src="<?=HTML_ROOT;?>/assets/images/work/maratime/service-social-1200x600.webp" alt="placeholder">
+				<img src="<?=$img_path;?>service-social-1200x600.webp" alt="placeholder">
 			</div>
 			<div class="service__text">
 				<h4>Social</h4>
@@ -75,7 +87,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-				<img src="<?=HTML_ROOT;?>/assets/images/work/maratime/service-website-1200x600.webp" alt="placeholder">
+				<img src="<?=$img_path;?>service-website-1200x600.webp" alt="placeholder">
 			</div>
 			<div class="service__text">
 				<h4>Website</h4>
@@ -87,7 +99,7 @@
 <div class="section-next cards">
 	<a href="<?=HTML_ROOT;?>/work/<?= $slug ?>.php" class="card card--next">
 		<div class="card__img">
-			<img src="<?=HTML_ROOT;?>/assets/images/work/maratime/thumb-420x680.webp" alt="placeholder" class="">
+			<img src="<?=$img_path;?>thumb-420x680.webp" alt="placeholder" class="">
 		</div>
 		<div class="text">
 			<span class="card__header--sm">Maratime NZ</span>
