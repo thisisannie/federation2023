@@ -10,7 +10,7 @@
 	flex-direction: row;
 	.service__image {
 		padding: 0 5% 0 0;
-		> img, .graphic {
+		> img, video, .graphic {
 			border-radius: $border-radius--finger--left;
 		}
 	}
@@ -31,7 +31,7 @@
 	}
 	.service__image {
 		padding: 0 0 0 5%;
-		> img, .graphic {
+		> img, video, .graphic {
 			display: flex;
 			object-fit: cover;
 			width: 100%;
@@ -60,7 +60,7 @@
 		.service__image {
 			width: 80%;
 			padding: 0;
-			> img, .graphic {
+			> img, video, .graphic {
 				width: 100%;
 				aspect-ratio: $aspect-ratio--service--h;
 			}
@@ -71,5 +71,26 @@
 				font-size: 38px;
 			}
 		}
+	}
+}
+
+// Modal popup and play
+.modal-video-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.modal-video {
+		
+		&.playing {
+			
+		}
+	}
+	.button--play {
+		position: absolute;
+		&.hidden {
+			visibility: hidden;
+			opacity: 0;
+		}
+
 	}
 }

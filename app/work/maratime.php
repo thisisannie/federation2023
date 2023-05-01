@@ -80,8 +80,21 @@
 	</section>
 	<section class="service-section">
 		<div class="service align-items-center">
-			<div class="service__image">
-				<img src="<?=$img_path;?>service-tvc-1200x600.webp" alt="placeholder">
+			<div class="service__image modal-video-container">
+				<video preload="auto" class="modal-video" poster="<?=$img_path;?>service-tvc-1200x600.webp"><source src="<?=HTML_ROOT;?>/assets/videos/920x518_2023_v3.mp4" type="video/mp4"></video>
+				<a class="button button--play">Play ></a>
+			</div>
+			<div class="service__text">
+				<h4>TVC</h4>
+			</div>
+		</div>
+	</section>
+
+	<section class="service-section">
+		<div class="service align-items-center">
+			<div class="service__image modal-video-container">
+				<video preload="auto" class="modal-video" poster="<?=$img_path;?>service-tvc-1200x600.webp"><source src="<?=HTML_ROOT;?>/assets/videos/920x518_2023_v3.mp4" type="video/mp4"></video>
+				<a class="button button--play">Play ></a>
 			</div>
 			<div class="service__text">
 				<h4>TVC</h4>
