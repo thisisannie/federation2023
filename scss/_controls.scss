@@ -25,6 +25,13 @@
 			transform: rotate(180deg) scale($scale-up);
 		}
 	}
+	svg {
+		height: 10px;
+	}
+	path {
+		fill: white;
+		transition: $transition;
+	}
 	&.prev {
 		transform: rotate(180deg);
 	}
@@ -32,14 +39,8 @@
 		border-color: white;
 		background-color: white;
 		color: $red;
-		svg {
-			position: relative;
-			top: -1px;
-			height: 10px;
-		}
 		path {
 			fill: $red;
-			transition: $transition;
 		}
 		&:hover {
 			color: $red-dark;
@@ -64,6 +65,9 @@
 				fill: white;
 			}
 		}
+	}
+	&.button--exit {
+		transform: rotate(45deg);
 	}
 }
 

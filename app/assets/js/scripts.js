@@ -140,6 +140,12 @@ $(document).ready(function() {
 					video.removeAttribute("controls");
 				}
 			});
+			
+			// Close modal and pause video on exit button click
+			$(exit).on('click', function() {
+				modalVideoContainer.classList.remove('active');
+				$(video)[0].pause();
+			})
 		});
 	}
 });

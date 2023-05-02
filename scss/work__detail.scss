@@ -25,6 +25,7 @@
 .service {
 	width: 100%;
 	flex-direction: row-reverse;
+
 	.service__text {
 		padding: 5% 5% 0 5%;
 		text-align: right;
@@ -41,6 +42,7 @@
 			align-items: center;
 			color: white;
 			font-weight: 900;
+			transition: $transition;
 		}
 		.stat-number {
 			font-size: 100px;
@@ -79,10 +81,33 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	&.active {
+		width: 100%;
+		padding: 0;
+		padding: 0!important;
+		.modal-video {
+			border-radius: 0!important;
+			width: 100vw!important;
+		}
+		// .button--exit {
+		// 	visibility: visible;
+		// 	opacity: 1;
+		// }
+	}
+	.button--exit {
+		position: absolute;
+		visibility: hidden;
+		opacity: 0;
+	}
+	.button--play {
+		svg {
+			margin-left: 7px;
+			transform: scale(1.7);
+		}
+	}
 	.modal-video {
-		
 		&.playing {
-			
+			border-radius: 0;
 		}
 	}
 	.button--play {
@@ -93,4 +118,13 @@
 		}
 
 	}
+}
+
+// Stack video/text when modal is active
+.service.align-items-center:has(.modal-video-container) {
+	transition: $transition;
+}
+.service.align-items-center:has(.modal-video-container.active) {
+	flex-direction: column;
+
 }
