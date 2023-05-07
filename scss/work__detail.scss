@@ -10,8 +10,10 @@
 	flex-direction: row;
 	.service__image {
 		padding: 0 5% 0 0;
+		transition: $transition--slow;
 		> img, video, .graphic {
 			border-radius: $border-radius--finger--left;
+			width: 100%;
 		}
 	}
 	.graphic {
@@ -78,6 +80,7 @@
 
 // Modal popup and play
 .modal-video-container {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -89,15 +92,18 @@
 			border-radius: 0!important;
 			width: 100vw!important;
 		}
-		// .button--exit {
-		// 	visibility: visible;
-		// 	opacity: 1;
-		// }
+		.button--exit {
+			visibility: visible;
+			opacity: 1;
+		}
 	}
 	.button--exit {
 		position: absolute;
+		top: 15px;
+		right: 15px;
 		visibility: hidden;
 		opacity: 0;
+		transition: $transition;
 	}
 	.button--play {
 		svg {
@@ -126,5 +132,11 @@
 }
 .service.align-items-center:has(.modal-video-container.active) {
 	flex-direction: column;
-
+	.service__image {
+		width: 100%;
+	}
+	.service__text {
+		padding: 23px 0 0 0;
+		text-align: center;
+	}
 }
