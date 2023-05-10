@@ -34,7 +34,7 @@
 		<nav>
 			<div id="nav__click-out"></div>
 			<div class="nav-item"><a href="<?=HTML_ROOT;?>/work.php">Work</a></div>
-			<div class="nav-item"><a>About</a></div>
+			<div class="nav-item"><a href="<?=HTML_ROOT;?>/about.php">About</a></div>
 			<div class="nav-item"><a>Services</a></div>
 			<!-- <div class="nav-item has-child"><a>About </a>
 				<div class="has-child__click-out"></div>
