@@ -1,3 +1,8 @@
+<?php
+	// This file accepts 
+	// $scripts: Array of external/internal files. Internal are found in /assets/js/
+?>
+	
 	<footer>
 		<div class="container">
 			<div class="row justify-content-center">
@@ -33,11 +38,24 @@
 		</div>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-	<script src="<?=HTML_ROOT;?>/assets/js/scripts.js"></script>
 	<?php 
+		// Print external scripts
 		if (isset($scripts)) {
 			foreach ($scripts as $script) {
-				echo '<script src="' . HTML_ROOT . '/assets/js/' . $script . '"></script>';
+				if(str_contains($script, 'http')) {
+					echo '<script src="' . $script . '"></script>';
+				}
+			}
+		}
+	?>
+	<script src="<?=HTML_ROOT;?>/assets/js/scripts.js"></script>
+	<?php 
+		// Print internal scripts
+		if (isset($scripts)) {
+			foreach ($scripts as $script) {
+				if(! str_contains($script, 'http')) {
+					echo '<script src="' . HTML_ROOT . '/assets/js/' . $script . '"></script>';
+				}
 			}
 		}
 	?>
