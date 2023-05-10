@@ -12,6 +12,9 @@
 	$styles = [
 		'work__detail.css',
 	];
+	// $scripts = [
+	// 	'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js',
+	// ];
 	include ABSPATH . '/work__data.php';
 
 	// Get this page data from work__data.php, based on current slug
