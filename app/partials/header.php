@@ -7,6 +7,13 @@
 	<title>
 		<?php echo !empty($page_title) ? $page_title . " | Federation" : 'Federation' ?>
 	</title>
+
+	<!-- Favicons -->
+	<link rel="icon" href="<?=HTML_ROOT;?>/favicon.ico" sizes="any">
+	<link rel="icon" href="<?=HTML_ROOT;?>/icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="<?=HTML_ROOT;?>/apple-touch-icon.png">
+	<link rel="manifest" href="<?=HTML_ROOT;?>/manifest.webmanifest">
+
 	<meta name="description" content="<?php echo !empty($page_description) ? $page_description : 'We’re Federation, an advertising agency creating provocative ideas that live within advertising, entertainment and technology.' ?>">
 	<link rel="stylesheet" href="<?=HTML_ROOT;?>/assets/css/bootstrap-grid.css">
 	<link rel="stylesheet" href="<?=HTML_ROOT;?>/assets/css/styles.css">

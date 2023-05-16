@@ -1,0 +1,19 @@
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+
+# Disallow crawling of subdomains
+RewriteCond %{HTTP_HOST} !^(www\.)?federation\.net.nz$ [NC]
+RewriteRule ^robots\.txt$ robots-disallow.txt [L]
+
+# Manually re-route work/ requests to our-work
+RewriteCond %{REQUEST_FILENAME} work/$
+RewriteRule ^(.*)/$ $1 
+
+# Hide extension
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# Force https
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
