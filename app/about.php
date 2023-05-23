@@ -14,7 +14,7 @@
 	include ABSPATH . '/partials/header.php';
 ?>
 <div class="hero">
-	<img src="<?=HTML_ROOT;?>/assets/images/placeholders/video-placeholder.webp" alt="" class="feature-img">
+	<img src="<?=HTML_ROOT;?>/assets/images/about/header-desktop.webp" alt="" class="feature-img">
 </div>
 <section>
 	<div class="container container-wide">
@@ -26,6 +26,12 @@
 				<p class="intro">Born to make a difference. To brands, to businesses, to communities and to everyone that works at Federation.</p>
 			</div>
 		</div>
+	</div>
+</section>
+<section>
+	<div class="container container-wide">
+		<h3>People &amp; Culture</h3>
+		<p>We're an eclectic group of like-minded individuals who enjoy working together and making things that matter to our clients, their customers, and each of us.</p>
 		<div id="people-cards" class="cards">
 			<!-- Work Cards -->
 			<?php
@@ -36,7 +42,18 @@
 		</div>
 	</div>
 </section>
-
+<section id="section--our-services ">
+	<div class="finger align-items-center">
+		<div class="finger__image">
+			<img src="<?=HTML_ROOT;?>/assets/images/about/services.webp" alt="placeholder" class="card__img">
+		</div>
+		<div class="finger__text">
+			<h2>Our services</h2>
+			<p>Smarts come as standard at Federation. We sweat the big and the small to deliver transformative results, working at the speed you need to solve challenges and optimise opportunities.</p>
+			<a class="button">See more</a>
+		</div>
+	</div>
+</section>
 
 <?php
 	include ABSPATH . '/partials/footer.php';
