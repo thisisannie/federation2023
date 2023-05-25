@@ -33,10 +33,11 @@ $(document).ready(function() {
 	if($('#hero--home').length > 0) {
 		setTimeout(function () {
 			$('#hero--home').addClass('tall');
-		}, 100);
+		}, 2100);
 	
 		const expandHeroHome = function () {
 			$('#hero--home').addClass('tall wide');
+			$('#h1--home').addClass('show');
 			if ($(window).scrollTop() < 500) {
 				$([document.documentElement, document.body]).animate({
 					scrollTop: $("#hero--home").offset().top-30
