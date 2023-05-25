@@ -7,6 +7,9 @@ section {
 		margin: $gutter--lg 0;
 	}
 }
+.gutter {
+	margin-top: $gutter;
+}
 .finger {
 	width: 100%;
 	.finger__text {
