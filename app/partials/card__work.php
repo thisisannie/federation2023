@@ -1,8 +1,8 @@
 <a href="<?=HTML_ROOT;?>/work/<?= $slug ?>.php" class="card">
-	<div class="card__img">
+	<div class="card__img gradient-<?= $gradient ?>">
 		<img src="<?=HTML_ROOT;?>/assets/images/work/<?= $slug ?>/<?= $img ?>" alt="placeholder" class="">
 	</div>
-	<div class="text">
+	<div class="text shadow-<?= $gradient ?>">
 		<span class="card__header--sm"><?= $company ?></span>
 		<span class="card__header--lg"><?= $brief ?></span>
 		<div class="labels">

@@ -1,8 +1,8 @@
 <a class="card" data="<?= $slug ?>">
-	<div class="card__img">
+	<div class="card__img gradient-1">
 		<img src="<?=HTML_ROOT;?>/assets/images/people/<?= $thumb ?>" alt="placeholder" class="">
 	</div>
-	<div class="text">
+	<div class="text shadow-1">
 		<span class="card__header--md"><?= $name ?></span>
 		<span class="card__header--sm"><?= $role ?></span>
 		<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>

@@ -20,7 +20,7 @@ $work = [
 		"brief" => "Success from a thousand&nbsp;moments",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
-		"gradient" => true,
+		"gradient" => false,
 		"tags" => [
 			"Brand",
 			"OOH",
@@ -53,13 +53,13 @@ $work = [
 			"Social",
 		],
 	],
-	"at-looking-beyond" => [
-		"slug" => "at-looking-beyond",
+	"auckland-airport-looking-beyond" => [
+		"slug" => "auckland-airport-looking-beyond",
 		"company" => "Auckland Airport",
 		"brief" => "Looking beyond",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
-		"gradient" => true,
+		"gradient" => false,
 		"tags" => [
 			"Brand",
 			"OOH",
@@ -101,7 +101,7 @@ $work = [
 		"brief" => "Paint it Blue",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-420x600.webp",
-		"gradient" => true,
+		"gradient" => false,
 		"tags" => [
 			"Brand",
 			"OOH",
@@ -179,7 +179,7 @@ $work = [
 		"brief" => "Airport link",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
-		"gradient" => true,
+		"gradient" => false,
 		"tags" => [
 			"Brand",
 			"OOH",
