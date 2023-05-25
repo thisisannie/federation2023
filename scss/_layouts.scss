@@ -4,7 +4,7 @@
 section {
 	margin: 50px 0;
 	@media (min-width: $bp--md) {
-		margin: 150px 0;
+		margin: $gutter--lg 0;
 	}
 }
 .finger {

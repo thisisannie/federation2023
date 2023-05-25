@@ -2,14 +2,15 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	row-gap: 30px;
+	row-gap: $gutter;
 	justify-content: center;
+	margin: 0 -$margin--card;
 	.card {
 		display: block;
 		position: relative;
 		max-width: 90%;
 		width: 650px;
-		margin: 0 1.25%;
+		margin: 0 $margin--card;
 		overflow: hidden;
 		border-radius: $border-radius--full;
 		aspect-ratio: $aspect-ratio--pill--v;
@@ -110,11 +111,14 @@
 }
 
 #people-cards {
-	margin-top: 60px;
+	margin: 0 -$margin--card--wide;
+	margin-top: $gutter;
+	row-gap: $gutter;
 	.card {
-		width: calc(50% - 2.5%);
+	margin: 0 $margin--card--wide;
+	width: calc(50% - #{$margin--card--wide--x2});
 		@media (min-width: $bp--md) {
-			width: calc(25% - 2.5%);
+			width: calc(25% - #{$margin--card--wide--x2});
 		}
 	}
 }
