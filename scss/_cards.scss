@@ -115,10 +115,18 @@
 	margin-top: $gutter;
 	row-gap: $gutter;
 	.card {
-	margin: 0 $margin--card--wide;
-	width: calc(50% - #{$margin--card--wide--x2});
+		margin: 0 $margin--card--wide;
+		width: calc(50% - #{$margin--card--wide--x2});
 		@media (min-width: $bp--md) {
 			width: calc(25% - #{$margin--card--wide--x2});
+		}
+		&:hover {
+			.text .button--spot svg path {
+				fill: white;
+			}
+		}
+		.text .button--spot svg path {
+			fill: $red;
 		}
 	}
 }
