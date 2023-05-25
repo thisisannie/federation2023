@@ -41,7 +41,7 @@ $(document).ready(function() {
 			if ($(window).scrollTop() < 500) {
 				$([document.documentElement, document.body]).animate({
 					scrollTop: $("#hero--home").offset().top-30
-			}, 300);
+				}, 300);
 			}
 		}
 		$(window).one("scroll", expandHeroHome );
@@ -121,6 +121,10 @@ $(document).ready(function() {
 
 			$(playButton).on('click', function () {
 
+				// Scroll to top of video
+				$([document.documentElement, document.body]).animate({
+					scrollTop: $(video).offset().top
+				}, 300); 
 				// Hide play button while playing, show when paused
 				$(this).addClass('hidden');
 				$(video)[0].play();
