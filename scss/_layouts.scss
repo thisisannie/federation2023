@@ -48,7 +48,7 @@ section {
 				width: 60%;
 				margin-top: -40px;
 				margin-bottom: -60px;
-				&::after {
+				.slick-slider::after {
 					content: "";
 					position: absolute;
 					top:0;
