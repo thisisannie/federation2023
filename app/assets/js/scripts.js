@@ -153,4 +153,21 @@ $(document).ready(function() {
 			})
 		});
 	}
+	if ($('.modal-bio').length && $('#people-cards').length) {
+		let slug = '';
+		let modal = '';
+		$('#people-cards').find('.card').on('click', function() {
+			slug = $(this).data('slug');
+			console.log($(this).data('slug'));
+			modal = '#modal-' + slug;
+			console.log(modal)
+			$(modal).addClass('active');
+			$([document.documentElement, document.body]).animate({
+				scrollTop: $(modal).offset().top
+			}, 0); 
+		});
+		$('.button.button--exit').on('click', function(){
+			$('.modal-bio').removeClass('active');
+		});
+	}
 });

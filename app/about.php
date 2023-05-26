@@ -5,6 +5,9 @@
 	function includePeopleItem($slug, $name, $role, $thumb) {
 		include(ABSPATH . '/partials/card__people.php');
 	}
+	function includePeopleBio($slug, $name, $role, $image, $bio) {
+		include(ABSPATH . '/partials/modal__person.php');
+	}
 
 	// Data
 	$page_title = "About Us";
@@ -33,10 +36,16 @@
 		<h3>People &amp; Culture</h3>
 		<p>We're an eclectic group of like-minded individuals who enjoy working together and making things that matter to our clients, their customers, and each of us.</p>
 		<div id="people-cards" class="cards">
-			<!-- Work Cards -->
+			<!-- People Cards -->
 			<?php
 				foreach ($people as $item) {
 					includePeopleItem($item["slug"], $item["name"], $item["role"], $item["thumb"]);
+				}
+			?>
+			<!-- People Bios -->
+			<?php
+				foreach ($people as $item) {
+					includePeopleBio($item["slug"], $item["name"], $item["role"], $item["image"], $item["bio"]);
 				}
 			?>
 		</div>
