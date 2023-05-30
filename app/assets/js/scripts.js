@@ -112,6 +112,7 @@ $(document).ready(function() {
 		});
 	}
 
+	// Modal for video
 	if ($('.modal-video-container').length) {
 		$('.modal-video-container').each(function(){
 			const modalVideoContainer = this;
@@ -153,20 +154,34 @@ $(document).ready(function() {
 			})
 		});
 	}
+
+	// Modal for People Bio
 	if ($('.modal-bio').length && $('#people-cards').length) {
 		let slug = '';
 		let modal = '';
+		let scrollY = 0;
 		$('#people-cards').find('.card').on('click', function() {
 			slug = $(this).data('slug');
-			console.log($(this).data('slug'));
 			modal = '#modal-' + slug;
-			console.log(modal)
+			scrollY = document.body.scrollTop;
 			$(modal).addClass('active');
-			$([document.documentElement, document.body]).animate({
-				scrollTop: $(modal).offset().top
-			}, 0); 
+			let modalHeight = $(modal).height();
+			console.log(modalHeight)
+			$(modal).css('height', modalHeight);
+
+			// Prevent body scrolling, allow time for modal opacity animation
+			document.body.style.overflowY = 'hidden';
+			setTimeout(function () {
+				document.body.style.position = 'fixed';
+			}, 300);
 		});
+		
 		$('.button.button--exit').on('click', function(){
+			document.body.style.position = 'initial';
+
+			// Return to body scroll position
+			window.scrollTo(0, parseInt(scrollY || '0'));
+			document.body.style.overflowY = 'auto';
 			$('.modal-bio').removeClass('active');
 		});
 	}
