@@ -20,7 +20,7 @@
 	<img src="<?=HTML_ROOT;?>/assets/images/about/header-desktop.webp" alt="" class="feature-img">
 </div>
 <section>
-	<div class="container container-wide">
+	<div class="container container-xxl">
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-8 col-lg-6">
 				<h1>About</h1>
@@ -32,7 +32,7 @@
 	</div>
 </section>
 <section>
-	<div class="container container-wide">
+	<div class="container container-xxl">
 		<h3>People &amp; Culture</h3>
 		<p>We're an eclectic group of like-minded individuals who enjoy working together and making things that matter to our clients, their customers, and each of us.</p>
 		<div id="people-cards" class="cards">

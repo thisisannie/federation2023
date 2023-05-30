@@ -18,12 +18,29 @@
 		width: 100%;
 	}
 
+
 	@media (min-width: $bp--md) {
 		.card {
+			width: calc(33.3% - #{$margin--card--x2});
+		}
+		.card:nth-child(-n+10) {
+			width: calc(50% - #{$margin--card--x2});
+		}
+	}
+
+	// hide label, just for secondary case studies up to the large breakpoint
+	@media (max-width: $bp--lg) {
+		.card:nth-child(n+11) .text .label {
+			display: none;
+		}
+	}
+
+	@media (min-width: $bp--lg) {
+		.card.card { // increase specificity
 			width: calc(25% - #{$margin--card--x2});
 		}
 		.card:nth-child(-n+9) {
-				width: calc(33.3% - #{$margin--card--x2});
+			width: calc(33.3% - #{$margin--card--x2});
 		}
 	}
 }

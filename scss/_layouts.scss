@@ -131,3 +131,8 @@ section {
 		right: 15px;
 	}
 }
+@media (min-width: $bp--xxxl) {
+	.container-xxl {
+		min-width: 1600px;
+	}
+}

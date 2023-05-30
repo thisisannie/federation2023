@@ -34,7 +34,7 @@
 <div class="container">
 </div>
 <section>
-	<div class="container container-wide">
+	<div class="container container-xxl">
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-8 col-lg-6">
 				<h1 id="h1--home">What does success look like to you?</h1>

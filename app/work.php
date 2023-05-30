@@ -17,7 +17,7 @@
 	<img src="<?=HTML_ROOT;?>/assets/images/work/video-still.webp" alt="" class="feature-img">
 </div>
 <section>
-	<div class="container container-wide">
+	<div class="container container-xxl">
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-8 col-lg-6">
 				<h1>Our Work</h1>

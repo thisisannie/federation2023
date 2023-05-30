@@ -41,7 +41,7 @@
 	<img src="<?=$img_path;?>banner-1600x800.webp" alt="" class="feature-img">
 </div>
 <section>
-	<div class="container container-wide">
+	<div class="container container-xxl">
 		<div class="row">
 			<h1 class="h1--work maintain-margin"><?=$page_data['company']?></h1>
 		</div>
