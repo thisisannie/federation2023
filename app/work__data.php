@@ -2,9 +2,9 @@
 
 // Note: key must be identical to slug value, matching the corrisponding detail page in the work folder and folder in assets/images/work/
 $work = [
-	"maratime" => [
-		"slug" => "maratime",
-		"company" => "Maratime NZ",
+	"maritime" => [
+		"slug" => "maritime",
+		"company" => "maritime NZ",
 		"brief" => "Kia Mataara",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",

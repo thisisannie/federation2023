@@ -7,7 +7,7 @@
 	}
 
 	// Data
-	$page_title = "Kia Mataara | Maratime New Zealand";
+	$page_title = "Kia Mataara | maritime New Zealand";
 	$page_description = "From the rich consumer insights and behavioural data we harness, to the creation of a compelling brand narrative.";
 	$styles = [
 		'work__detail.css',
