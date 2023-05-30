@@ -120,6 +120,10 @@ $(document).ready(function() {
 			const playButton =  modalVideoContainer.getElementsByClassName('button--play')[0];
 			const exit = modalVideoContainer.getElementsByClassName('button--exit')[0];
 
+			function removeControls() {
+				video.removeAttribute("controls");
+			}
+
 			$(playButton).on('click', function () {
 
 				// Scroll to top of video
@@ -142,15 +146,16 @@ $(document).ready(function() {
 				// Show controls after started playing, remove once video ends
 				video.setAttribute("controls","controls");
 				video.addEventListener('ended',removeControls,false);
-				function removeControls() {
-					video.removeAttribute("controls");
-				}
 			});
 			
 			// Close modal and pause video on exit button click
 			$(exit).on('click', function() {
 				modalVideoContainer.classList.remove('active');
-				$(video)[0].pause();
+				$(video)[0].load();
+
+				playButton.classList.remove('hidden');
+				video.classList.remove('playing');
+				removeControls();
 			})
 		});
 	}
