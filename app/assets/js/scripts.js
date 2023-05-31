@@ -79,7 +79,7 @@ $(document).ready(function() {
 	// Slick Carousels
 	if ($('#slick__work').length) {
 		$('#slick__work').slick({
-			infinite: false,
+			infinite: true,
 			prevArrow: $('.slick-work-prev'),
 			nextArrow: $('.slick-work-next'),
 			slidesToShow: 2.3,

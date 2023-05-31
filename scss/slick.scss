@@ -60,6 +60,13 @@ $slick-opacity-not-active: 0.25 !default;
 	align-items: flex-start;
 }
 
+.slick-list .slick-slide.card {
+	margin: 0 0.6%;
+}
+#slick__work .slick-track {
+	margin-left: -31%;
+}
+
 #slick__work .slick-slide:last-child::after {
 	content: "";
 	width: 2px;
