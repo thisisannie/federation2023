@@ -5,7 +5,7 @@
 	function includeWorkItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include(ABSPATH . '/partials/card__work.php');
 	}
-	function includeTestimonial() {
+	function includeTestimonial($quote, $name, $role, $company, $image_desktop, $image_mobile) {
 		include(ABSPATH . '/partials/testimonial.php');
 	}
 
@@ -18,11 +18,8 @@
 	$scripts = [
 		'slick.min.js',
 	];
-	$testimonial = [
-		"one",
-		"two",
-	];
 	include ABSPATH . '/work__data.php';
+	include ABSPATH . '/testimonial__data.php';
 
 	include ABSPATH . '/partials/header.php';
 ?>
@@ -74,8 +71,8 @@
 	<div id="slick__testimonials" class="">
 		<!-- Testimonials -->
 		<?php
-			foreach ($testimonial as $item) {
-				includeTestimonial();
+			foreach ($testimonials as $item) {
+				includeTestimonial($item["quote"], $item["name"], $item["role"], $item["company"], $item["image_desktop"], $item["image_mobile"]);
 			}
 		?>	
 	</div>
