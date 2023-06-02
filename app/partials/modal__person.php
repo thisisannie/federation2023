@@ -2,7 +2,8 @@
 	<div class="button button--spot button--exit"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt=">"></div>
 	<div class="row">
 		<div class="col col-12 col-md-6">
-			<img src="<?=HTML_ROOT;?>/assets/images/people/<?= $image ?>" alt="<?= $name ?>" title="<?= $name ?>" class="modal-bio--image">
+			<img src="<?=HTML_ROOT;?>/assets/images/people/<?= $image_mobile ?>" alt="<?= $name ?>" title="<?= $name ?>" class="modal-bio--image d-md-none">
+			<img src="<?=HTML_ROOT;?>/assets/images/people/<?= $image_desktop ?>" alt="<?= $name ?>" title="<?= $name ?>" class="modal-bio--image d-none d-md-block">
 		</div>
 		<div class="col col-12 col-md-6 modal-bio--text">
 			<div class="text">

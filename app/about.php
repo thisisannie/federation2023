@@ -5,7 +5,7 @@
 	function includePeopleItem($slug, $name, $role, $thumb) {
 		include(ABSPATH . '/partials/card__people.php');
 	}
-	function includePeopleBio($slug, $name, $role, $image, $bio) {
+	function includePeopleBio($slug, $name, $role, $image_mobile, $image_desktop, $bio) {
 		include(ABSPATH . '/partials/modal__person.php');
 	}
 
@@ -46,7 +46,7 @@
 			<!-- People Bios -->
 			<?php
 				foreach ($people as $item) {
-					includePeopleBio($item["slug"], $item["name"], $item["role"], $item["image"], $item["bio"]);
+					includePeopleBio($item["slug"], $item["name"], $item["role"], $item["image_mobile"], $item["image_desktop"], $item["bio"]);
 				}
 			?>
 		</div>
