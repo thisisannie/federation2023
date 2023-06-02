@@ -162,16 +162,16 @@ $(document).ready(function() {
 
 	// Modal for People Bio
 	if ($('.modal-bio').length && $('#people-cards').length) {
+		$('.modal-bio').removeClass('d-none')
 		let slug = '';
 		let modal = '';
 		let scrollY = 0;
 		$('#people-cards').find('.card').on('click', function() {
 			slug = $(this).data('slug');
 			modal = '#modal-' + slug;
-			scrollY = document.body.scrollTop;
+			scrollY = window.pageYOffset;
 			$(modal).addClass('active');
 			let modalHeight = $(modal).height();
-			console.log(modalHeight)
 			$(modal).css('height', modalHeight);
 
 			// Prevent body scrolling, allow time for modal opacity animation
