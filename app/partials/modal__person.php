@@ -1,4 +1,4 @@
-<div id="modal-<?=$slug;?>" class="modal-bio">
+<div id="modal-<?=$slug;?>" class="modal-bio d-none">
 	<div class="button button--spot button--exit"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt=">"></div>
 	<div class="row">
 		<div class="col col-12 col-md-6">

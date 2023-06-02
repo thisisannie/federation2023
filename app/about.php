@@ -17,7 +17,8 @@
 	include ABSPATH . '/partials/header.php';
 ?>
 <div class="hero">
-	<img src="<?=HTML_ROOT;?>/assets/images/about/header-desktop.webp" alt="" class="feature-img">
+	<img src="<?=HTML_ROOT;?>/assets/images/about/about-hero-m.webp" alt="" class="feature-img d-md-none">
+	<img src="<?=HTML_ROOT;?>/assets/images/about/about-hero-d.webp" alt="" class="feature-img d-none d-md-block">
 </div>
 <section>
 	<div class="container container-xxl">
@@ -54,7 +55,7 @@
 <section id="section--our-services ">
 	<div class="finger align-items-center">
 		<div class="finger__image">
-			<img src="<?=HTML_ROOT;?>/assets/images/about/services.webp" alt="placeholder" class="card__img">
+			<img src="<?=HTML_ROOT;?>/assets/images/about/services-cta.webp" alt="placeholder" class="card__img">
 		</div>
 		<div class="finger__text">
 			<h2>Our services</h2>
