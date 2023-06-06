@@ -94,3 +94,52 @@
 	font-size: 15px;
 	font-weight: 700;
 }
+
+.accordion {
+	.item {
+		border-radius: 32px;
+		margin: 8px 0;
+		padding: 8px 8px 8px 26px;
+		background-color: #ebebeb;
+		transition: $transition;
+		&.active {
+			background-color: $red;
+			h4, p {
+				color: white;
+			}
+			.button.button--spot {
+				transform: rotate(45deg);
+			}
+			.content {
+				overflow: show;
+				transition: max-height .3s cubic-bezier(1,0,1,0);
+				height: auto;
+				max-height: 9999px;
+
+				
+			}
+		}
+		.title {
+			display: flex;
+			justify-content: space-between;
+			cursor: pointer;
+			h4 {
+				margin: 0;
+				margin: 7.5px 0;
+			}
+			.button.button--spot {
+				position: static;
+				margin: 0;
+			}
+		}
+		.content {
+			overflow: hidden;
+			max-height: 0;
+			transition: max-height .3s cubic-bezier(0,1,0,1);
+			// transition: max-height .3s ease;
+			p {
+				padding: 7.5px 18px 15.5px 0;
+			}
+		}
+	}
+}

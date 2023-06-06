@@ -190,4 +190,14 @@ $(document).ready(function() {
 			$('.modal-bio').removeClass('active');
 		});
 	}
+
+	if ($('.accordion').length) {
+		$('.accordion .title').on('click', function (){
+			let that = $(this);
+			$('.accordion .item').removeClass('active');
+			setTimeout(function () {
+				$(that).parent().addClass('active');
+			}, 300);
+		})
+	}
 });
