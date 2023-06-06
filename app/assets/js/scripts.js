@@ -194,10 +194,14 @@ $(document).ready(function() {
 	if ($('.accordion').length) {
 		$('.accordion .title').on('click', function (){
 			let that = $(this);
-			$('.accordion .item').removeClass('active');
-			setTimeout(function () {
-				$(that).parent().addClass('active');
-			}, 300);
+			if($(that).parent().hasClass('active')) {
+				$(that).parent().removeClass('active')
+			} else {
+				$('.accordion .item').removeClass('active');
+				setTimeout(function () {
+					$(that).parent().addClass('active');
+				}, 300);
+			}
 		})
 	}
 });
