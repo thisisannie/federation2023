@@ -2,14 +2,15 @@
   include './config.php';
 
 	// Functions
-	function includePeopleItem($slug, $name, $role, $thumb) {
-		include(ABSPATH . '/partials/card__people.php');
+	function includeAccordionItem($title, $content) {
+		include(ABSPATH . '/partials/item__accordion.php');
 	}
 
 	// Data
 	$page_title = "Our Services";
 	$page_description = "We’ve built our team of specialists to think, create and make great work  across inside-out brand strategy, customer experience, technology, digital, direct, data, content, and social.";
 
+	include ABSPATH . '/services__data.php';
 	include ABSPATH . '/partials/header.php';
 ?>
 <div class="hero">
@@ -32,76 +33,12 @@
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-8 col-lg-6">
 				<div class="accordion">
-					<div class="item active">
-						<div class="title">
-							<h4>Brand</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>We believe in inside-out brand stories that bring the culture and values of your DNA to life. We extend your brand strategy across internal, external, customer, and stakeholder audiences to create genuine brand engagement.</p></div>
-					</div>
-					<div class="item">
-						<div class="title">
-							<h4>Sustainability transformation</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>lorem</p></div>
-					</div>
-					<div class="item">
-						<div class="title">
-							<h4>Social Behaviour Change</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>lorem</p></div>
-					</div>
-					<div class="item">
-						<div class="title">
-							<h4>Social Media</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>lorem</p></div>
-					</div>
-					<div class="item">
-						<div class="title">
-							<h4>Customer Experience</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>lorem</p></div>
-					</div>
-					<div class="item">
-						<div class="title">
-							<h4>Performance Marketing</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>lorem</p></div>
-					</div>
-					<div class="item">
-						<div class="title">
-							<h4>Website Design</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>lorem</p></div>
-					</div>
-					<div class="item">
-						<div class="title">
-							<h4>Experiential Events and Activation</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>lorem</p></div>
-					</div>
-					<div class="item">
-						<div class="title">
-							<h4>Multi-channel Campaigns</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>lorem</p></div>
-					</div>
-					<div class="item">
-						<div class="title">
-							<h4>Media Planning</h4>
-							<div class="button button--spot"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt="+"></div>
-						</div>
-						<div class="content"><p>lorem</p></div>
-					</div>
+					<!-- Accordion items -->
+					<?php
+						foreach ($services as $item) {
+							includeAccordionItem($item["title"], $item["content"]);
+						}
+					?>
 				</div>
 			</div>
 		</div>
