@@ -9,7 +9,7 @@
 	// Data
 	$page_title = "Work Portfolio";
 	$page_description = "From the rich consumer insights and behavioural data we harness, to the creation of a compelling brand narrative.";
-	include ABSPATH . '/work__data.php';
+	include ABSPATH . '/data/work.php';
 
 	include ABSPATH . '/partials/header.php';
 ?>

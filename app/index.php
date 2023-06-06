@@ -18,8 +18,8 @@
 	$scripts = [
 		'slick.min.js',
 	];
-	include ABSPATH . '/work__data.php';
-	include ABSPATH . '/testimonial__data.php';
+	include ABSPATH . '/data/work.php';
+	include ABSPATH . '/data/testimonials.php';
 
 	include ABSPATH . '/partials/header.php';
 ?>

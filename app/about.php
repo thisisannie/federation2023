@@ -12,7 +12,7 @@
 	// Data
 	$page_title = "About Us";
 	$page_description = "We were born to make the world’s most creative and effective ideas to help brands prosper.";
-	include ABSPATH . '/people__data.php';
+	include ABSPATH . '/data/people.php';
 
 	include ABSPATH . '/partials/header.php';
 ?>

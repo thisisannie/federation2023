@@ -10,7 +10,7 @@
 	$page_title = "Our Services";
 	$page_description = "We’ve built our team of specialists to think, create and make great work  across inside-out brand strategy, customer experience, technology, digital, direct, data, content, and social.";
 
-	include ABSPATH . '/services__data.php';
+	include ABSPATH . '/data/services.php';
 	include ABSPATH . '/partials/header.php';
 ?>
 <div class="hero">

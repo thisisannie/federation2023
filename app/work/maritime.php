@@ -15,9 +15,9 @@
 	// $scripts = [
 	// 	'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js',
 	// ];
-	include ABSPATH . '/work__data.php';
+	include ABSPATH . '/data/work.php';
 
-	// Get this page data from work__data.php, based on current slug
+	// Get this page data from data/work.php, based on current slug
 	$url= $_SERVER['REQUEST_URI'];
 	$slug_with_php = substr($url, strrpos($url, "/") + 1);
 	$slug = preg_replace('/.php/', '', $slug_with_php);
