@@ -67,6 +67,7 @@
 		</div>
 	</div>
 </section>
+
 <div class="services">
 	<section class="service-section">
 		<div class="service align-items-center">
@@ -81,10 +82,11 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image modal-video-container">
-				<video preload="auto" width="100%" class="modal-video" poster="<?=$img_path;?>service-tvc-1840x1036.webp"><source src="<?=HTML_ROOT;?>/assets/videos/920x518_2023_v3.mp4" type="video/mp4"></video>
+				<video preload="auto" width="100%" class="modal-video" poster="<?=$img_path;?>Kia-Mataara-TVC.webp"><source src="<?=HTML_ROOT;?>/assets/videos/920x518_2023_v3.mp4" type="video/mp4"></video>
 				<div class="button button--spot button--exit"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt=">"></div>
 				<a class="button button--play">Play <img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/play.svg" alt="►"></a>
 			</div>
@@ -97,23 +99,51 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-				<img src="<?=$img_path;?>service-social-1200x600.webp" alt="placeholder">
+				<img src="<?=$img_path;?>Kia-Mataara-Billboard-mobile.webp" alt="Billboard" class="d-md-none">
+				<img src="<?=$img_path;?>Kia-Mataara-Billboard.webp" alt="Billboard" class="d-none d-md-block">
+			</div>
+			<div class="service__text">
+				<h4>Billboard</h4>
+			</div>
+		</div>
+	</section>
+
+	<section class="service-section">
+		<div class="service align-items-center">
+			<div class="service__image">
+				<img src="<?=$img_path;?>Kia-Mataara-OOH-mobile.webp" alt="Out of Home" class="d-md-none">
+				<img src="<?=$img_path;?>Kia-Mataara-OOH.webp" alt="Out of Home" class="d-none d-md-block">
+			</div>
+			<div class="service__text">
+				<h4>OOH</h4>
+			</div>
+		</div>
+	</section>
+
+	<section class="service-section">
+		<div class="service align-items-center">
+			<div class="service__image">
+				<img src="<?=$img_path;?>Kia-Mataara-Social-mobile.webp" alt="Social" class="d-md-none">
+				<img src="<?=$img_path;?>Kia-Mataara-Social.webp" alt="Social" class=" d-none d-md-block">
 			</div>
 			<div class="service__text">
 				<h4>Social</h4>
 			</div>
 		</div>
 	</section>
+
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-				<img src="<?=$img_path;?>service-website-1200x600.webp" alt="placeholder">
+				<img src="<?=$img_path;?>Kia-Mataara-Webpages-mobile.webp" alt="Website" class="d-md-none">
+				<img src="<?=$img_path;?>Kia-Mataara-Webpages.webp" alt="Website" class="d-none d-md-block">
 			</div>
 			<div class="service__text">
 				<h4>Website</h4>
 			</div>
 		</div>
 	</section>
+
 </div>
 
 <?php
