@@ -147,8 +147,7 @@ $people = [
 		"thumb" => "Molly-thmb.webp",
 		"image_mobile" => "Molly-mob.webp",
 		"image_desktop" => "Molly-dsk.webp",
-		"bio" => "Molly is our go-to Social Media girl. She came to Feds after working across Marketing and Social for boutique New Zealand companies across the beauty and design space. At Federation she works across a variety of clients, and is particularly interested in the development of strategy &amp; positioning across social channels. She gets fidgety working from one location for too long, so you will generally find her bouncing from her desk, to one of the office couches, to the leaner, to the boardroom and back again.",
-		"bio" => "If it didn’t happen on the socials, did it really happen? Molly is our Social Media ‘It’ girl, coming to us from the world of beauty and design. She enjoys developing strategy &amp; brand positioning across social channels and is eager to sprinkle some social fairy dust across all of Federation’s clients.",
+		"bio" => "If it didn’t happen on the socials, did it really happen? Molly is our Social Media ‘It’ girl, coming to us from the world of beauty and design. She enjoys developing strategy &amp; brand positioning across social channels and is eager to sprinkle some social fairy dust across all of Federation’s clients.</p><p>#fingeronthepulse",
 	],
 	"liz" => [
 		"slug" => "liz",
