@@ -8,6 +8,10 @@
 		<?php echo !empty($page_title) ? $page_title . " | Federation" : 'Federation' ?>
 	</title>
 
+	<!-- No caching during development -->
+	<meta http-equiv="Expires" content="Tue, 01 Jan 1995 12:12:12 GMT">
+	<meta http-equiv="Pragma" content="no-cache">
+
 	<!-- Favicons -->
 	<link rel="icon" href="<?=HTML_ROOT;?>/favicon.ico" sizes="any">
 	<link rel="icon" href="<?=HTML_ROOT;?>/icon.svg" type="image/svg+xml">
