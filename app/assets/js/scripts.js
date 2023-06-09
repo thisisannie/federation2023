@@ -100,7 +100,7 @@ $(document).ready(function() {
 		});
 	}
 
-	if ($('#slick__work').length) {
+	if ($('#slick__testimonials').length) {
 		$('#slick__testimonials').slick({
 			infinite: true,
 			slidesToShow: 1,
@@ -109,6 +109,17 @@ $(document).ready(function() {
 			cssEase: 'ease',
 			prevArrow: $('.slick-testimonial-prev'),
 			nextArrow: $('.slick-testimonial-next'),
+		});
+	}
+
+	if ($('#slick__pill').length) {
+		$('#slick__pill').slick({
+			infinite: true,
+			slidesToShow: 1,
+			speed: 300,
+			cssEase: 'ease',
+			prevArrow: $('.slick-pill-prev'),
+			nextArrow: $('.slick-pill-next'),
 		});
 	}
 

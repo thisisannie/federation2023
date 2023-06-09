@@ -2,6 +2,7 @@
 
 /* Slider - Base styles */
 @import "../node_modules/slick-carousel/slick/slick.scss";
+@import 'variables.scss';
 
 /* Slider - Custom theme */
 // Default Variables
@@ -70,6 +71,28 @@ $slick-opacity-not-active: 0.25 !default;
 #slick__work .slick-slide:last-child::after {
 	content: "";
 	width: 2px;
+}
+
+#slick__pill {
+	.pill__image  img {
+		width: 100%;
+		aspect-ratio: $aspect-ratio--pill--h;
+		border-radius: $border-radius--full;
+		object-fit: cover;
+	}
+	.pill__text {
+		margin-top: $gutter--xs;
+		margin-left: 20%;
+	}
+	@media (min-width: $bp--md) {
+		.pill__image img {
+			aspect-ratio: $aspect-ratio--pill--h--w;
+		}
+	}
+}
+.pill__controls {
+	margin-top: $gutter--xs;
+	margin-left: 20%;
 }
 
 /* Icons */
