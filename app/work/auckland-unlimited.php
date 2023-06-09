@@ -59,7 +59,12 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis nisl rhoncus mattis rhoncus. Consequat id porta nibh venenatis cras. Gravida quis blandit turpis cursus in hac. Scelerisque varius morbi enim nunc. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Accumsan tortor posuere ac ut consequat semper viverra nam libero. Accumsan tortor posuere ac ut. Integer enim neque volutpat ac tincidunt. Cras semper auctor neque vitae tempus quam pellentesque nec. Dolor morbi non arcu risus. Est ante in nibh mauris. Dignissim suspendisse in est ante in.</p>
+				<h5>The Challenge</h5>
+				<p>Tātaki Auckland Unlimited is in the business of driving business for Auckland businesses, and a vital part of that is the city’s food industry. We were tasked with generating more ‘bums on seats’ within the sector to keep tills ticking over.</p>
+				<h5>The Solution</h5>
+				<p>Create desire by fueling desire. We created ‘Iconic eats’ – showcasing the city’s must-try dining dishes as voted by Aucklanders themselves. A simple, relevant way to capture the attention of any foodie fan – eat your way through the best that Auckland has to offer. Instant FOMO. Instant bragging rights. “Haven’t tried the Popcorn Shrimp At PONI? Oh, you haven’t lived!” </p>
+				<h5>Results</h5>
+				<p>Now in its third year, there’s more competition than ever to get into that Top 100 spot. Iconic Eats has become part of Tāmaki Makaurau’s dining landscape – helping drive the city’s food & beverage reputation and patronage.</p>
 			</div>
 		</div>
 	</div>
