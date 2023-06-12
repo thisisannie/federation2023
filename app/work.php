@@ -14,7 +14,7 @@
 	include ABSPATH . '/partials/header.php';
 ?>
 <div class="hero">
-	<img src="<?=HTML_ROOT;?>/assets/images/work/video-still.webp" alt="" class="feature-img">
+	<video preload="auto" autoplay playsinline muted="muted" loop class="feature-img__bgvideo"><source src="<?=HTML_ROOT;?>/assets/videos/work/920x518_work_v1.mp4" type="video/mp4" poster="<?=HTML_ROOT;?>/assets/images/work/video-still.webp"></video>
 </div>
 <section>
 	<div class="container container-xxl">
