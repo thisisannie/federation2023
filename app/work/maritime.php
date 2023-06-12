@@ -5,9 +5,15 @@
 	function includeNextItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include(ABSPATH . '/partials/card__next.php');
 	}
+	function includeServiceSection($title, $alt, $img_m, $img_d, $img_dxl) {
+		include(ABSPATH . '/partials/service-section.php');
+	}
+	function includeServiceSectionVideo($title, $mp4, $poster) {
+		include(ABSPATH . '/partials/service-section--video.php');
+	}
 
 	// Data
-	$page_title = "Kia Mataara | maritime New Zealand";
+	$page_title = "Kia Mataara | Maritime New Zealand";
 	$page_description = "From the rich consumer insights and behavioural data we harness, to the creation of a compelling brand narrative.";
 	$styles = [
 		'work__detail.css',
@@ -38,7 +44,16 @@
 	include ABSPATH . '/partials/header.php';
 ?>
 <div class="hero">
-	<img src="<?=$img_path;?>banner-1600x800.webp" alt="" class="feature-img">
+	<img 
+		srcset="<?=$img_path;?>Kia-Mataara-hero-dxl.webp 2400w,
+		<?=$img_path;?>banner-1600x800.webp 1600w,
+		<?=$img_path;?>Kia-Mataara-hero-mobile.webp 732w"
+		sizes="calc(100vw - 1.5rem)"
+		src="<?=$img_path;?>banner-1600x800.webp"
+		alt="Kia Mataara - Maritime New Zealand"
+		title="Kia Mataara - Maritime New Zealand"
+		class="feature-img"
+	>
 </div>
 <section>
 	<div class="container container-xxl">
@@ -69,6 +84,7 @@
 </section>
 
 <div class="services">
+
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
@@ -83,68 +99,44 @@
 		</div>
 	</section>
 
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image modal-video-container">
-				<video preload="auto" width="100%" class="modal-video" poster="<?=$img_path;?>Kia-Mataara-TVC.webp"><source src="<?=HTML_ROOT;?>/assets/videos/920x518_2023_v3.mp4" type="video/mp4"></video>
-				<div class="button button--spot button--exit"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/plus.svg" alt=">"></div>
-				<a class="button button--play">Play <img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/play.svg" alt="►"></a>
-			</div>
-			<div class="service__text">
-				<h4>TVC</h4>
-			</div>
-		</div>
-	</section>
+	<?php
+		includeServiceSectionVideo(
+			"TVC",
+			HTML_ROOT . "/assets/videos/920x518_2023_v3.mp4",
+			$img_path . "Kia-Mataara-TVC.webp",
+		);
+		includeServiceSection(
+			"Billboard",
+			"Billboard",
+			$img_path . "Kia-Mataara-Billboard-mobile.webp",
+			$img_path . "Kia-Mataara-Billboard.webp",
+			$img_path . "Kia-Mataara-Billboard-dxl.webp",
+		);
+		includeServiceSection(
+			"OOH",
+			"Out of home",
+			$img_path . "Kia-Mataara-OOH-mobile.webp",
+			$img_path . "Kia-Mataara-OOH.webp",
+			$img_path . "Kia-Mataara-OOH-dxl.webp",
+		);
+		includeServiceSection(
+			"Social",
+			"Kia Mataara Social",
+			$img_path . "Kia-Mataara-Social-mobile.webp",
+			$img_path . "Kia-Mataara-Social.webp",
+			$img_path . "Kia-Mataara-Social-dxl.webp",
+		);
+		includeServiceSection(
+			"Website",
+			"Kia Mataara Webpages",
+			$img_path . "Kia-Mataara-Webpages-mobile.webp",
+			$img_path . "Kia-Mataara-Webpages.webp",
+			$img_path . "Kia-Mataara-Webpages-dxl.webp",
+		)
+	?>
 
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-				<img src="<?=$img_path;?>Kia-Mataara-Billboard-mobile.webp" alt="Billboard" class="d-md-none">
-				<img src="<?=$img_path;?>Kia-Mataara-Billboard.webp" alt="Billboard" class="d-none d-md-block">
-			</div>
-			<div class="service__text">
-				<h4>Billboard</h4>
-			</div>
-		</div>
-	</section>
-
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-				<img src="<?=$img_path;?>Kia-Mataara-OOH-mobile.webp" alt="Out of Home" class="d-md-none">
-				<img src="<?=$img_path;?>Kia-Mataara-OOH.webp" alt="Out of Home" class="d-none d-md-block">
-			</div>
-			<div class="service__text">
-				<h4>OOH</h4>
-			</div>
-		</div>
-	</section>
-
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-				<img src="<?=$img_path;?>Kia-Mataara-Social-mobile.webp" alt="Social" class="d-md-none">
-				<img src="<?=$img_path;?>Kia-Mataara-Social.webp" alt="Social" class=" d-none d-md-block">
-			</div>
-			<div class="service__text">
-				<h4>Social</h4>
-			</div>
-		</div>
-	</section>
-
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-				<img src="<?=$img_path;?>Kia-Mataara-Webpages-mobile.webp" alt="Website" class="d-md-none">
-				<img src="<?=$img_path;?>Kia-Mataara-Webpages.webp" alt="Website" class="d-none d-md-block">
-			</div>
-			<div class="service__text">
-				<h4>Website</h4>
-			</div>
-		</div>
-	</section>
-
-</div>
+<!-- END .services -->
+</div> 
 
 <?php
 	includeNextItem($next_page_data['slug'], $next_page_data["company"], $next_page_data["brief"], $next_page_data["thumb_sq"], $next_page_data["gradient"], $next_page_data["tags"]);
