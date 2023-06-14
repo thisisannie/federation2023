@@ -11,6 +11,9 @@
 	function includeServiceSectionVideo($title, $mp4, $poster) {
 		include(ABSPATH . '/partials/service-section--video.php');
 	}
+	function includeServiceSectionSlickV($title, $cards) {
+		include(ABSPATH . '/partials/service-section--slick-v.php');
+	}
 
 	// Data
 	$page_title = "NZ Opera - Macbeth";
@@ -112,42 +115,21 @@
 			$img_path . "Macbeth-Billboard.webp",
 			$img_path . "Macbeth-Billboard-XL.webp",
 		);
-	?>
-
-		<!-- Carousel -->
-		<section class="service-section">
-			<div class="service align-items-center">
-				<div class="service__image">
-				<div id="slick__pill_v" dir="rtl" class="cards">
-						<!-- Work Cards -->
-							<div class="card">
-								<div class="card__img">
-									<img src="<?=$img_path;?>Macbeth-Carousel-1.webp" alt="Macbeth" class="">
-								</div>
-							</div>
-							<div class="card">
-								<div class="card__img">
-									<img src="<?=$img_path;?>Macbeth-Carousel-2.webp" alt="Macbeth" class="">
-								</div>
-							</div>
-							<div class="card">
-								<div class="card__img">
-									<img src="<?=$img_path;?>Macbeth-Carousel-2.webp" alt="Macbeth" class="">
-								</div>
-							</div>
-					</div>
-				</div>
-				<div class="service__text">
-					<h4>OOH BK/Maccas</h4>
-					<div class="slick--controls">
-						<a href="" class="button button--spot prev slick-pill-v-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt="<"></a>
-						<a href="" class="button button--spot next slick-pill-v-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt=">"></a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<?php
+		includeServiceSectionSlickV(
+			"OOH BK/Maccas",
+			[
+				[
+					"title" => "Murder a burger? How 'bout a king? - Macbeth - New Zealand Opera",
+					"mobile" => $img_path . "Macbeth-carousel_Mobile-1.webp",
+					"desktop" => $img_path . "Macbeth-Carousel-1.webp",
+				],
+				[
+					"title" => "This Mac bites back - Macbeth - New Zealand Opera",
+					"mobile" => $img_path . "Macbeth-carousel_Mobile-2.webp",
+					"desktop" => $img_path . "Macbeth-Carousel-2.webp",
+				],
+			]
+		);
 		includeServiceSection(
 			"OOH",
 			"Out of home",
