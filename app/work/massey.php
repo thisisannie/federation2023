@@ -5,6 +5,9 @@
 	function includeNextItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include(ABSPATH . '/partials/card__next.php');
 	}
+	function includeServiceSection($title, $alt, $img_m, $img_d, $img_dxl) {
+		include(ABSPATH . '/partials/service-section.php');
+	}
 
 	// Data
 	$page_title = "Massey - Success from a thousand little moments";
@@ -83,42 +86,29 @@
 		</div>
 	</section>
 
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-				<img src="<?=$img_path;?>Billboard.webp" alt="Billboard" class="d-md-none">
-				<img src="<?=$img_path;?>Billboard.webp" alt="Billboard" class="d-none d-md-block">
-			</div>
-			<div class="service__text">
-				<h4>Billboard</h4>
-			</div>
-		</div>
-	</section>
-
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-				<img src="<?=$img_path;?>OOH.webp" alt="Out of Home" class="d-md-none">
-				<img src="<?=$img_path;?>OOH.webp" alt="Out of Home" class="d-none d-md-block">
-			</div>
-			<div class="service__text">
-				<h4>OOH</h4>
-			</div>
-		</div>
-	</section>
-
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-				<img src="<?=$img_path;?>Back-of-bus.webp" alt="Website" class="d-md-none">
-				<img src="<?=$img_path;?>Back-of-bus.webp" alt="Website" class="d-none d-md-block">
-			</div>
-			<div class="service__text">
-				<h4>Website</h4>
-			</div>
-		</div>
-	</section>
-
+	<?php
+		includeServiceSection(
+			"Billboard",
+			"Billboard",
+			$img_path . "Massey-Billboard-mobile.webp",
+			$img_path . "Massey-Billboard.webp",
+			$img_path . "Massey-Billboard_XL.webp",
+		);
+		includeServiceSection(
+			"OOH",
+			"Out of home",
+			$img_path . "Massey-OOH-mobile.webp",
+			$img_path . "Massey-OOH.webp",
+			$img_path . "Massey-OOH_XL.webp",
+		);
+		includeServiceSection(
+			"Bus Decal",
+			"Massey University bus decal",
+			$img_path . "Massey-BusBack-mobile.webp",
+			$img_path . "Massey-BusBack-mobile.webp",
+			$img_path . "Massey-BusBack_XL.webp",
+		);
+	?>
 </div>
 
 <?php
