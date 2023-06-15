@@ -89,7 +89,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-				<div class="graphic massey-stat" style="background-color:#f28503;">
+				<div class="graphic massey-stat" style="background-image:url(<?=$img_path?>Macbeth-Call-out-mobile.webp); background-size: cover;">
 					<div class="stat-number">56%</div>
 					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, mollitia.</div>
 				</div>

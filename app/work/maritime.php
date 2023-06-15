@@ -90,11 +90,11 @@
 			<div class="service__image">
 				<div class="graphic massey-stat" style="background-color:#f28503;">
 					<div class="stat-number">#1</div>
-					<div class="stat d-none d-md-block">Massey went from the number five spot to the most preferred university in New Zealand, in just three months.</div>
+					<div class="stat d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, animi.</div>
 				</div>
 			</div>
 			<div class="service__text">
-				<h4 class="d-md-none">Massey went from the number five spot to the most preferred university in New Zealand, in just three months.</h4>
+				<h4 class="d-md-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quas?</h4>
 			</div>
 		</div>
 	</section>
@@ -102,7 +102,7 @@
 	<?php
 		includeServiceSectionVideo(
 			"TVC",
-			HTML_ROOT . "/assets/videos/920x518_2023_v3.mp4",
+			HTML_ROOT . "/assets/videos/work/Maritime_TVC_saltyline_920x518.mp4",
 			$img_path . "Kia-Mataara-TVC.webp",
 		);
 		includeServiceSection(
@@ -119,12 +119,10 @@
 			$img_path . "Kia-Mataara-OOH.webp",
 			$img_path . "Kia-Mataara-OOH-dxl.webp",
 		);
-		includeServiceSection(
+		includeServiceSectionVideo(
 			"Social",
-			"Kia Mataara Social",
-			$img_path . "Kia-Mataara-Social-mobile.webp",
+			HTML_ROOT . "/assets/videos/work/Maritime_social_920x518.mp4",
 			$img_path . "Kia-Mataara-Social.webp",
-			$img_path . "Kia-Mataara-Social-dxl.webp",
 		);
 		includeServiceSection(
 			"Website",
