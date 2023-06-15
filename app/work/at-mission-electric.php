@@ -16,7 +16,7 @@
 	}
 
 	// Data
-	$page_title = "NZ Opera - Macbeth";
+	$page_title = "Mission Electric - Auckland Transport";
 	$page_description = "";
 	$styles = [
 		'work__detail.css',
