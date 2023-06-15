@@ -106,8 +106,8 @@
 		includeServiceSection(
 			"OOH",
 			"OOH",
-			$img_path . "Mission-Electric-OOH-XL.webp",
-			$img_path . "Mission-Electric-OOH-XL.webp",
+			$img_path . "Mission-Electric-OOH-mobile.webp",
+			$img_path . "Mission-Electric-OOH.webp",
 			$img_path . "Mission-Electric-OOH-XL.webp",
 		);
 		includeServiceSection(
@@ -120,8 +120,8 @@
 		includeServiceSection(
 			"Bus back",
 			"Bus back",
-			$img_path . "Mission-Electric-BusBack-XL.webp",
-			$img_path . "Mission-Electric-BusBack-XL.webp",
+			$img_path . "Mission-Electric-BusBack-mobile.webp",
+			$img_path . "Mission-Electric-BusBack.webp",
 			$img_path . "Mission-Electric-BusBack-XL.webp",
 		);
 	?>

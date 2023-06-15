@@ -105,7 +105,7 @@
 			"Bus Decal",
 			"Massey University bus decal",
 			$img_path . "Massey-BusBack-mobile.webp",
-			$img_path . "Massey-BusBack-mobile.webp",
+			$img_path . "Massey-BusBack.webp",
 			$img_path . "Massey-BusBack_XL.webp",
 		);
 	?>
