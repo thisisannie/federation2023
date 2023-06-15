@@ -51,8 +51,8 @@
 <div class="hero">
 	<img 
 		srcset="<?=$img_path?>Mission-electric-hero_Desktop_XL.webp 2400w,
-		<?=$img_path?>Mission-electric-hero_Desktop_XL.webp 1600w,
-		<?=$img_path?>Mission-electric-hero_Desktop_XL.webp 732w"
+		<?=$img_path?>Mission-electric-hero_Desktop.webp 1600w,
+		<?=$img_path?>Mission-electric-hero_Mobile.webp 732w"
 		sizes="calc(100vw - 1.5rem)"
 		src="<?=$img_path?>Mission-electric-hero_Desktop_XL.webp"
 		alt="<?=$page_title;?>"
@@ -79,6 +79,8 @@
 			<div class="col col-12 col-md-6">
 				<h5>Challenge</h5>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<h5>Solution</h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
 			</div>
 		</div>
 	</div>
@@ -91,7 +93,7 @@
 			<div class="service__image">
 			<div class="graphic massey-stat" style="background-image:url(<?=$img_path?>Mission-Electric-Call-out-mobile.webp); background-size: cover;">
 					<div class="stat-number">356%</div>
-					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, mollitia.</div>
+					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
 				</div>
 			</div>
 			<div class="service__text">

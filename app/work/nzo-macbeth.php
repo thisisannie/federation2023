@@ -50,11 +50,11 @@
 ?>
 <div class="hero">
 	<img 
-		srcset="<?=HTML_ROOT;?>/assets/images/work/dxl.webp 2400w,
-		<?=HTML_ROOT;?>/assets/images/work/d.webp 1600w,
-		<?=HTML_ROOT;?>/assets/images/work/m.webp 732w"
+		srcset="<?=$img_path?>Macbeth-hero_Desktop_XL.webp 2400w,
+		<?=$img_path?>Macbeth-hero_Desktop.webp 1600w,
+		<?=$img_path?>Macbeth-hero_Mobile.webp 732w"
 		sizes="calc(100vw - 1.5rem)"
-		src="<?=HTML_ROOT;?>/assets/images/work/d.webp"
+		src="<?=$img_path?>Macbeth-hero_Desktop_XL.webp"
 		alt="<?=$page_title;?>"
 		title="<?=$page_title;?>"
 		class="feature-img"
@@ -79,6 +79,9 @@
 			<div class="col col-12 col-md-6">
 				<h5>Challenge</h5>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<h5>Solution</h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+			</div>
 			</div>
 		</div>
 	</div>
