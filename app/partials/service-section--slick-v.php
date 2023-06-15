@@ -1,18 +1,31 @@
+<?php 
+	/* 
+	Requires:
+		$title
+		$cards[['title', 'mobile', 'desktop']]
+	*/
+?>
+
 <section class="service-section">
 	<div class="service align-items-center">
 		<div class="service__image">
 			<div id="slick__pill_v" dir="rtl" class="cards">
-				<?php
-				
+				<?php				
 					foreach ($cards as $item) {
-						echo '<div class="card">';
-						echo '<div class="card__img">';
-						echo '<img srcset="'.$item['desktop'].' 670w, '.$item['mobile'].' 555w" sizes="50vw" src="'.$item['desktop'].'" alt="'.$item['title'].'" title="'.$item['title'].'">';
-						echo '</div>';
-						echo '</div>';
+						echo 
+						'<div class="card">
+							<div class="card__img">
+								<img 
+									srcset="'.$item['desktop'].' 670w, '.$item['mobile'].' 555w" 
+									sizes="50vw" 
+									src="'.$item['desktop'].'" 
+									alt="'.$item['title'].'" 
+									title="'.$item['title'].'"
+								>
+							</div>
+						</div>';
 					}
-				?>
-				
+				?>				
 			</div>
 		</div>
 		<div class="service__text">

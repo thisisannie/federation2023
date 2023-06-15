@@ -1,3 +1,12 @@
+<?php 
+	/* 
+	Requires:
+		$title
+		$mp4
+		$poster
+	*/
+?>
+
 <section class="service-section">		
 	<div class="service align-items-center">
 		<div class="service__image modal-video-container">
