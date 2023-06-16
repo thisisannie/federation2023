@@ -5,6 +5,9 @@
 	function includeNextItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include(ABSPATH . '/partials/card__next.php');
 	}
+	function includeHeroImage($img_m, $img_d, $img_dxl, $page_title) {
+		include(ABSPATH . '/partials/hero--image.php');
+	}
 	function includeServiceSection($title, $alt, $img_m, $img_d, $img_dxl) {
 		include(ABSPATH . '/partials/service-section.php');
 	}
@@ -13,6 +16,9 @@
 	}
 	function includeServiceSectionSlickV($title, $cards) {
 		include(ABSPATH . '/partials/service-section--slick-v.php');
+	}
+	function includeServiceSectionSlickHW($cards) {
+		include(ABSPATH . '/partials/service-section--slick-hw.php');
 	}
 
 	// Data
@@ -48,18 +54,15 @@
 
 	include ABSPATH . '/partials/header.php';
 ?>
-<div class="hero">
-	<img 
-		srcset="<?=$img_path?>THC-hero_Desktop_XL.webp 2400w,
-		<?=$img_path?>THC-hero_Desktop.webp 1600w,
-		<?=$img_path?>THC-hero_Desktop_Mobile 732w"
-		sizes="calc(100vw - 1.5rem)"
-		src="<?=$img_path?>Mission-electric-hero_Desktop_XL.webp"
-		alt="<?=$page_title;?>"
-		title="<?=$page_title;?>"
-		class="feature-img"
-	>
-</div>
+
+<?php
+	includeHeroImage(
+		$img_path . 'THC-hero_Mobile.webp',
+		$img_path . 'THC-hero_Desktop.webp',
+		$img_path . 'THC-hero_Desktop_XL.webp',
+		$page_title,
+	);
+?>
 <section>
 	<div class="container container-xxl">
 		<div class="row">

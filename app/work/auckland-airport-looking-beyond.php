@@ -5,6 +5,9 @@
 	function includeNextItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include(ABSPATH . '/partials/card__next.php');
 	}
+	function includeHeroImage($img_m, $img_d, $img_dxl, $page_title) {
+		include(ABSPATH . '/partials/hero--image.php');
+	}
 	function includeServiceSection($title, $alt, $img_m, $img_d, $img_dxl) {
 		include(ABSPATH . '/partials/service-section.php');
 	}
@@ -13,6 +16,9 @@
 	}
 	function includeServiceSectionSlickV($title, $cards) {
 		include(ABSPATH . '/partials/service-section--slick-v.php');
+	}
+	function includeServiceSectionSlickHW($cards) {
+		include(ABSPATH . '/partials/service-section--slick-hw.php');
 	}
 
 	// Data
@@ -48,18 +54,15 @@
 
 	include ABSPATH . '/partials/header.php';
 ?>
-<div class="hero">
-	<img 
-		srcset="<?=$img_path?>Auckland-Airport-hero-dxl.webp 2400w,
-		<?=$img_path?>Auckland-Airport-Hero.webp 1600w,
-		<?=$img_path?>Auckland-Airport-hero-mobile.webp 732w"
-		sizes="calc(100vw - 1.5rem)"
-		src="<?=$img_path?>Auckland-Airport-hero-dxl.webp"
-		alt="<?=$page_title;?>"
-		title="<?=$page_title;?>"
-		class="feature-img"
-	>
-</div>
+
+<?php
+	includeHeroImage(
+		$img_path . 'Auckland-Airport-Hero-mobile.webp',
+		$img_path . 'Auckland-Airport-Hero.webp',
+		$img_path . 'Auckland-Airport-hero-dxl.webp',
+		$page_title,
+	);
+?>
 <section>
 	<div class="container container-xxl">
 		<div class="row">

@@ -5,11 +5,20 @@
 	function includeNextItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include(ABSPATH . '/partials/card__next.php');
 	}
+	function includeHeroImage($img_m, $img_d, $img_dxl, $page_title) {
+		include(ABSPATH . '/partials/hero--image.php');
+	}
 	function includeServiceSection($title, $alt, $img_m, $img_d, $img_dxl) {
 		include(ABSPATH . '/partials/service-section.php');
 	}
 	function includeServiceSectionVideo($title, $mp4, $poster) {
 		include(ABSPATH . '/partials/service-section--video.php');
+	}
+	function includeServiceSectionSlickV($title, $cards) {
+		include(ABSPATH . '/partials/service-section--slick-v.php');
+	}
+	function includeServiceSectionSlickHW($cards) {
+		include(ABSPATH . '/partials/service-section--slick-hw.php');
 	}
 
 	// Data
@@ -43,18 +52,15 @@
 
 	include ABSPATH . '/partials/header.php';
 ?>
-<div class="hero">
-	<img 
-		srcset="<?=$img_path;?>Kia-Mataara-hero-dxl.webp 2400w,
-		<?=$img_path;?>banner-1600x800.webp 1600w,
-		<?=$img_path;?>Kia-Mataara-hero-mobile.webp 732w"
-		sizes="calc(100vw - 1.5rem)"
-		src="<?=$img_path;?>banner-1600x800.webp"
-		alt="Kia Mataara - Maritime New Zealand"
-		title="Kia Mataara - Maritime New Zealand"
-		class="feature-img"
-	>
-</div>
+
+<?php
+	includeHeroImage(
+		$img_path . 'Kia-Mataara-hero-mobile.webp',
+		$img_path . 'banner-1600x800.webp',
+		$img_path . 'Kia-Mataara-hero-dxl.webp',
+		$page_title,
+	);
+?>
 <section>
 	<div class="container container-xxl">
 		<div class="row">

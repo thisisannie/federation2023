@@ -5,6 +5,21 @@
 	function includeNextItem($slug, $company, $brief, $img, $gradient, $tags) {
 		include(ABSPATH . '/partials/card__next.php');
 	}
+	function includeHeroImage($img_m, $img_d, $img_dxl, $page_title) {
+		include(ABSPATH . '/partials/hero--image.php');
+	}
+	function includeServiceSection($title, $alt, $img_m, $img_d, $img_dxl) {
+		include(ABSPATH . '/partials/service-section.php');
+	}
+	function includeServiceSectionVideo($title, $mp4, $poster) {
+		include(ABSPATH . '/partials/service-section--video.php');
+	}
+	function includeServiceSectionSlickV($title, $cards) {
+		include(ABSPATH . '/partials/service-section--slick-v.php');
+	}
+	function includeServiceSectionSlickHW($cards) {
+		include(ABSPATH . '/partials/service-section--slick-hw.php');
+	}
 
 	// Data
 	$page_title = "Auckland Unlimited - Iconic Eats";
@@ -39,9 +54,15 @@
 
 	include ABSPATH . '/partials/header.php';
 ?>
-<div class="hero">
-	<img src="<?=$img_path;?>hero.webp" alt="<?=$page_title?>" class="feature-img">
-</div>
+
+<?php
+	includeHeroImage(
+		$img_path . 'hero.webp',
+		$img_path . 'hero.webp',
+		$img_path . 'hero.webp',
+		$page_title,
+	);
+?>
 <section>
 	<div class="container container-xxl">
 		<div class="row">
@@ -70,36 +91,22 @@
 	</div>
 </section>
 
-<section>
-	<div class="container container-xxl">
-		<div id="slick__pill" class="">
-
-			<div class="pill">
-					<div class="pill__image">
-						<img src="<?=$img_path?>/Carousel-image.webp" alt="placeholder" class="d-md-none">
-						<img src="<?=$img_path?>/Carousel-image.webp" alt="placeholder" class="d-none d-md-block">
-					</div>
-					<div class="pill__text">
-						<h4 class="title">Title 1</h4>
-					</div>
-				</div>
-				<div class="pill">
-					<div class="pill__image">
-						<img src="<?=$img_path?>/hero.webp" alt="placeholder" class="d-md-none">
-						<img src="<?=$img_path?>/hero.webp" alt="placeholder" class="d-none d-md-block">
-					</div>
-					<div class="pill__text">
-						<h4 class="title">Title 2</h4>
-					</div>
-				</div>
-			</div>
-
-			<div class="slick--controls pill__controls">
-				<a href="" class="button button--spot prev slick-pill-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt="<"></a>
-				<a href="" class="button button--spot next slick-pill-next"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt=">"></a>
-			</div>
-	</div>
-</section>
+<?php
+	includeServiceSectionSlickHW(
+		[
+			[
+				"title" => "Title 1",
+				"mobile" => $img_path . '/Carousel-image.webp',
+				"desktop" => $img_path . '/Carousel-image.webp',
+			],
+			[
+				"title" => "Title 2",
+				"mobile" => $img_path . '/hero.webp',
+				"desktop" => $img_path . '/hero.webp',
+			],
+		]
+	);
+?>
 
 <?php
 	includeNextItem($next_page_data['slug'], $next_page_data["company"], $next_page_data["brief"], $next_page_data["thumb_sq"], $next_page_data["gradient"], $next_page_data["tags"]);
