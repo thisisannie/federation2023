@@ -56,9 +56,9 @@
 ?>
 <?php
 	includeHeroImage(
-		HTML_ROOT . '/assets/images/work/m.webp',
-		HTML_ROOT . '/assets/images/work/d.webp',
-		HTML_ROOT . '/assets/images/work/dxl.webp',
+		HTML_ROOT . '/assets/images/placeholders/m.webp',
+		HTML_ROOT . '/assets/images/placeholders/d.webp',
+		HTML_ROOT . '/assets/images/placeholders/dxl.webp',
 		$page_title,
 	);
 ?>
@@ -108,9 +108,9 @@
 		includeServiceSection(
 			"Show reel goes here",
 			"Show reel goes here",
-			HTML_ROOT . '/assets/images/work/m.webp',
-			HTML_ROOT . '/assets/images/work/d.webp',
-			HTML_ROOT . '/assets/images/work/dxl.webp',
+			HTML_ROOT . '/assets/images/placeholders/m.webp',
+			HTML_ROOT . '/assets/images/placeholders/d.webp',
+			HTML_ROOT . '/assets/images/placeholders/dxl.webp',
 		);
 	?>
 

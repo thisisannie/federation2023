@@ -22,11 +22,11 @@
 	}
 
 	// Data
-	$page_title = "True Honey e-commerce";
+	$page_title = "Airport Link - Auckland Transport";
 	$page_description = "";
 	$styles = [
 		'work__detail.css',
-		'slick.css'
+		'slick.css',
 	];
 	$scripts = [
 		'slick.min.js',
@@ -50,16 +50,16 @@
 	}
 
 	$img_path = HTML_ROOT . '/assets/images/work/' . $page_data['slug'] . '/';
-	// $video_path = HTML_ROOT . '/assets/videos/work/' . $page_data['slug'] . '/';
+	$video_path = HTML_ROOT . '/assets/videos/work/';
 
 	include ABSPATH . '/partials/header.php';
 ?>
 
 <?php
 	includeHeroImage(
-		$img_path . 'THC-hero_Mobile.webp',
-		$img_path . 'THC-hero_Desktop.webp',
-		$img_path . 'THC-hero_Desktop_XL.webp',
+		HTML_ROOT . '/assets/images/placeholders/m.webp',
+		HTML_ROOT . '/assets/images/placeholders/d.webp',
+		HTML_ROOT . '/assets/images/placeholders/dxl.webp',
 		$page_title,
 	);
 ?>
@@ -78,67 +78,35 @@
 						}
 					?>
 				</p>
-				<a href="https://truehoney.co.nz/" class="button" target="_blank">Launch site</a>
 			</div>
 			<div class="col col-12 col-md-6">
-				<h5>Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
-				<h5>Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<h5>The Challenge</h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
+				<h5>The Solution</h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
+				<h5>Results</h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<div class="services">
-
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-				
-				<?php /* Mobile only */ ?>
-				<div class="graphic massey-stat d-md-none" style="background-color: black; background-image:url(<?=$img_path?>THC-Call-out-mobile.webp); background-size: cover;">
-					<div class="stat-number">200%</div>
-				</div>
-
-				<?php /* Desktop only */ ?>
-				<div class="graphic massey-stat d-none d-md-block" style="background-color: black; background-image:url(<?=$img_path?>THC-Call-out-XL.webp); background-size: cover;">
-					<div class="stat-number">200%</div>
-					<div class="stat">Lorem, ipsum dolor sit amet consectetur.</div>
-				</div>
-			</div>
-			<div class="service__text">
-				<h4 class="d-md-none">Lorem, ipsum dolor sit amet consectetur.</h4>
-			</div>
-		</div>
-	</section>
-
-	<?php
-		includeServiceSection(
-			"Website",
-			"True Honey Website",
-			$img_path . "THC-Website-mobile.webp",
-			$img_path . "THC-Website.webp",
-			$img_path . "THC-Website-XL.webp",
-		);
-		includeServiceSection(
-			"Carousel in construction",
-			"Carousel in construction",
-			HTML_ROOT . '/assets/images/placeholders/m.webp',
-			HTML_ROOT . '/assets/images/placeholders/d.webp',
-			HTML_ROOT . '/assets/images/placeholders/dxl.webp',
-		);
-		includeServiceSection(
-			"Magazine",
-			"True Honey Magazine Article",
-			$img_path . "THC-Magazine-mobile.webp",
-			$img_path . "THC-Magazine.webp",
-			$img_path . "THC-Magazine-XL.webp",
-		);
-	?>
-
-<!-- END .services -->
-</div> 
+<?php
+	includeServiceSectionSlickHW(
+		[
+			[
+				"title" => "Title 1",
+				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
+				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
+			],
+			[
+				"title" => "Title 2",
+				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
+				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
+			],
+		]
+	);
+?>
 
 <?php
 	includeNextItem($next_page_data['slug'], $next_page_data["company"], $next_page_data["brief"], $next_page_data["thumb_sq"], $next_page_data["gradient"], $next_page_data["tags"]);

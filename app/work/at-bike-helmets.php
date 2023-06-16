@@ -57,9 +57,9 @@
 
 <?php
 	includeHeroImage(
-		HTML_ROOT . '/assets/images/work/m.webp',
-		HTML_ROOT . '/assets/images/work/d.webp',
-		HTML_ROOT . '/assets/images/work/dxl.webp',
+		HTML_ROOT . '/assets/images/placeholders/m.webp',
+		HTML_ROOT . '/assets/images/placeholders/d.webp',
+		HTML_ROOT . '/assets/images/placeholders/dxl.webp',
 		$page_title,
 	);
 ?>
@@ -96,13 +96,13 @@
 		[
 			[
 				"title" => "Title 1",
-				"mobile" => HTML_ROOT . '/assets/images/work/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/work/d.webp',
+				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
+				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
 			],
 			[
 				"title" => "Title 1",
-				"mobile" => HTML_ROOT . '/assets/images/work/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/work/d.webp',
+				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
+				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
 			],
 		]
 	);
