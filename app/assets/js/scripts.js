@@ -122,6 +122,17 @@ $(document).ready(function() {
 			nextArrow: $('.slick-pill-next'),
 		});
 	}
+	if ($('#slick__pill_h').length) {
+		$('#slick__pill_h').slick({
+			infinite: true,
+			slidesToShow: 1.5,
+			speed: 300,
+			rtl: true,
+			cssEase: 'ease',
+			prevArrow: $('.slick-pill-v-prev'),
+			nextArrow: $('.slick-pill-v-next'),
+		});
+	}
 	if ($('#slick__pill_v').length) {
 		$('#slick__pill_v').slick({
 			infinite: true,

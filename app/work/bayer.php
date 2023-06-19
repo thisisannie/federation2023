@@ -17,6 +17,9 @@
 	function includeServiceSectionSlickV($title, $cards) {
 		include(ABSPATH . '/partials/service-section--slick-v.php');
 	}
+	function includeServiceSectionSlickH($title, $cards) {
+		include(ABSPATH . '/partials/service-section--slick-h.php');
+	}
 	function includeServiceSectionSlickHW($cards) {
 		include(ABSPATH . '/partials/service-section--slick-hw.php');
 	}

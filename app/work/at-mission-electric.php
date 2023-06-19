@@ -17,6 +17,9 @@
 	function includeServiceSectionSlickV($title, $cards) {
 		include(ABSPATH . '/partials/service-section--slick-v.php');
 	}
+	function includeServiceSectionSlickH($title, $cards) {
+		include(ABSPATH . '/partials/service-section--slick-h.php');
+	}
 	function includeServiceSectionSlickHW($cards) {
 		include(ABSPATH . '/partials/service-section--slick-hw.php');
 	}
@@ -113,12 +116,20 @@
 			$img_path . "Mission-Electric-OOH.webp",
 			$img_path . "Mission-Electric-OOH-XL.webp",
 		);
-		includeServiceSection(
-			"Carousel in construction",
-			"Carousel in construction",
-			HTML_ROOT . '/assets/images/placeholders/m.webp',
-			HTML_ROOT . '/assets/images/placeholders/d.webp',
-			HTML_ROOT . '/assets/images/placeholders/dxl.webp',
+		includeServiceSectionSlickH(
+			"Lorem Ipsum",
+			[
+				[
+					"title" => "Lorem 1",
+					"mobile" => HTML_ROOT . "/assets/images/placeholders/m.webp",
+					"desktop" => HTML_ROOT . "/assets/images/placeholders/d.webp",
+				],
+				[
+					"title" => "Lorem 2",
+					"mobile" => HTML_ROOT . "/assets/images/placeholders/m.webp",
+					"desktop" => HTML_ROOT . "/assets/images/placeholders/d.webp",
+				],
+			]
 		);
 		includeServiceSection(
 			"Bus back",
