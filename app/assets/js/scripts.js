@@ -112,8 +112,8 @@ $(document).ready(function() {
 		});
 	}
 
-	if ($('#slick__pill').length) {
-		$('#slick__pill').slick({
+	if ($('#slick__pill_hw').length) {
+		$('#slick__pill_hw').slick({
 			infinite: true,
 			slidesToShow: 1,
 			speed: 300,

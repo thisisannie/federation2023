@@ -2,6 +2,7 @@
 	/* 
 	Requires:
 		$title
+		$squared
 		$cards[['title', 'mobile', 'desktop']]
 	*/
 ?>
@@ -14,7 +15,7 @@
 					foreach ($cards as $item) {
 						echo 
 						'<div class="pill">
-							<div class="pill__image">
+							<div class="pill__image pill__image--squared-'.$squared.'">
 								<img 
 									srcset="'.$item['desktop'].' 670w, '.$item['mobile'].' 555w" 
 									sizes="50vw" 

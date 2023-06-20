@@ -17,7 +17,7 @@
 	function includeServiceSectionSlickV($title, $cards) {
 		include(ABSPATH . '/partials/service-section--slick-v.php');
 	}
-	function includeServiceSectionSlickH($title, $cards) {
+	function includeServiceSectionSlickH($title, $squared, $cards) {
 		include(ABSPATH . '/partials/service-section--slick-h.php');
 	}
 	function includeServiceSectionSlickHW($cards) {
@@ -124,12 +124,36 @@
 			$img_path . "THC-Website.webp",
 			$img_path . "THC-Website-XL.webp",
 		);
-		includeServiceSection(
-			"Carousel in construction",
-			"Carousel in construction",
-			HTML_ROOT . '/assets/images/placeholders/m.webp',
-			HTML_ROOT . '/assets/images/placeholders/d.webp',
-			HTML_ROOT . '/assets/images/placeholders/dxl.webp',
+		includeServiceSectionSlickH(
+			"Lorem Ipsum",
+			true,
+			[
+				[
+					"title" => "True Honey Co. Homepage screenshot",
+					"mobile" => $img_path . "THC-Carousel-1-mobile.webp",
+					"desktop" => $img_path . "THC-Carousel-1.webp",
+				],
+				[
+					"title" => "True Honey Co. Homepage screenshot",
+					"mobile" => $img_path . "THC-Carousel-2-mobile.webp",
+					"desktop" => $img_path . "THC-Carousel-2.webp",
+				],
+				[
+					"title" => "True Honey Co. Homepage screenshot",
+					"mobile" => $img_path . "THC-Carousel-3-mobile.webp",
+					"desktop" => $img_path . "THC-Carousel-3.webp",
+				],
+				[
+					"title" => "True Honey Co. Homepage screenshot",
+					"mobile" => $img_path . "THC-Carousel-4-mobile.webp",
+					"desktop" => $img_path . "THC-Carousel-4.webp",
+				],
+				[
+					"title" => "True Honey Co. Homepage screenshot",
+					"mobile" => $img_path . "THC-Carousel-5-mobile.webp",
+					"desktop" => $img_path . "THC-Carousel-5.webp",
+				],
+			]
 		);
 		includeServiceSection(
 			"Magazine",

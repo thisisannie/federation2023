@@ -73,7 +73,7 @@ $slick-opacity-not-active: 0.25 !default;
 	width: 2px;
 }
 
-#slick__pill, #slick__pill_h {
+#slick__pill_hw, #slick__pill_h {
 	.pill__image  img {
 		width: 100%;
 		aspect-ratio: $aspect-ratio--pill--h;
@@ -99,6 +99,10 @@ $slick-opacity-not-active: 0.25 !default;
 			aspect-ratio: $aspect-ratio--service--h;
 		}
 	}
+}
+.pill__controls_hw {
+		margin-top: $gutter--xs;
+		margin-left: 20%;
 }
 
 /* Icons */

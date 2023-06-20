@@ -17,7 +17,7 @@
 	function includeServiceSectionSlickV($title, $cards) {
 		include(ABSPATH . '/partials/service-section--slick-v.php');
 	}
-	function includeServiceSectionSlickH($title, $cards) {
+	function includeServiceSectionSlickH($title, $squared, $cards) {
 		include(ABSPATH . '/partials/service-section--slick-h.php');
 	}
 	function includeServiceSectionSlickHW($cards) {
@@ -118,6 +118,7 @@
 		);
 		includeServiceSectionSlickH(
 			"Lorem Ipsum",
+			false,
 			[
 				[
 					"title" => "Lorem 1",
