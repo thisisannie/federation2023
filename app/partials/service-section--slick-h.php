@@ -32,8 +32,8 @@
 		<div class="service__text">
 			<h4><?=$title?></h4>
 			<div class="slick--controls">
-				<a href="" class="button button--spot prev slick-pill-v-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt="<"></a>
-				<a href="" class="button button--spot next slick-pill-v-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt=">"></a>
+				<a href="" class="button button--spot prev slick-pill-h-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt="<"></a>
+				<a href="" class="button button--spot next slick-pill-h-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt=">"></a>
 			</div>
 		</div>
 	</div>

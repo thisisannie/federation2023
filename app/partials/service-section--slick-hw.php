@@ -25,8 +25,8 @@
 		</div>
 
 		<div class="slick--controls pill__controls pill__controls_hw">
-			<a href="" class="button button--spot prev slick-pill-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt="<"></a>
-			<a href="" class="button button--spot next slick-pill-next"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt=">"></a>
+			<a href="" class="button button--spot prev slick-pill-hw-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt="<"></a>
+			<a href="" class="button button--spot next slick-pill-hw-next"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt=">"></a>
 		</div>
 	</div>
 </section>

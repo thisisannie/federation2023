@@ -118,8 +118,8 @@ $(document).ready(function() {
 			slidesToShow: 1,
 			speed: 300,
 			cssEase: 'ease',
-			prevArrow: $('.slick-pill-prev'),
-			nextArrow: $('.slick-pill-next'),
+			prevArrow: $('.slick-pill-hw-prev'),
+			nextArrow: $('.slick-pill-hw-next'),
 		});
 	}
 	if ($('#slick__pill_h').length) {
@@ -129,8 +129,8 @@ $(document).ready(function() {
 			speed: 300,
 			rtl: true,
 			cssEase: 'ease',
-			prevArrow: $('.slick-pill-v-prev'),
-			nextArrow: $('.slick-pill-v-next'),
+			prevArrow: $('.slick-pill-h-prev'),
+			nextArrow: $('.slick-pill-h-next'),
 		});
 	}
 	if ($('#slick__pill_v').length) {
