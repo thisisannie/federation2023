@@ -130,28 +130,28 @@
 			[
 				[
 					"title" => "True Honey Co. Homepage screenshot",
-					"mobile" => $img_path . "THC-Carousel-1-mobile.webp",
-					"desktop" => $img_path . "THC-Carousel-1.webp",
+					"mobile" => $img_path . "carousel/THC-Carousel-1-mobile.webp",
+					"desktop" => $img_path . "carousel/THC-Carousel-1.webp",
 				],
 				[
 					"title" => "True Honey Co. Homepage screenshot",
-					"mobile" => $img_path . "THC-Carousel-2-mobile.webp",
-					"desktop" => $img_path . "THC-Carousel-2.webp",
+					"mobile" => $img_path . "carousel/THC-Carousel-2-mobile.webp",
+					"desktop" => $img_path . "carousel/THC-Carousel-2.webp",
 				],
 				[
 					"title" => "True Honey Co. Homepage screenshot",
-					"mobile" => $img_path . "THC-Carousel-3-mobile.webp",
-					"desktop" => $img_path . "THC-Carousel-3.webp",
+					"mobile" => $img_path . "carousel/THC-Carousel-3-mobile.webp",
+					"desktop" => $img_path . "carousel/THC-Carousel-3.webp",
 				],
 				[
 					"title" => "True Honey Co. Homepage screenshot",
-					"mobile" => $img_path . "THC-Carousel-4-mobile.webp",
-					"desktop" => $img_path . "THC-Carousel-4.webp",
+					"mobile" => $img_path . "carousel/THC-Carousel-4-mobile.webp",
+					"desktop" => $img_path . "carousel/THC-Carousel-4.webp",
 				],
 				[
 					"title" => "True Honey Co. Homepage screenshot",
-					"mobile" => $img_path . "THC-Carousel-5-mobile.webp",
-					"desktop" => $img_path . "THC-Carousel-5.webp",
+					"mobile" => $img_path . "carousel/THC-Carousel-5-mobile.webp",
+					"desktop" => $img_path . "carousel/THC-Carousel-5.webp",
 				],
 			]
 		);

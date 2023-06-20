@@ -80,6 +80,9 @@ $slick-opacity-not-active: 0.25 !default;
 		border-radius: $border-radius--full;
 		object-fit: cover;
 	}
+	.pill__image.pill__image--squared-1 img {
+		border-radius: 0;
+	}
 	.pill__text {
 		margin-top: $gutter--xs;
 		margin-left: 20%;
