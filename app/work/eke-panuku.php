@@ -123,12 +123,36 @@
 			$img_path . "Eke-Panuku-Webpage.webp",
 			$img_path . "Eke-Panuku-Webpage-XL.webp",
 		);
-		includeServiceSection(
-			"Carousel in construction",
-			"Carousel in construction",
-			HTML_ROOT . '/assets/images/placeholders/m.webp',
-			HTML_ROOT . '/assets/images/placeholders/d.webp',
-			HTML_ROOT . '/assets/images/placeholders/dxl.webp',
+		includeServiceSectionSlickH(
+			"Lorem Ipsum",
+			true,
+			[
+				[
+					"title" => "Eke Panuku Homepage screenshot",
+					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-1-mobile.webp",
+					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-1.webp",
+				],
+				[
+					"title" => "Eke Panuku Key Manukau projects and events screenshot",
+					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-2-mobile.webp",
+					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-2.webp",
+				],
+				[
+					"title" => "Eke Panuku Select your neighbourhood screenshot",
+					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-3-mobile.webp",
+					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-3.webp",
+				],
+				[
+					"title" => "Eke Panuku Community hub screenshot",
+					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-4-mobile.webp",
+					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-4.webp",
+				],
+				[
+					"title" => "Eke Panuku Project milestones screenshot",
+					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-5-mobile.webp",
+					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-5.webp",
+				],
+			]
 		);
 	?>
 
