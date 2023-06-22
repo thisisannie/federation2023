@@ -237,4 +237,10 @@ $(document).ready(function() {
 			}
 		})
 	}
+
+	// Add .active to current page header nav item
+
+	const currentUrl = window.location.pathname;
+	$('a[href~="'+currentUrl+'"]', 'header').addClass('active');
+
 });

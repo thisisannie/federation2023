@@ -56,6 +56,11 @@ header {
 			a {
 				display: inline-block;
 				padding: 20px;
+				transition: $transition;
+				&.active, &:hover, &:active, &:focus, &:focus-visible, &:focus-within  {
+					color: $red;
+					cursor: pointer;
+				}
 			}
 		}
 		@media (max-width: $bp--md) {
