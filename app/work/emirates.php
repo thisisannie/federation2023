@@ -83,12 +83,12 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<h5>The Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
-				<h5>The Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
+				<!-- <h5>The Challenge</h5> -->
+				<p>With Emirates direct daily flights to Bali, getting there has never been so easy. Our interactive activation gave people a taste of the magical island experience and the chance to win return flights, direct to blissful Bali.</p>
+				<!-- <h5>The Solution</h5>
+				<p>Lorem ipsum.</p>
 				<h5>Results</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
+				<p>Lorem ipsum.</p> -->
 			</div>
 		</div>
 	</div>

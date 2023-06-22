@@ -83,12 +83,8 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<h5>The Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
-				<h5>The Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
-				<h5>Results</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
+				<h5>‘Oh, so many”</h5>
+				<p>Imagine if you knew 750,000 families had been to the Zoo this year. Or 20,000 kids had taken their first plunge into a pool. We used these compelling stats to show Aucklanders how popular and varied Auckland Council’s services truly are. And that all adds up to something worth celebrating.</p>
 			</div>
 		</div>
 	</div>

@@ -84,11 +84,11 @@
 			</div>
 			<div class="col col-12 col-md-6">
 				<h5>The Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
+				<p>With the opening of the AirportLink bus service, Aucklanders had an efficient public transport option to the airport for the first time in, well, forever. Yes, we needed to sing this game-changing news from the treetops. But we also needed to break travellers of their old ‘uber’ habits. AirportLink could now get them to the airport for a pre-flight cocktail, with change in their back pocket. </p>
 				<h5>The Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
-				<h5>Results</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
+				<p>If we’re thinking like an airline, why not actually become one? With every bus stop and train station now a potential boarding point, we transformed them into comfortable departure lounges. Targeting smarts allowed us to serve up solaris-style messaging literally to Aucklanders’ front doors. And in radio, bus drivers earned their wings to become pilots.</p>
+				<!-- <h5>Results</h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p> -->
 			</div>
 		</div>
 	</div>

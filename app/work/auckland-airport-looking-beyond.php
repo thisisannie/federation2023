@@ -84,9 +84,9 @@
 			</div>
 			<div class="col col-12 col-md-6">
 				<h5>Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>Auckland International Airport is on a journey – to create an airport experience to rival the world’s best. But right now, all New Zealanders can see is orange cones, roadworks and hi vis vests.</p>
 				<h5>Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>While work is underway, AIA want customers to enjoy smooth, stress-free journeys. Our new ‘Looking Beyond’ brand platform enables us to share important updates and good news stories in a positive fashion. And nip any negativity in the bud.</p>
 			</div>
 		</div>
 	</div>

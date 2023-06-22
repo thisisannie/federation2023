@@ -83,9 +83,11 @@
 			</div>
 			<div class="col col-12 col-md-6">
 				<h5>Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>Heading into the 2021 season, The Blues wanted to inspire fan tribalism and fill Eden Park. But many Aucklanders are originally from somewhere else – they’re loyal to their own home teams. And how can you win over the one-eyed?</p>
 				<h5>Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>We set out to convert the unconvertible. Andrew ‘Mulls’ Mulligan – co-host of The Rock’s breakfast show and passionate Hurricanes supporter – was a sitter. In a high profile live radio promotion, we pranked Mulls on air, claiming that he now bled blue. His car was rebranded, he appeared on billboards wearing the team strip, and even his kids were decked out in personalised Blues merch.</p>
+				<h5>Success</h5>
+				<p>The campaign reached over 100K listeners on-air and over 300k via social media. Loyal Blues supporters were vocal, and even Blues players waded in to send Mulls personal text messages to celebrate the conversion.</p>
 			</div>
 		</div>
 	</div>

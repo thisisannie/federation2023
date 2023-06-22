@@ -83,12 +83,11 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<h5>The Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
-				<h5>The Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
-				<h5>Results</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
+				<p>Elanco Animal Health (formerly Bayer) has unveiled a brand new, integrated campaign for its market-leading flea treatment for cats and dogs, Seresto. Working with independent creative agency Federation, the campaign leverages a key research insight that spotlights just how tricky it is for pet owners to navigate the maze of flea treatments within the category.</p> 
+				<p>Using cats and dogs that effortlessly perform seemingly impossible balancing acts without as much as a twitch of their tail, the campaign launches with two new TV commercials that demonstrate how easy it is to use Seresto’s 8 month matrix technology collar to control fleas. In fact, it’s so easy, it’s fleasy-peasy! The campaign strategy integrates vet clinic and pet store support across the country.</p> 
+				<p>Richard Wilson, Sales and Marketing Manager, Elanco Animal Health says that “Federation’s experience and passion in the category was key to their appointment to Seresto and through their strategy and creative ideation process, they’ve demonstrated real capability to harness market and customer insight with strategy and creativity.”</p> 
+				<p>Federation’s Managing Partner, Elizabeth Beatty, says, “Richard and Gina are passionate clients and collectively we’re very ambitious to achieve real market share growth for Seresto over the coming year. With COVID impacting our lives so profoundly, animals have become even more important to Kiwis, so Federation was thrilled to be charged with the task of helping to keep our country’s pets happy and healthy while driving sales.”
+</p>
 			</div>
 		</div>
 	</div>

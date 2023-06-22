@@ -85,9 +85,12 @@
 			</div>
 			<div class="col col-12 col-md-6">
 				<h5>Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>The True Honey Co. produces some of the best Mānuka honey in the world, including the world’s highest rated Mānuka honey. We wanted to give The True Honey Co. the perfect vehicle in which to tell their story and make their product available to the world. We wanted to present them as a premium brand so it was clear as soon as you visit the site, you are buying something special.</p>
 				<h5>Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>We started from the ground up, assessing different e-commerce platforms and finding the most secure platform we could. Using Shopify as our starting point, we integrated this with The True Honey Co.’s existing warehousing and distribution platforms, as well as partnering the site with Ominisend, giving them, fully automated email communications. Once live, we ran a campaign through Social media, display and native to promote the new site and drive customer acquisition. With a smoother UX, we are seeing repeat visits and purchases made, along with an increase in new customers.</p>
+				<h5>Results</h5>
+				<p>+590% increase in site users from the same period in 2019</p>
+				<p>$20,000 of sales in 3 months through the website</p>
 			</div>
 		</div>
 	</div>
