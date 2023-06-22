@@ -55,7 +55,7 @@
 					<div class="nav-sub-item"><a>Things</a></div>
 				</div>
 			</div> -->
-			<div class="nav-item"><a>Contact</a></div>
+			<div class="nav-item"><a href="<?=HTML_ROOT;?>/contact.php">Contact</a></div>
 		</nav>
 	</header>
 	
