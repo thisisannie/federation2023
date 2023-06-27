@@ -66,11 +66,12 @@ header {
 		@media (max-width: $bp--md) {
 			position: absolute;
 			top: 63px;
-			right: 10 px;
+			right: 10px;
 			max-height: 0;
 			background-color: white;
 			overflow: hidden;
 			text-align: center;
+			z-index: 90;
 			&.active {
 				max-height: 100vh;
 			}
