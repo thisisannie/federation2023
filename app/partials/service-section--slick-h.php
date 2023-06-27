@@ -7,7 +7,7 @@
 	*/
 ?>
 
-<section class="service-section">
+<section class="service-section service-section--has-pill_h">
 	<div class="service align-items-center">
 		<div class="service__image">
 			<div id="slick__pill_h" dir="rtl" class="cards">

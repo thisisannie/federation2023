@@ -131,6 +131,15 @@ $(document).ready(function() {
 			cssEase: 'ease',
 			prevArrow: $('.slick-pill-h-prev'),
 			nextArrow: $('.slick-pill-h-next'),
+			slidesToShow: 1.5,
+			responsive: [
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 1.1,
+					}
+				}
+			]
 		});
 	}
 	if ($('#slick__pill_v').length) {

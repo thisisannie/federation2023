@@ -117,7 +117,7 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 // Slick Pill - Vertical
-#slick__pill_v {	
+#slick__pill_v {
 	&.slick-slider::after {
 		content: "";
 		position: absolute;
@@ -130,7 +130,6 @@ $slick-opacity-not-active: 0.25 !default;
 }
 @media (max-width: $bp--md) {
 	.service-section--has-pill_v.service-section .service {
-
 		.service__image {
 			padding: 0 0 0 5%;
 		}
@@ -148,7 +147,7 @@ $slick-opacity-not-active: 0.25 !default;
 #slick__pill_hw, #slick__pill_h {
 	.pill__image  img {
 		width: 100%;
-		aspect-ratio: $aspect-ratio--pill--h;
+		aspect-ratio: $aspect-ratio--pill--h--m;
 		border-radius: $border-radius--full;
 		object-fit: cover;
 	}
@@ -161,17 +160,39 @@ $slick-opacity-not-active: 0.25 !default;
 	}
 	@media (min-width: $bp--md) {
 		.pill__image img {
-			aspect-ratio: $aspect-ratio--pill--h--w;
+			aspect-ratio: $aspect-ratio--pill--h--d;
 		}
 	}
 }
 #slick__pill_h {
- .pill__image img {
-	padding: $margin--card;
- }
+	.pill__image img {
+		padding: $margin--card;
+	}
  	@media (min-width: $bp--md) {
+		&.slick-slider::after {
+			content: "";
+			position: absolute;
+			top:0;
+			left:0;
+			width: 1.5%;
+			height: 100%;
+			background: linear-gradient(90deg, white 0%, transparent 100%);
+		}
 		.pill__image img {
-			aspect-ratio: $aspect-ratio--service--h;
+			aspect-ratio: $aspect-ratio--finger--d;
+		}
+	}
+}
+@media (max-width: $bp--md) {
+	.service-section--has-pill_h.service-section .service {
+		.service__image {
+			padding: 0 0 0 5%;
+		}
+		.service__text {
+			text-align: left;
+			.slick--controls {
+				justify-content: flex-start;
+			}
 		}
 	}
 }

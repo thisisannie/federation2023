@@ -20,7 +20,7 @@ section {
 		> img, > iframe {
 			object-fit: cover;
 			width: 100%;
-			aspect-ratio: $aspect-ratio--pill--h;
+			aspect-ratio: $aspect-ratio--finger--m;
 			border-radius: $border-radius--finger--left;
 		}
 	}
@@ -34,6 +34,7 @@ section {
 		.finger__image {
 			width: 60%;
 			padding: 0;
+			aspect-ratio: $aspect-ratio--finger--d;
 			> img, > iframe {
 				width: 100%;
 				border-radius: $border-radius--finger--right;
