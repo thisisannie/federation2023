@@ -31,7 +31,6 @@
 	.service {
 		width: 100%;
 		flex-direction: row-reverse;
-	
 		.service__text {
 			padding: 5% 5% 0 5%;
 			text-align: right;
@@ -97,6 +96,15 @@
 		}
 		.service {
 			display: flex;
+			&.service__40-60 {
+				.service__text {
+					width: 40%;
+					padding: 0 5% 0 2.5%;
+				}
+				.service__image {
+					width: 60%;
+				}
+			}
 			.service__text {
 				width: 20%;
 				padding: 0 5% 0 2.5%;

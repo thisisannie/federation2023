@@ -6,8 +6,8 @@
 	*/
 ?>
 
-<section class="service-section">
-	<div class="service align-items-center">
+<section class="service-section service-section--has-pill_v">
+	<div class="service service__40-60 align-items-center">
 		<div class="service__image">
 			<div id="slick__pill_v" dir="rtl" class="cards">
 				<?php				
