@@ -11,6 +11,7 @@
 						<div class="col col-12 col-sm-6 col-md-3">
 							<div class="footer-menu">
 								<ul class="small caps">
+									<li><a href="<?=HTML_ROOT;?>">Home</a></li>
 									<li><a href="<?=HTML_ROOT;?>/work.php">Work</a></li>
 									<li><a href="<?=HTML_ROOT;?>/about.php">About</a></li>
 									<li><a href="<?=HTML_ROOT;?>/services.php">Services</a></li>
@@ -29,7 +30,7 @@
 						</div>
 						<div class="col col-12 col-md-6">
 							<div class="connect">
-								<p class="small">Connect with us: <img src="<?=HTML_ROOT;?>/assets/images/utility/linkedin.svg" class="svg linkedin" alt="LinkedIn" title="LinkedIn"></p>
+								<p class="small"><a target="_blank" href="https://nz.linkedin.com/company/federation."></a>Connect with us: <img src="<?=HTML_ROOT;?>/assets/images/utility/linkedin.svg" class="svg linkedin" alt="LinkedIn" title="LinkedIn"></p>
 							</div>
 						</div>
 					</div>
