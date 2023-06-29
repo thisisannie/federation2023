@@ -57,6 +57,9 @@
 			.text-graphic {
 				padding: 8% 8% 8% 13%;
 				flex-direction: column;
+				&.text-graphic--row {
+					flex-direction: row;
+				}
 			}
 		}
 		
