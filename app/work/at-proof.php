@@ -98,16 +98,22 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Title 1",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
+				"title" => "Out of Home",
+				"mobile" => $img_path . 'POD-OOH-mobile.webp',
+				"desktop" => $img_path . 'POD-OOH-XL-desktop.webp',
 				"mp4" => false,
 			],
 			[
-				"title" => "Title 2",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
-				"mp4" => false,
+				"title" => "Video 1",
+				"mobile" => $img_path . 'POD-video-1-mobile.webp',
+				"desktop" => $img_path . 'POD-video-1-XL-desktop.webp',
+				"mp4" => $video_path . '920x518_video_first_time.mp4',
+			],
+			[
+				"title" => "Video 2",
+				"mobile" => $img_path . 'POD-video-2-mobile.webp',
+				"desktop" => $img_path . 'POD-video-2-XL-desktop.webp',
+				"mp4" => $video_path . '920x518_video_upcycle.mp4',
 			],
 		]
 	);
