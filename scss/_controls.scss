@@ -17,10 +17,11 @@
 	&:last-child {
 		margin-right: 0;
 	}
-	&:hover {
+	&:hover, &:active, &:focus {
 		border-color: $red-dark;
 		background-color: $red-dark;
 		transform: scale($scale-up);
+		color: white;
 		&.prev {
 			transform: rotate(180deg) scale($scale-up);
 		}
@@ -48,7 +49,7 @@
 		path {
 			fill: $red;
 		}
-		&:hover {
+		&:hover, &:active, &:focus {
 			color: $red-dark;
 			path {
 				fill: $red-dark;

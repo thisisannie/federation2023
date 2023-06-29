@@ -57,7 +57,7 @@ header {
 				display: inline-block;
 				padding: 20px;
 				transition: $transition;
-				&.active, &:hover, &:active, &:focus, &:focus-visible, &:focus-within  {
+				&.active, &:hover, &:active, &:focus  {
 					color: $red;
 					cursor: pointer;
 				}

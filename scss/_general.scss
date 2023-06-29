@@ -11,12 +11,12 @@ a {
 		color: $red;
 		border-bottom: 1px $red solid;
 		cursor: pointer;
-		&:hover, &:active, &:focus, &:focus-visible, &:focus-within {
+		&:hover, &:active, &:focus {
 			color: $red-dark;
 			border-bottom-color: $red-dark;
 		}
 	}
-	&:hover, &:active, &:focus, &:focus-visible, &:focus-within {
+	&:hover, &:active, &:focus {
 		color: $red-dark;
 	}
 }

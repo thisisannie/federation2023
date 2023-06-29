@@ -16,7 +16,7 @@
 		border-radius: $border-radius--full;
 		aspect-ratio: $aspect-ratio--pill--v;
 		transition: $transition;
-		&:hover {
+		&:hover, &:active, &:focus{
 			.card__img > img {
 				transform: scale($scale-up);
 			}
@@ -93,7 +93,7 @@
 				border-color: white;
 				background-color: white;
 				transition: $transition;
-				&:hover {
+				&:hover, &:active, &:focus {
 					transform: none;
 				}
 				svg {
@@ -136,7 +136,7 @@
 		@media (min-width: $bp--md) {
 			width: calc(25% - #{$margin--card--x2});
 		}
-		&:hover {
+		&:hover, &:active, &:focus {
 			.text .button--spot svg path {
 				fill: white;
 			}
