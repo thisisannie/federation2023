@@ -67,7 +67,7 @@
 	);
 ?>
 <section>
-	<div class="container container-xxl">
+	<div class="container container-xxl container--case-study-copy container--case-study-copy">
 		<div class="row">
 			<h1 class="h1--work maintain-margin"><?=$page_data['company']?></h1>
 		</div>
