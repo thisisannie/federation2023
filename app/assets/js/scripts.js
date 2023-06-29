@@ -165,14 +165,6 @@ $(document).ready(function() {
 
 			function removeControls() {
 				video.removeAttribute("controls");
-
-				// console.log('no refresh on stop')
-				// if ($('#slick__pill_hw').length) {
-				// 	setTimeout(function () {
-				// 		$('#slick__pill_hw').slick('refresh');
-				// 		console.log('refresh on stop')
-				// 	}, 200);
-				// }
 			}
 
 			$(playButton).on('click', function () {
@@ -185,15 +177,6 @@ $(document).ready(function() {
 				// Hide play button while playing, show when paused
 				$(this).addClass('hidden');
 				$(video)[0].play();
-
-				// if wide horizontal slick slider exists, refresh for height
-				// if ($('#slick__pill_hw').length) {					
-				// 	setTimeout(function () {
-				// 		$('#slick__pill_hw').slick('refresh');
-				// 		console.log('refresh on play')
-				// 	}, 50);
-				// }
-
 				video.onplay = function() {
 					playButton.classList.add('hidden');
 					video.classList.add('playing');
