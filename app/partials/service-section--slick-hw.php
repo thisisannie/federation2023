@@ -14,7 +14,7 @@
 						echo  
 						'<div class="pill">
 							<div class="modal-video-container">
-							<video preload="auto" width="100%" class="modal-video" poster="'.$item['desktop'].'"><source src="/federation2023/app/assets/videos/work/Airport_link_social_920x518.mp4" type="video/mp4"></video>
+							<video preload="auto" width="100%" class="modal-video" poster="'.$item['desktop'].'"><source src="'.$item['mp4'].'" type="video/mp4"></video>
 								<div class="button button--spot button--exit"><img class="svg" src="'.HTML_ROOT.'/assets/images/utility/plus.svg" alt=">"></div>
 								<a class="button button--play">Play <img class="svg" src="'.HTML_ROOT.'/assets/images/utility/play.svg" alt="►"></a>
 							</div>

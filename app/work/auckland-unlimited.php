@@ -101,11 +101,13 @@
 				"title" => "Title 1",
 				"mobile" => $img_path . '/Carousel-image.webp',
 				"desktop" => $img_path . '/Carousel-image.webp',
+				"mp4" => false,
 			],
 			[
 				"title" => "Title 2",
 				"mobile" => $img_path . '/hero.webp',
 				"desktop" => $img_path . '/hero.webp',
+				"mp4" => false,
 			],
 		]
 	);

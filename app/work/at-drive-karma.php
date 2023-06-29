@@ -102,11 +102,13 @@
 				"title" => "Title 1",
 				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
 				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
+				"mp4" => false,
 			],
 			[
 				"title" => "Title 2",
 				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
 				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
+				"mp4" => false,
 			],
 		]
 	);
