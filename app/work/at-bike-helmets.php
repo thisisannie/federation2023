@@ -60,9 +60,9 @@
 
 <?php
 	includeHeroImage(
-		HTML_ROOT . '/assets/images/placeholders/m.webp',
-		HTML_ROOT . '/assets/images/placeholders/d.webp',
-		HTML_ROOT . '/assets/images/placeholders/dxl.webp',
+		$img_path . 'AT-helmets-hero_Mobile-732x1182.webp',
+		$img_path . 'AT-helmets-hero_Desktop-1600x800.webp',
+		$img_path . 'AT-helmets-hero_Desktop_XL-2400x1200.webp',
 		$page_title,
 	);
 ?>
@@ -95,22 +95,19 @@
 	</div>
 </section>
 
-<?php
-	includeServiceSectionSlickHW(
-		[
-			[
-				"title" => "Title 1",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
-			],
-			[
-				"title" => "Title 1",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
-			],
-		]
-	);
-?>
+
+<section class="service-section">
+	<div class="container container-xxl">
+		<div id="slick__pill_hw" class="">
+			<div class="pill">
+				<div class="pill__image">
+					<img src="<?=$img_path;?>AT-helmets-lozenge-Mobile-732x512.webp" alt="Out of home advertising" title="Out of home advertising" class="d-md-none">
+					<img src="<?=$img_path;?>AT-helmets-lozenge-XL-Desktop-1576x630.webp" alt="Out of home advertising" title="Out of home advertising" class="d-none d-md-block">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <?php
 	includeNextItem($next_page_data['slug'], $next_page_data["company"], $next_page_data["brief"], $next_page_data["thumb_sq"], $next_page_data["gradient"], $next_page_data["tags"]);
