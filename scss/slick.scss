@@ -192,11 +192,19 @@ $slick-opacity-not-active: 0.25 !default;
 
 // Slick Pill - Horizontal Wide
 #slick__pill_hw {
-	.pill__image  img {
+	.pill__image img,
+	video {
 		width: 100%;
 		aspect-ratio: $aspect-ratio--pill--hw--m;
 		border-radius: $border-radius--full;
 		object-fit: cover;
+	}
+	video {
+		// width: 100%;
+		border-radius: $border-radius--full;
+		// object-fit: cover;
+		aspect-ratio: 1.78;
+		transition: $transition;
 	}
 	.pill__image.pill__image--squared-1 img {
 		border-radius: 0;
@@ -206,7 +214,7 @@ $slick-opacity-not-active: 0.25 !default;
 		margin-left: 20%;
 	}
 	@media (min-width: $bp--md) {
-		.pill__image img {
+		.pill__image img{
 			aspect-ratio: $aspect-ratio--pill--hw--d;
 		}
 	}

@@ -120,6 +120,7 @@ $(document).ready(function() {
 			cssEase: 'ease',
 			prevArrow: $('.slick-pill-hw-prev'),
 			nextArrow: $('.slick-pill-hw-next'),
+			adaptiveHeight: true,
 		});
 	}
 	if ($('#slick__pill_h').length) {
@@ -164,6 +165,14 @@ $(document).ready(function() {
 
 			function removeControls() {
 				video.removeAttribute("controls");
+
+				// console.log('no refresh on stop')
+				// if ($('#slick__pill_hw').length) {
+				// 	setTimeout(function () {
+				// 		$('#slick__pill_hw').slick('refresh');
+				// 		console.log('refresh on stop')
+				// 	}, 200);
+				// }
 			}
 
 			$(playButton).on('click', function () {
@@ -171,15 +180,26 @@ $(document).ready(function() {
 				// Scroll to top of video
 				$([document.documentElement, document.body]).animate({
 					scrollTop: $(video).offset().top
-				}, 300); 
+				}, 300);
+
 				// Hide play button while playing, show when paused
 				$(this).addClass('hidden');
 				$(video)[0].play();
+
+				// if wide horizontal slick slider exists, refresh for height
+				// if ($('#slick__pill_hw').length) {					
+				// 	setTimeout(function () {
+				// 		$('#slick__pill_hw').slick('refresh');
+				// 		console.log('refresh on play')
+				// 	}, 50);
+				// }
+
 				video.onplay = function() {
 					playButton.classList.add('hidden');
 					video.classList.add('playing');
 					modalVideoContainer.classList.add('active');
 				};
+
 				video.onpause = function() {
 					playButton.classList.remove('hidden');
 					video.classList.remove('playing');
@@ -190,15 +210,20 @@ $(document).ready(function() {
 				video.addEventListener('ended',removeControls,false);
 			});
 			
-			// Close modal and pause video on exit button click
-			$(exit).on('click', function() {
+			exitVideo = function() {
 				modalVideoContainer.classList.remove('active');
 				$(video)[0].load();
 
 				playButton.classList.remove('hidden');
 				video.classList.remove('playing');
 				removeControls();
-			})
+				console.log('exit video')
+			};
+
+			// Close modal and pause video on exit button click
+			$(exit).on('click', exitVideo);
+			$('.prev').on('click', exitVideo);
+			$('.next').on('click', exitVideo);
 		});
 	}
 

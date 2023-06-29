@@ -60,9 +60,9 @@
 
 <?php
 	includeHeroImage(
-		HTML_ROOT . '/assets/images/placeholders/m.webp',
-		HTML_ROOT . '/assets/images/placeholders/d.webp',
-		HTML_ROOT . '/assets/images/placeholders/dxl.webp',
+		$img_path . 'Airport_link-hero_Mobile-732x1182.webp',
+		$img_path . 'Airport_link-hero_Desktop-1600x800.webp',
+		$img_path . 'Airport_link-hero_Desktop_XL-2400x1200.webp',
 		$page_title,
 	);
 ?>
@@ -98,18 +98,21 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Title 1",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
+				"title" => "Out of Home",
+				"mobile" => $img_path . "Airport_lnk-Mobile-OOH.webp",
+				"desktop" => $img_path . "Airport_lnk-XL-Desktop-OOH.webp",
+				"mp4" => false,
 			],
 			[
-				"title" => "Title 2",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
+				"title" => "Video",
+				"mobile" => $img_path . "Airport_lnk-Mobile-video.webp",
+				"desktop" => $img_path . "Airport_lnk-XL-Desktop-video.webp",
+				"mp4" => $video_path . "Airport_link_social_920x518.mp4",
 			],
 		]
 	);
 ?>
+<!-- Airport_link_social_920x518 -->
 
 <?php
 	includeNextItem($next_page_data['slug'], $next_page_data["company"], $next_page_data["brief"], $next_page_data["thumb_sq"], $next_page_data["gradient"], $next_page_data["tags"]);
