@@ -96,7 +96,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-				<div class="graphic massey-stat" style="background-color:#ed008c;">
+				<div class="text-graphic" style="background-color:#ed008c;">
 					<div class="stat-number">#1</div>
 					<div class="stat d-none d-md-block">Massey went from the number five spot to the most preferred university in New Zealand, in just three months.</div>
 				</div>

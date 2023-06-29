@@ -98,7 +98,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-			<div class="graphic massey-stat" style="background-color:#023c7f;">
+			<div class="text-graphic" style="background-color:#023c7f;">
 					<div class="stat-number">#1</div>
 					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
 				</div>

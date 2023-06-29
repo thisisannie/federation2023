@@ -103,18 +103,18 @@
 			<div class="service__image">
 				
 				<?php /* Mobile only */ ?>
-				<div class="graphic massey-stat d-md-none" style="background-color: black; background-image:url(<?=$img_path?>THC-Call-out-mobile.webp); background-size: cover;">
-					<div class="stat-number">200%</div>
+				<div class="text-graphic d-md-none" style="background-color: black; background-image:url(<?=$img_path?>THC-Call-out-mobile.webp); background-size: cover;">
+					<div class="stat-number">+590%</div>
 				</div>
 
 				<?php /* Desktop only */ ?>
-				<div class="graphic massey-stat d-none d-md-block" style="background-color: black; background-image:url(<?=$img_path?>THC-Call-out-XL.webp); background-size: cover;">
-					<div class="stat-number">200%</div>
-					<div class="stat">Lorem, ipsum dolor sit amet consectetur.</div>
+				<div class="text-graphic d-none d-md-flex" style="background-color: black; background-image:url(<?=$img_path?>THC-Call-out-XL.webp); background-size: cover;">
+					<div class="stat-number">+590%</div>
+					<div class="stat">increase in site users from the same period in 2019</div>
 				</div>
 			</div>
 			<div class="service__text">
-				<h4 class="d-md-none">Lorem, ipsum dolor sit amet consectetur.</h4>
+				<h4 class="d-md-none">increase in site users from the same period in 2019</h4>
 			</div>
 		</div>
 	</section>

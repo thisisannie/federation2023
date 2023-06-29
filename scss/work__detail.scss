@@ -12,13 +12,10 @@
 		.service__image {
 			padding: 0 5% 0 0;
 			transition: $transition--slow;
-			> img, video, .graphic {
+			> img, video, .text-graphic {
 				border-radius: $border-radius--finger--left;
 				width: 100%;
 			}
-		}
-		.graphic {
-			padding: 5% 10% 5% 5%;
 		}
 		.service__text {
 			text-align: left;
@@ -37,7 +34,7 @@
 		}
 		.service__image {
 			padding: 0 0 0 5%;
-			> img, video, .graphic {
+			> img, video, .text-graphic {
 				display: flex;
 				object-fit: cover;
 				width: 100%;
@@ -50,11 +47,16 @@
 				transition: $transition;
 			}
 			.stat-number {
-				font-size: 100px;
+				font-size: 17vw;
 				margin: 0 2.5%;
+				line-height: 1;
 			}
-			.graphic {
-				padding: 5% 5% 5% 10%;
+			.stat {
+				font-size: 2.2vw;
+			}
+			.text-graphic {
+				padding: 8% 8% 8% 13%;
+				flex-direction: column;
 			}
 		}
 		
@@ -65,12 +67,12 @@
 			.service__image {
 				padding: 0 5% 0 0;
 				transition: $transition--slow;
-				> img, video, .graphic {
+				> img, video, .text-graphic {
 					border-radius: $border-radius--finger--left;
 					width: 100%;
 				}
 			}
-			.graphic {
+			.text-graphic {
 				padding: 5% 10% 5% 5%;
 			}
 			.service__text {
@@ -82,13 +84,10 @@
 			.service__image {
 				padding: 0 0 0 5%;
 				transition: $transition--slow;
-				> img, video, .graphic {
+				> img, video, .text-graphic {
 					border-radius: $border-radius--finger--right;
 					width: 100%;
 				}
-			}
-			.graphic {
-				padding: 5% 5% 5% 10%;
 			}
 			.service__text {
 				text-align: right;
@@ -112,16 +111,16 @@
 			.service__image {
 				width: 80%;
 				padding: 0;
-				> img, video, .graphic {
+				> img, video, .text-graphic {
 					width: 100%;
 					aspect-ratio: $aspect-ratio--finger--d;
 				}
-				.stat-number {
-					font-size: 254px;
-				}
-				.stat {
-					font-size: 38px;
-				}
+				// .stat-number {
+				// 	font-size: 220px;
+				// }
+				// .stat {
+				// 	font-size: 31px;
+				// }
 			}
 		}
 		

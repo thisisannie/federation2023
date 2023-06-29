@@ -97,7 +97,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-			<div class="graphic massey-stat" style="background-image:url(<?=$img_path?>Mission-Electric-Call-out-mobile.webp); background-size: cover;">
+				<div class="text-graphic" style="background-image:url(<?=$img_path?>Mission-Electric-Call-out-mobile.webp); background-size: cover;">
 					<div class="stat-number">356%</div>
 					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
 				</div>
@@ -116,21 +116,12 @@
 			$img_path . "Mission-Electric-OOH.webp",
 			$img_path . "Mission-Electric-OOH-XL.webp",
 		);
-		includeServiceSectionSlickH(
-			"Lorem Ipsum",
-			false,
-			[
-				[
-					"title" => "Lorem 1",
-					"mobile" => HTML_ROOT . "/assets/images/placeholders/m.webp",
-					"desktop" => HTML_ROOT . "/assets/images/placeholders/d.webp",
-				],
-				[
-					"title" => "Lorem 2",
-					"mobile" => HTML_ROOT . "/assets/images/placeholders/m.webp",
-					"desktop" => HTML_ROOT . "/assets/images/placeholders/d.webp",
-				],
-			]
+		includeServiceSection(
+			"Closeup",
+			"Closeup",
+			$img_path . "Mission-Electric-closeUp-mobile.webp",
+			$img_path . "Mission-Electric-BusBack-desktop.webp",
+			$img_path . "Mission-Electric-closeUp-XL-desktop.webp",
 		);
 		includeServiceSection(
 			"Bus back",
