@@ -108,10 +108,10 @@ $work = [
 			"Social",
 		],
 	],
-	"loreal" => [
-		"slug" => "loreal",
-		"company" => "L'Oréal",
-		"brief" => "Campaign name",
+	"at-proof" => [
+		"slug" => "at-proof",
+		"company" => "Auckland Transport",
+		"brief" => "Proof of Delivery",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
 		"gradient" => true,
@@ -212,10 +212,10 @@ $work = [
 			"Social",
 		],
 	],
-	"at-proof" => [
-		"slug" => "at-proof",
-		"company" => "Auckland Transport",
-		"brief" => "Proof of Delivery",
+	"loreal" => [
+		"slug" => "loreal",
+		"company" => "L'Oréal",
+		"brief" => "Campaign name",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
 		"gradient" => true,
