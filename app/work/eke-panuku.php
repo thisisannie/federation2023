@@ -97,7 +97,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-			<div class="graphic massey-stat" style="background-color:#dbe555;">
+			<div class="graphic massey-stat" style="background-color:#d2de4b;">
 					<div class="stat-number">#1</div>
 					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
 				</div>
@@ -124,7 +124,7 @@
 			$img_path . "Eke-Panuku-Webpage-XL.webp",
 		);
 		includeServiceSectionSlickH(
-			"Lorem Ipsum",
+			"Website Pages",
 			true,
 			[
 				[
