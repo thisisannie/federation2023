@@ -60,9 +60,9 @@
 
 <?php
 	includeHeroImage(
-		HTML_ROOT . '/assets/images/placeholders/m.webp',
-		HTML_ROOT . '/assets/images/placeholders/d.webp',
-		HTML_ROOT . '/assets/images/placeholders/dxl.webp',
+		$img_path . 'Proof_of_delivery-hero_Mobile.webp',
+		$img_path . 'Proof_of_delivery-hero_Desktop.webp',
+		$img_path . 'Proof_of_delivery_Desktop_XL.webp',
 		$page_title,
 	);
 ?>
@@ -94,30 +94,41 @@
 	</div>
 </section>
 
-<?php
-	includeServiceSectionSlickHW(
-		[
-			[
-				"title" => "Out of Home",
-				"mobile" => $img_path . 'POD-OOH-mobile.webp',
-				"desktop" => $img_path . 'POD-OOH-XL-desktop.webp',
-				"mp4" => false,
-			],
-			[
-				"title" => "Video 1",
-				"mobile" => $img_path . 'POD-video-1-mobile.webp',
-				"desktop" => $img_path . 'POD-video-1-XL-desktop.webp',
-				"mp4" => $video_path . '920x518_video_first_time.mp4',
-			],
-			[
-				"title" => "Video 2",
-				"mobile" => $img_path . 'POD-video-2-mobile.webp',
-				"desktop" => $img_path . 'POD-video-2-XL-desktop.webp',
-				"mp4" => $video_path . '920x518_video_upcycle.mp4',
-			],
-		]
-	);
-?>
+<div class="services">
+	<section class="service-section">
+		<div class="service align-items-center">
+			<div class="service__image">
+				<div class="text-graphic text-graphic--row" style="background-color:#2d7caf;">
+					<div class="stat-number">#1</div>
+					<div class="stat d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex architecto eligendi incidunt.</div>
+				</div>
+			</div>
+			<div class="service__text">
+				<h4 class="d-md-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex architecto eligendi incidunt.</h4>
+			</div>
+		</div>
+	</section>
+
+	<?php
+		includeServiceSection(
+			"Out of Home",
+			"Out of Home",
+			$img_path . "POD-OOH-mobile.webp",
+			$img_path . "POD-OOH-desktop.webp",
+			$img_path . "POD-OOH-XL-desktop.webp",
+		);
+		includeServiceSectionVideo(
+			"TVC – First time tapper",
+			$video_path . "920x518_video_first_time.mp4",
+			$img_path . "POD-video-1-XL-desktop.webp",
+		);
+		includeServiceSectionVideo(
+			"TVC – Upcycle",
+			$video_path . "920x518_video_upcycle.mp4",
+			$img_path . "POD-video-2-XL-desktop.webp",
+		);
+	?>
+</div>
 
 <?php
 	includeNextItem($next_page_data['slug'], $next_page_data["company"], $next_page_data["brief"], $next_page_data["thumb_sq"], $next_page_data["gradient"], $next_page_data["tags"]);
