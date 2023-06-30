@@ -59,7 +59,7 @@
 <?php
 	includeHeroImage(
 		$img_path . 'Kia-Mataara-hero-mobile.webp',
-		$img_path . 'banner-1600x800.webp',
+		$img_path . 'Kia-Mataara-hero-desktop.webp',
 		$img_path . 'Kia-Mataara-hero-dxl.webp',
 		$page_title,
 	);
