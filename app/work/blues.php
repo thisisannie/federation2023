@@ -98,7 +98,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-			<div class="text-graphic" style="background-color:#023c7f;">
+			<div class="text-graphic text-graphic--row" style="background-color:#023c7f;">
 					<div class="stat-number">#1</div>
 					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
 				</div>
@@ -110,12 +110,10 @@
 	</section>
 
 	<?php
-		includeServiceSection(
-			"Show reel goes here",
-			"Show reel goes here",
-			HTML_ROOT . '/assets/images/placeholders/m.webp',
+		includeServiceSectionVideo(
+			"Video",
+			$video_path . '920x518_video_Blues.mp4',
 			HTML_ROOT . '/assets/images/placeholders/d.webp',
-			HTML_ROOT . '/assets/images/placeholders/dxl.webp',
 		);
 	?>
 
