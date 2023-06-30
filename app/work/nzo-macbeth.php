@@ -110,19 +110,24 @@
 	</section>
 
 	<?php
-		// includeServiceSection(
-		// 	"Test section",
-		// 	"Test section",
-		// 	HTML_ROOT . '/assets/images/placeholders/m.webp',
-		// 	HTML_ROOT . '/assets/images/placeholders/d.webp',
-		// 	HTML_ROOT . '/assets/images/placeholders/dxl.webp',
-		// );
 		includeServiceSection(
 			"Billboard",
 			"Billboard",
 			$img_path . "Macbeth-Billboard-mobile.webp",
 			$img_path . "Macbeth-Billboard.webp",
 			$img_path . "Macbeth-Billboard-XL.webp",
+		);
+		includeServiceSectionVideo(
+			"Social videos",
+			HTML_ROOT . "/assets/videos/work/Macbeth_retarget_920x518.mp4",
+			$img_path . "Macbeth-Social-XL.webp",
+		);
+		includeServiceSection(
+			"OOH",
+			"Out of home",
+			$img_path . "Macbeth-OOH-mobile.webp",
+			$img_path . "Macbeth-OOH.webp",
+			$img_path . "Macbeth-OOH-XL.webp",
 		);
 		includeServiceSectionSlickV(
 			"OOH BK/Maccas",
@@ -138,18 +143,6 @@
 					"desktop" => $img_path . "Macbeth-Carousel-2.webp",
 				],
 			]
-		);
-		includeServiceSection(
-			"OOH",
-			"Out of home",
-			$img_path . "Macbeth-OOH-mobile.webp",
-			$img_path . "Macbeth-OOH.webp",
-			$img_path . "Macbeth-OOH-XL.webp",
-		);
-		includeServiceSectionVideo(
-			"Social videos",
-			HTML_ROOT . "/assets/videos/work/Macbeth_retarget_920x518.mp4",
-			$img_path . "Macbeth-Social-XL.webp",
 		);
 	?>
 
