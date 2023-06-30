@@ -60,9 +60,9 @@
 
 <?php
 	includeHeroImage(
-		HTML_ROOT . '/assets/images/placeholders/m.webp',
-		HTML_ROOT . '/assets/images/placeholders/d.webp',
-		HTML_ROOT . '/assets/images/placeholders/dxl.webp',
+		$img_path . 'Fleasy_peasy-hero_Mobile-732x1182.webp',
+		$img_path . 'Fleasy_peasy-hero_Desktop-1600x800.webp',
+		$img_path . 'Fleasy_peasy-hero_Desktop_XL-2400x1200.webp',
 		$page_title,
 	);
 ?>
@@ -97,16 +97,10 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Title 1",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
-				"mp4" => false,
-			],
-			[
-				"title" => "Title 2",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
-				"mp4" => false,
+				"title" => "Video",
+				"mobile" => $img_path . 'Fleasy_peasy-lozenge-Mobile-732x512_video.webp',
+				"desktop" => $img_path . 'Fleasy_peasy-lozenge-Desktop-1116x446_video.webp',
+				"mp4" => $video_path . '920x518_video_Seresto.mp4',
 			],
 		]
 	);
