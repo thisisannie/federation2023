@@ -101,7 +101,7 @@ $work = [
 		"brief" => "Paint it Blue",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-420x600.webp",
-		"gradient" => false,
+		"gradient" => true,
 		"tags" => [
 			"Brand",
 			"OOH",
