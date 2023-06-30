@@ -128,7 +128,7 @@
 			$img_path . "THC-Website-XL.webp",
 		);
 		includeServiceSectionSlickH(
-			"Lorem Ipsum",
+			"Website",
 			true,
 			[
 				[
@@ -137,22 +137,22 @@
 					"desktop" => $img_path . "carousel/THC-Carousel-1.webp",
 				],
 				[
-					"title" => "True Honey Co. Homepage screenshot",
+					"title" => "True Honey Co. Product page screenshot",
 					"mobile" => $img_path . "carousel/THC-Carousel-2-mobile.webp",
 					"desktop" => $img_path . "carousel/THC-Carousel-2.webp",
 				],
 				[
-					"title" => "True Honey Co. Homepage screenshot",
+					"title" => "True Honey Co. Products screenshot",
 					"mobile" => $img_path . "carousel/THC-Carousel-3-mobile.webp",
 					"desktop" => $img_path . "carousel/THC-Carousel-3.webp",
 				],
 				[
-					"title" => "True Honey Co. Homepage screenshot",
+					"title" => "True Honey Co. Products screenshot",
 					"mobile" => $img_path . "carousel/THC-Carousel-4-mobile.webp",
 					"desktop" => $img_path . "carousel/THC-Carousel-4.webp",
 				],
 				[
-					"title" => "True Honey Co. Homepage screenshot",
+					"title" => "True Honey Co. Page screenshot",
 					"mobile" => $img_path . "carousel/THC-Carousel-5-mobile.webp",
 					"desktop" => $img_path . "carousel/THC-Carousel-5.webp",
 				],
