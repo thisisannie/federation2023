@@ -97,7 +97,7 @@
 <section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-				<div class="text-graphic" style="background-color:#2d3494;">
+				<div class="text-graphic text-graphic--row" style="background-color:#2d3494;">
 					<div class="stat-number">#1</div>
 					<div class="stat d-none d-md-block">Lorem ipsum dolor sit amet consectetur.</div>
 				</div>

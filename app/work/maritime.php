@@ -51,7 +51,7 @@
 	}
 
 	$img_path = HTML_ROOT . '/assets/images/work/' . $page_data['slug'] . '/';
-	// $video_path = HTML_ROOT . '/assets/videos/work/' . $page_data['slug'] . '/';
+	$video_path = HTML_ROOT . '/assets/videos/work/';
 
 	include ABSPATH . '/partials/header.php';
 ?>
@@ -97,7 +97,7 @@
 	<section class="service-section">
 		<div class="service align-items-center">
 			<div class="service__image">
-				<div class="text-graphic" style="background-color:#f28503;">
+				<div class="text-graphic text-graphic--row" style="background-color:#f28503;">
 					<div class="stat-number">#1</div>
 					<div class="stat d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, animi.</div>
 				</div>
@@ -130,7 +130,7 @@
 		);
 		includeServiceSectionVideo(
 			"Social",
-			HTML_ROOT . "/assets/videos/work/Maritime_social_920x518.mp4",
+			$video_path . "Maritime_social_920x518.mp4",
 			$img_path . "Kia-Mataara-Social.webp",
 		);
 		includeServiceSection(
