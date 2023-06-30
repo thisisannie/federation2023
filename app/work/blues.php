@@ -59,9 +59,9 @@
 ?>
 <?php
 	includeHeroImage(
-		HTML_ROOT . '/assets/images/placeholders/m.webp',
-		HTML_ROOT . '/assets/images/placeholders/d.webp',
-		HTML_ROOT . '/assets/images/placeholders/dxl.webp',
+		$img_path . 'Blues-hero_Mobile.webp',
+		$img_path . 'Blues-hero_Desktop.webp',
+		$img_path . 'Blues-hero_Desktop_XL.webp',
 		$page_title,
 	);
 ?>
@@ -111,9 +111,9 @@
 
 	<?php
 		includeServiceSectionVideo(
-			"Video",
+			"Case study",
 			$video_path . '920x518_video_Blues.mp4',
-			HTML_ROOT . '/assets/images/placeholders/d.webp',
+			$img_path . 'Blues-lozenge_Desktop_XL.webp',
 		);
 	?>
 
