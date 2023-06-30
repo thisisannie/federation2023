@@ -60,9 +60,9 @@
 
 <?php
 	includeHeroImage(
-		$img_path . 'hero.webp',
-		$img_path . 'hero.webp',
-		$img_path . 'hero.webp',
+		$img_path . 'Iconic_eats-hero_Mobile-732x1182.webp',
+		$img_path . 'Iconic_eats-hero_Desktop-1600x800.webp',
+		$img_path . 'Iconic_eats-hero_Desktop_XL-2400x1200.webp',
 		$page_title,
 	);
 ?>
@@ -98,15 +98,15 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Title 1",
-				"mobile" => $img_path . '/Carousel-image.webp',
-				"desktop" => $img_path . '/Carousel-image.webp',
+				"title" => "Out of Home",
+				"mobile" => $img_path . 'Iconic_eats-lozenge-Mobile-732x512.webp',
+				"desktop" => $img_path . 'Iconic_eats-lozenge-Desktop-1116x446.webp',
 				"mp4" => false,
 			],
 			[
-				"title" => "Title 2",
-				"mobile" => $img_path . '/hero.webp',
-				"desktop" => $img_path . '/hero.webp',
+				"title" => "Book",
+				"mobile" => $img_path . 'Iconic_eats-lozenge-Mobile-732x512_book.webp',
+				"desktop" => $img_path . 'Iconic_eats-lozenge-Desktop-1116x446_book.webp',
 				"mp4" => false,
 			],
 		]
