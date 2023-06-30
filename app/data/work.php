@@ -212,10 +212,10 @@ $work = [
 			"Social",
 		],
 	],
-	"loreal" => [
-		"slug" => "loreal",
-		"company" => "L'Oréal",
-		"brief" => "Campaign name",
+	"at-see-everything" => [
+		"slug" => "at-see-everything",
+		"company" => "Auckland Transport",
+		"brief" => "See Everything",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
 		"gradient" => true,
@@ -225,4 +225,17 @@ $work = [
 			"Social",
 		],
 	],
+	// "loreal" => [
+	// 	"slug" => "loreal",
+	// 	"company" => "L'Oréal",
+	// 	"brief" => "Campaign name",
+	// 	"thumb" => "thumb-420x600.webp",
+	// 	"thumb_sq" => "thumb-650x650.webp",
+	// 	"gradient" => true,
+	// 	"tags" => [
+	// 		"Brand",
+	// 		"OOH",
+	// 		"Social",
+	// 	],
+	// ],
 ];
