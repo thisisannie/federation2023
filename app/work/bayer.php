@@ -97,7 +97,7 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Video",
+				"title" => "TVC",
 				"mobile" => $img_path . 'Fleasy_peasy-lozenge-Mobile-732x512_video.webp',
 				"desktop" => $img_path . 'Fleasy_peasy-lozenge-Desktop-1116x446_video.webp',
 				"mp4" => $video_path . '920x518_video_Seresto.mp4',

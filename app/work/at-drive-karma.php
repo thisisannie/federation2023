@@ -105,7 +105,7 @@
 				"mp4" => false,
 			],
 			[
-				"title" => "Video",
+				"title" => "TVC",
 				"mobile" => $img_path . 'Drive-karma-video-Mobile.webp',
 				"desktop" => $img_path . 'Drive-karma-video-XL-Desktop.webp',
 				"mp4" => $video_path . '920x518_tvc_Karma.mp4',

@@ -117,14 +117,14 @@
 			$img_path . "Auckland-Airport-OOH-dxl.webp",
 		);
 		includeServiceSection(
-			"Hoarding",
-			"Hoarding",
+			"Airport Hoarding",
+			"Airport Hoarding",
 			$img_path . "Auckland-Airport-Hoarding-mobile.webp",
 			$img_path . "Auckland-Airport-Hoarding.webp",
 			$img_path . "Auckland-Airport-Hoarding-dxl.webp",
 		);
 		includeServiceSectionVideo(
-			"TVC",
+			"Digital Videos",
 			$video_path . "AIA_Disruptions_920x518.mp4",
 			$img_path . "Auckland-Airport-TVC-dxl.webp",
 		);

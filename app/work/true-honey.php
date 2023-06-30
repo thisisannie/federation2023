@@ -128,7 +128,7 @@
 			$img_path . "THC-Website-XL.webp",
 		);
 		includeServiceSectionSlickH(
-			"Website",
+			"Website Pages",
 			true,
 			[
 				[

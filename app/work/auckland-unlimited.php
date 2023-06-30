@@ -104,7 +104,7 @@
 				"mp4" => false,
 			],
 			[
-				"title" => "Book",
+				"title" => "Restaurant Guide",
 				"mobile" => $img_path . 'Iconic_eats-lozenge-Mobile-732x512_book.webp',
 				"desktop" => $img_path . 'Iconic_eats-lozenge-Desktop-1116x446_book.webp',
 				"mp4" => false,

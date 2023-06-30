@@ -104,7 +104,7 @@
 				"mp4" => false,
 			],
 			[
-				"title" => "Video",
+				"title" => "Social Videos",
 				"mobile" => $img_path . "Airport_lnk-Mobile-video.webp",
 				"desktop" => $img_path . "Airport_lnk-XL-Desktop-video.webp",
 				"mp4" => $video_path . "Airport_link_social_920x518.mp4",

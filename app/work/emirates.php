@@ -98,7 +98,7 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Video",
+				"title" => "Activation",
 				"mobile" => $img_path . 'Emirates-lozenge-Mobile-732x512.webp',
 				"desktop" => $img_path . 'Emirates-lozenge-XL-Desktop-1576x630.webp',
 				"mp4" => $video_path . '920x518_video_emirates.mp4',
