@@ -14,8 +14,7 @@
 	include ABSPATH . '/partials/header.php';
 ?>
 <div class="hero">
-	<img src="<?=HTML_ROOT;?>/assets/images/about/services-hero-m.webp" alt="" class="feature-img d-md-none">
-	<img src="<?=HTML_ROOT;?>/assets/images/about/services-hero-d.webp" alt="" class="feature-img d-none d-md-block">
+	<video preload="auto" autoplay playsinline muted="muted" loop class="feature-img__bgvideo"><source src="<?=HTML_ROOT;?>/assets/videos/920x518_Services_v1.mp4" type="video/mp4" poster="<?=HTML_ROOT;?>/assets/images/about/services-hero-d.webp"></video>
 </div>
 <section>
 	<div class="container container-xxl">
