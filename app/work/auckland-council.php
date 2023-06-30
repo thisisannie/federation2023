@@ -60,9 +60,9 @@
 
 <?php
 	includeHeroImage(
-		HTML_ROOT . '/assets/images/placeholders/m.webp',
-		HTML_ROOT . '/assets/images/placeholders/d.webp',
-		HTML_ROOT . '/assets/images/placeholders/dxl.webp',
+		$img_path . 'Whanau-hero_Mobile-732x1182.webp',
+		$img_path . 'Whanau-hero_Desktop-1600x800.webp',
+		$img_path . 'Whanau-hero_Desktop_XL-2400x1200.webp',
 		$page_title,
 	);
 ?>
@@ -94,15 +94,21 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Title 1",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
+				"title" => "Out of Home",
+				"mobile" => $img_path . 'Whanau-Mobile-OOH.webp',
+				"desktop" => $img_path . 'Whanau-XL-Desktop-OOH.webp',
 				"mp4" => false,
 			],
 			[
-				"title" => "Title 2",
-				"mobile" => HTML_ROOT . '/assets/images/placeholders/m.webp',
-				"desktop" => HTML_ROOT . '/assets/images/placeholders/d.webp',
+				"title" => "",
+				"mobile" => $img_path . 'Whanau-Mobile-pic-1.webp',
+				"desktop" => $img_path . 'Whanau-XL-Desktop-pic-1.webp',
+				"mp4" => false,
+			],
+			[
+				"title" => "",
+				"mobile" => $img_path . 'Whanau-Mobile-pic-2.webp',
+				"desktop" => $img_path . 'Whanau-XL-Desktop-pic-2.webp',
 				"mp4" => false,
 			],
 		]
