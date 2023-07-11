@@ -4,7 +4,7 @@
 $work = [
 	"maritime" => [
 		"slug" => "maritime",
-		"company" => "maritime NZ",
+		"company" => "Maritime NZ",
 		"brief" => "Kia Mataara",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",

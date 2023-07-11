@@ -1,7 +1,7 @@
 <div class="testimonial finger align-items-center">
 	<div class="finger__image">
-		<img src="<?=HTML_ROOT;?>/assets/images/testimonials/<?= $image_mobile ?>" alt="placeholder" class="card__img d-md-none">
-		<img src="<?=HTML_ROOT;?>/assets/images/testimonials/<?= $image_desktop ?>" alt="placeholder" class="card__img d-none d-md-block">
+		<img src="<?=HTML_ROOT;?>/assets/images/testimonials/<?= $image_mobile ?>" alt="<?= $name ?>, <?= $role ?> at <?= $company ?>" class="card__img d-md-none">
+		<img src="<?=HTML_ROOT;?>/assets/images/testimonials/<?= $image_desktop ?>" alt="<?= $name ?>, <?= $role ?> at <?= $company ?>" class="card__img d-none d-md-block">
 	</div>
 	<div class="finger__text">
 		<h4 class="quote"><?= $quote ?></h4>

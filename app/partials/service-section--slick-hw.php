@@ -26,8 +26,8 @@
 						echo 
 						'<div class="pill">
 							<div class="pill__image">
-								<img src="'.$item['mobile'].'" alt="placeholder" class="d-md-none">
-								<img src="'.$item['desktop'].'" alt="placeholder" class="d-none d-md-block">
+								<img src="'.$item['mobile'].'" alt="'.$item['title'].'" class="d-md-none">
+								<img src="'.$item['desktop'].'" alt="'.$item['title'].'" class="d-none d-md-block">
 							</div>
 							<div class="pill__text">
 								<h4 class="title">'.$item['title'].'</h4>

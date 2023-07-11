@@ -55,7 +55,7 @@
 <section id="section--our-services ">
 	<div class="finger align-items-center">
 		<div class="finger__image">
-			<img src="<?=HTML_ROOT;?>/assets/images/about/services-cta.webp" alt="placeholder" class="card__img">
+			<img src="<?=HTML_ROOT;?>/assets/images/about/services-cta.webp" alt="Services at Federation" class="card__img">
 		</div>
 		<div class="finger__text">
 			<h2>Our services</h2>
