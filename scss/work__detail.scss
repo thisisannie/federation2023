@@ -7,6 +7,11 @@
 }
 
 .service-section {
+	&.service-section--squared-1 {
+		.service .service__image {
+			padding: 0 5% 0 5%!important;
+		}
+	}
 	&:nth-child(2n + 1) .service {
 		flex-direction: row;
 		.service__image {

@@ -178,9 +178,9 @@ $slick-opacity-not-active: 0.25 !default;
 }
 @media (max-width: $bp--md) {
 	.service-section--has-pill_h.service-section .service {
-		.service__image {
-			padding: 0 0 0 5%;
-		}
+		// .service__image {
+		// 	padding: 0 0 0 5%;
+		// }
 		.service__text {
 			text-align: left;
 			.slick--controls {

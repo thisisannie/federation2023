@@ -7,11 +7,11 @@
 	*/
 ?>
 
-<section class="service-section service-section--has-pill_h">
+<section class="service-section service-section--has-pill_h service-section--squared-<?=$squared;?>">
 	<div class="service align-items-center">
 		<div class="service__image">
-			<div id="slick__pill_h" dir="rtl" class="cards">
-				<?php				
+			<div id="slick__pill_h" dir="rtl" class="slick__pill_h">
+				<?php
 					foreach ($cards as $item) {
 						echo 
 						'<div class="pill">

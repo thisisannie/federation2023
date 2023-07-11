@@ -138,10 +138,25 @@ $(document).ready(function() {
 					breakpoint: 768,
 					settings: {
 						slidesToShow: 1.1,
+						rtl: false,
+						nextArrow: $('.slick-pill-h-prev'),
 					}
 				}
 			]
 		});
+
+		// Change direction based on size
+		if (window.innerWidth < 768) {
+			$('#slick__pill_h').attr('dir','');
+		}
+		$(window).on("resize", function() {
+			if (window.innerWidth < 768) {
+				$('#slick__pill_h').attr('dir','');
+			} else {
+				$('#slick__pill_h').attr('dir','rtl');
+			}
+		});
+
 	}
 	if ($('#slick__pill_v').length) {
 		$('#slick__pill_v').slick({
