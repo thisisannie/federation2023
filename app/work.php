@@ -40,7 +40,7 @@
 			<?php
 				$primary_work = array_slice($work, 0, 9);
 				foreach ($primary_work as $item) {
-						includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["thumb"], $item["gradient"], $item["tags"]);
+						includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["thumb_primary"], $item["gradient"], $item["tags"]);
 					}
 			?>
 		</div>

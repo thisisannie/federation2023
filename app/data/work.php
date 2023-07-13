@@ -8,6 +8,7 @@ $work = [
 		"brief" => "Kia Mataara",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "thumb-650x650.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -20,6 +21,7 @@ $work = [
 		"brief" => "Success From a Thousand Moments",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "thumb-650x650.webp",
 		"gradient" => false,
 		"tags" => [
 			"Brand",
@@ -33,6 +35,7 @@ $work = [
 		"brief" => "Macbeth",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "thumb-650x650.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -46,6 +49,7 @@ $work = [
 		"brief" => "Mission Electric",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "thumb-650x650.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -59,6 +63,7 @@ $work = [
 		"brief" => "Looking Beyond",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "thumb-650x650.webp",
 		"gradient" => false,
 		"tags" => [
 			"Brand",
@@ -72,6 +77,7 @@ $work = [
 		"brief" => "True Honey e&#8209;commerce",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "thumb-650x650.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -88,6 +94,7 @@ $work = [
 		"brief" => "Rebrand",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "thumb-650x650.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -101,6 +108,7 @@ $work = [
 		"brief" => "Paint it Blue",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-420x600.webp",
+		"thumb_primary" => "thumb-420x600.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -114,6 +122,7 @@ $work = [
 		"brief" => "Proof of Delivery",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "thumb-650x650.webp",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -127,6 +136,7 @@ $work = [
 		"brief" => "Iconic Eats",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -140,6 +150,7 @@ $work = [
 		"brief" => "Bike Helmets",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -153,6 +164,7 @@ $work = [
 		"brief" => "Door to Bali",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -166,6 +178,7 @@ $work = [
 		"brief" => "Drive Karma",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -179,6 +192,7 @@ $work = [
 		"brief" => "Airport Link",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "",
 		"gradient" => false,
 		"tags" => [
 			"Brand",
@@ -192,6 +206,7 @@ $work = [
 		"brief" => "Easy Fleasy",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -205,6 +220,7 @@ $work = [
 		"brief" => "Whānau",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -218,6 +234,7 @@ $work = [
 		"brief" => "See Everything",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary" => "",
 		"gradient" => true,
 		"tags" => [
 			"Brand",
@@ -231,6 +248,7 @@ $work = [
 	// 	"brief" => "Campaign name",
 	// 	"thumb" => "thumb-420x600.webp",
 	// 	"thumb_sq" => "thumb-650x650.webp",
+	//	"thumb_primary" => "",
 	// 	"gradient" => true,
 	// 	"tags" => [
 	// 		"Brand",

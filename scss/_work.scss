@@ -36,9 +36,15 @@
 				.text {
 					left: 0;
 				}
+				.card__img>img {
+					object-position: top left;
+				}
 				.card__img.gradient-1::after {
 					background: linear-gradient(-90deg, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7) 100%);
 				}
+			}
+			.card__img>img {
+				object-position: top right;
 			}
 			.card__img.gradient-1::after {
 				background: linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7) 100%);
@@ -82,7 +88,7 @@
 
 	// hide label, just for secondary case studies up to the large breakpoint
 	@media (max-width: $bp--lg) {
-		.cards.work-cards--primary .text .label {
+		.cards.work-cards--secondary .text .label {
 			display: none;
 		}
 	}
