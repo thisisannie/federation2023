@@ -9,38 +9,90 @@
 	}
 }
 #work-cards {
-	margin-top: 20px;
-	.card {
-		width: calc(50% - #{$margin--card--x2});
-	}
-	// first nine are featured
-	.card:nth-child(-n+9) {
-		width: 100%;
+	.cards.work-cards--primary {
+		padding-bottom: $gutter;
 	}
 
+	// mobile only
+	@media (max-width: $bp--md) {
+		.card {
+			.button--spot {
+				background-color: transparent;
+				border: none;
+				svg path {
+					fill: white
+				}
+			}
+		}
+		.cards.work-cards--primary .card {
+			width: 100%;
+			max-width: 100%;
+			border-radius: 0 $border-radius--full $border-radius--full 0;
+			margin: 0 $margin--card--x2 0 0;
+			aspect-ratio: $aspect-ratio--finger--m;
+			&:nth-child(2n) {
+				border-radius: $border-radius--full 0 0 $border-radius--full;
+				margin: 0 0 0 $margin--card--x2;
+				.text {
+					left: 0;
+				}
+				.card__img.gradient-1::after {
+					background: linear-gradient(-90deg, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7) 100%);
+				}
+			}
+			.card__img.gradient-1::after {
+				background: linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(0,0,0,0.7) 100%);
+			}
+			.text {
+				bottom: 50%;
+				transform: translateY(50%);
+				right: 0;
+				width: 66%;
+				padding: 5% 12% 0% 12%;
+				.button--spot {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.cards.work-cards--secondary {
+			margin-left: $margin--card;
+			margin-right: $margin--card;
+			.card {
+				width: calc(50% - #{$margin--card--x2});
+			}
+		}
+	}
+
+	// medium breakpoint and up
+	@media(min-width: $bp--md) {
+		.cards {
+			margin-left: $margin--card;
+			margin-right: $margin--card;
+		}
+	}
 
 	@media (min-width: $bp--md) {
-		.card {
-			width: calc(33.3% - #{$margin--card--x2});
-		}
-		.card:nth-child(-n+10) {
+		.cards.work-cards--primary .card {
 			width: calc(50% - #{$margin--card--x2});
+		}
+		.cards.work-cards--secondary .card {
+			width: calc(33.3% - #{$margin--card--x2});
 		}
 	}
 
 	// hide label, just for secondary case studies up to the large breakpoint
 	@media (max-width: $bp--lg) {
-		.card:nth-child(n+11) .text .label {
+		.cards.work-cards--primary .text .label {
 			display: none;
 		}
 	}
 
 	@media (min-width: $bp--lg) {
-		.card.card { // increase specificity
-			width: calc(25% - #{$margin--card--x2});
-		}
-		.card:nth-child(-n+9) {
+		.cards.work-cards--primary .card {
 			width: calc(33.3% - #{$margin--card--x2});
+		}
+		.cards.work-cards--secondary .card {
+			width: calc(25% - #{$margin--card--x2});
 		}
 	}
 }
