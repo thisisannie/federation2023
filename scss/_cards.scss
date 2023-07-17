@@ -38,6 +38,7 @@
 		}
 		.card__img {
 			position: relative;
+			height: 100%;
 			&.gradient-1::after {
 				content: "";
 				position: absolute;
