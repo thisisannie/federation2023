@@ -2,7 +2,7 @@
   include './config.php';
 
 	// Functions
-	function includeWorkItem($slug, $company, $brief, $img, $gradient, $tags) {
+	function includeWorkItem($slug, $company, $brief, $img_m, $img_d, $gradient, $tags) {
 		include(ABSPATH . '/partials/card__work.php');
 	}
 
@@ -39,8 +39,8 @@
 			<!-- Primary Work Cards -->
 			<?php
 				$primary_work = array_slice($work, 0, 9);
-				foreach ($primary_work as $item) {
-						includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["thumb_primary"], $item["gradient"], $item["tags"]);
+					foreach ($primary_work as $item) {
+						includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["thumb_primary_m"], $item["thumb"], $item["gradient"], $item["tags"]);
 					}
 			?>
 		</div>
@@ -49,7 +49,7 @@
 			<?php
 				$secondary_work = array_slice($work, 9);
 				foreach ($secondary_work as $item) {
-						includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["thumb"], $item["gradient"], $item["tags"]);
+						includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["thumb"], $item["thumb"], $item["gradient"], $item["tags"]);
 					}
 			?>
 		</div>

@@ -1,6 +1,20 @@
+<?php 
+	/* 
+	Requires:
+		$slug
+		$company
+		$brief
+		$img_m
+		$img_d
+		$gradient
+		$tags
+	*/
+?>
+
 <a href="<?=HTML_ROOT;?>/work/<?= $slug ?>.php" class="card">
 	<div class="card__img gradient-<?= $gradient ?>">
-		<img src="<?=HTML_ROOT;?>/assets/images/work/<?= $slug ?>/<?= $img ?>" alt="<?=$company;?> - <?=$brief;?>" class="">
+		<img src="<?=HTML_ROOT;?>/assets/images/work/<?= $slug ?>/<?= $img_m ?>" alt="<?=$company;?> - <?=$brief;?>" class="d-md-none">
+		<img src="<?=HTML_ROOT;?>/assets/images/work/<?= $slug ?>/<?= $img_d ?>" alt="<?=$company;?> - <?=$brief;?>" class="d-none d-md-block">
 	</div>
 	<div class="text shadow-<?= $gradient ?>">
 		<span class="card__header--sm"><?= $company ?></span>
