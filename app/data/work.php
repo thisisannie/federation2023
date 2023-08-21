@@ -190,6 +190,19 @@ $work = [
 			"Social",
 		],
 	],
+	"sue-the-sea" => [
+		"slug" => "sue-the-sea",
+		"company" => "Sustainable Business Network",
+		"brief" => "Sue the Sea",
+		"thumb" => "Sue_the_Sea-thumb-420x600.webp",
+		"thumb_sq" => "Sue_the_Sea-thumb-650x650.webp",
+		"thumb_primary_m" => "",
+		"gradient" => true,
+		"tags" => [
+			"Content",
+			"Digital",
+		],
+	],
 	"auckland-unlimited" => [
 		"slug" => "auckland-unlimited",
 		"company" => "Auckland Unlimited",
