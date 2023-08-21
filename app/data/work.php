@@ -26,10 +26,9 @@ $work = [
 		"thumb_primary_m" => "Coop_Bank-thumb-420x600.webp",
 		"gradient" => true,
 		"tags" => [
-			"Brand",
-			"OOH",
 			"TVC",
-			"Social",
+			"OOH",
+			"Digital",
 		],
 	],
 	"maritime" => [
