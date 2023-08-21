@@ -176,6 +176,20 @@ $work = [
 			"Social",
 		],
 	],
+	"auckland-unlimited-sounds" => [
+		"slug" => "auckland-unlimited-sounds",
+		"company" => "Auckland Unlimited",
+		"brief" => "Sounds of Auckland",
+		"thumb" => "Sound_of_Auckland-thumb-420x600.webp",
+		"thumb_sq" => "Sound_of_Auckland-thumb-650x650.webp",
+		"thumb_primary_m" => "",
+		"gradient" => true,
+		"tags" => [
+			"Brand",
+			"OOH",
+			"Social",
+		],
+	],
 	"auckland-unlimited" => [
 		"slug" => "auckland-unlimited",
 		"company" => "Auckland Unlimited",
