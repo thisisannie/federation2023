@@ -83,12 +83,8 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<h5>The Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
-				<h5>The Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
-				<h5>Results</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
+				<!-- <h5></h5> -->
+				<p>To launch AT’s new ‘Let’s go there’ platform, we created a fully integrated campaign (including a soundtrack composed of the sounds of the city itself). This allowed us to  showcase the freedoms a fully connected city now offers Aucklanders – from safe cycling, walking, buses, trains to ferries.</p>
 			</div>
 		</div>
 	</div>

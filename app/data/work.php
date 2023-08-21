@@ -110,9 +110,11 @@ $work = [
 		"thumb_primary_m" => "thumb-650x650.webp",
 		"gradient" => true,
 		"tags" => [
-			"Brand",
+			"TVC",
 			"OOH",
 			"Social",
+			"Digital",
+			"Radio",
 		],
 	],
 	"true-honey" => [
