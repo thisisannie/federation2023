@@ -25,8 +25,8 @@
 	}
 
 	// Data
-	$page_title = "Coop_Bank Launch";
-	$page_description = "";
+	$page_title = "Co-Operative Bank - Bank Better NZ";
+	$page_description = "We set out to reposition The Cooperative Bank as a contemporary challenger with a brand strategy that encouraged New Zealanders to ‘Bank Better’";
 	$styles = [
 		'work__detail.css',
 	];
