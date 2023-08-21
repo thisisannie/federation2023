@@ -2,6 +2,21 @@
 
 // Note: key must be identical to slug value, matching the corrisponding detail page in the work folder and folder in assets/images/work/
 $work = [
+	"doordash" => [
+		"slug" => "doordash",
+		"company" => "DoorDash",
+		"brief" => "DoorDash Launch",
+		"thumb" => "DoorDash-thumb-420x600.webp",
+		"thumb_sq" => "thumb-650x650.webp",
+		"thumb_primary_m" => "DoorDash-thumb-420x600.webp",
+		"gradient" => true,
+		"tags" => [
+			"Brand",
+			"OOH",
+			"TVC",
+			"Social",
+		],
+	],
 	"maritime" => [
 		"slug" => "maritime",
 		"company" => "Maritime NZ",

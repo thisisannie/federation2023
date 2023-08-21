@@ -164,6 +164,7 @@
 		transition: $transition;
 	}
 	.button--play {
+		margin-bottom: 0;
 		svg {
 			margin-left: 7px;
 			transform: scale(1.7);
