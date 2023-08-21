@@ -143,9 +143,7 @@ $work = [
 		"thumb_primary_m" => "Auckland-Airport-mobile-1167x544.webp",
 		"gradient" => false,
 		"tags" => [
-			"Brand",
-			"OOH",
-			"Social",
+			"Brand Design",
 		],
 	],
 	"eke-panuku" => [

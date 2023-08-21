@@ -83,10 +83,10 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<h5>Challenge</h5>
+				<!-- <h5>Challenge</h5> -->
 				<p>Auckland International Airport is on a journey – to create an airport experience to rival the world’s best. But right now, all New Zealanders can see is orange cones, roadworks and hi vis vests.</p>
-				<h5>Solution</h5>
-				<p>While work is underway, AIA want customers to enjoy smooth, stress-free journeys. Our new ‘Looking Beyond’ brand platform enables us to share important updates and good news stories in a positive fashion. And nip any negativity in the bud.</p>
+				<!-- <h5>Solution</h5> -->
+				<p>While work is underway, AIA wants customers to enjoy smooth, stress-free journeys. Our new ‘Looking Beyond’ brand platform enables us to share important updates and good news stories in a positive fashion. And nip any negativity in the bud.</p>
 			</div>
 		</div>
 	</div>
@@ -94,40 +94,49 @@
 
 <div class="services">
 
-<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-				<div class="text-graphic text-graphic--row" style="background-color:#2d3494;">
-					<div class="stat-number">#1</div>
-					<div class="stat d-none d-md-block">Lorem ipsum dolor sit amet consectetur.</div>
-				</div>
-			</div>
-			<div class="service__text">
-				<h4 class="d-md-none">Lorem ipsum dolor sit amet consectetur.</h4>
-			</div>
-		</div>
-	</section>
-
 	<?php
-		includeServiceSection(
-			"Billboard",
-			"Billboard",
-			$img_path . "Auckland-Airport-OOH-mobile.webp",
-			$img_path . "Auckland-Airport-OOH.webp",
-			$img_path . "Auckland-Airport-OOH-dxl.webp",
+		includeServiceSectionSlickHW(
+			[
+				[
+					"title" => "Digital Videos",
+					"mobile" => $img_path . 'Looking_beyond-video-mobile.webp',
+					"desktop" => $img_path . 'Looking_beyond-video-XL-Desktop.webp',
+					"mp4" => $video_path . "AIA_Disruptions_920x518.mp4",
+				],
+				[
+					"title" => "Billboard",
+					"mobile" => $img_path . 'Looking_beyond-Billboards-mobile.webp',
+					"desktop" => $img_path . 'Looking_beyond-Billboards-XL-Desktop.webp',
+					"mp4" => false,
+				],
+				[
+					"title" => "Hoarding",
+					"mobile" => $img_path . 'Looking_beyond-Hoarding-mobile.webp',
+					"desktop" => $img_path . 'Looking_beyond-Hoarding-XL-Desktop.webp',
+					"mp4" => false,
+				],
+			]
 		);
-		includeServiceSection(
-			"Airport Hoarding",
-			"Airport Hoarding",
-			$img_path . "Auckland-Airport-Hoarding-mobile.webp",
-			$img_path . "Auckland-Airport-Hoarding.webp",
-			$img_path . "Auckland-Airport-Hoarding-dxl.webp",
-		);
-		includeServiceSectionVideo(
-			"Digital Videos",
-			$video_path . "AIA_Disruptions_920x518.mp4",
-			$img_path . "Auckland-Airport-TVC-dxl.webp",
-		);
+
+		// includeServiceSection(
+		// 	"Billboard",
+		// 	"Billboard",
+		// 	$img_path . "Auckland-Airport-OOH-mobile.webp",
+		// 	$img_path . "Auckland-Airport-OOH.webp",
+		// 	$img_path . "Auckland-Airport-OOH-dxl.webp",
+		// );
+		// includeServiceSection(
+		// 	"Airport Hoarding",
+		// 	"Airport Hoarding",
+		// 	$img_path . "Auckland-Airport-Hoarding-mobile.webp",
+		// 	$img_path . "Auckland-Airport-Hoarding.webp",
+		// 	$img_path . "Auckland-Airport-Hoarding-dxl.webp",
+		// );
+		// includeServiceSectionVideo(
+		// 	"Digital Videos",
+		// 	$video_path . "AIA_Disruptions_920x518.mp4",
+		// 	$img_path . "Auckland-Airport-TVC-dxl.webp",
+		// );
 	?>
 
 <!-- END .services -->
