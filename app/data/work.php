@@ -31,6 +31,21 @@ $work = [
 			"Digital",
 		],
 	],
+	"kiwirail" => [
+		"slug" => "kiwirail",
+		"company" => "KiwiRail",
+		"brief" => "Steely Stare",
+		"thumb" => "Kiwirail-thumb-420x600.webp",
+		"thumb_sq" => "Kiwirail-thumb-650x650.webp",
+		"thumb_primary_m" => "Kiwirail-thumb-420x600.webp",
+		"gradient" => true,
+		"tags" => [
+			"Social",
+			"Digital",
+			"OOH",
+			"PR",
+		],
+	],
 	"maritime" => [
 		"slug" => "maritime",
 		"company" => "Maritime NZ",
