@@ -17,6 +17,21 @@ $work = [
 			"Social",
 		],
 	],
+	"co-operative-bank" => [
+		"slug" => "co-operative-bank",
+		"company" => "The Co-Operative Bank",
+		"brief" => "Bank Better NZ",
+		"thumb" => "Coop_Bank-thumb-420x600.webp",
+		"thumb_sq" => "Coop_Bank-thumb-650x650.webp",
+		"thumb_primary_m" => "Coop_Bank-thumb-420x600.webp",
+		"gradient" => true,
+		"tags" => [
+			"Brand",
+			"OOH",
+			"TVC",
+			"Social",
+		],
+	],
 	"maritime" => [
 		"slug" => "maritime",
 		"company" => "Maritime NZ",
