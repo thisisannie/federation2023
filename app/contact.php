@@ -18,7 +18,7 @@
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-8 col-lg-6">
 				<h1>Contact</h1>
-				<p class="intro">Have a business challenge or market opportunity you need fresh thinking on? We’re pretty sure we can offer you an interesting point of view and an exciting way forward that’s on the money strategically, creatively, commercially. Let’s talk.</p>
+				<p class="intro">Do you have a business challenge or a market opportunity? Come see us for a fresh point of view that’s  strategically savvy, creatively compelling and cost-effective. Let’s talk.</p>
 			</div>
 		</div>
 	</div>

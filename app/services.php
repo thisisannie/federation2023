@@ -21,7 +21,7 @@
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-8 col-lg-6">
 				<h1>Services</h1>
-				<p class="intro">We believe the more integrated the approach, the better the result. So, we’ve built our team of specialists to think, create and make great work across inside-out brand strategy, customer experience, technology, digital, direct, data, content, and social.</p>
+				<p class="intro">Better integration leads to better results. Our team of specialists think, create and deliver across brand strategy, customer experience, technology, digital, direct, data, content, and&nbsp;social.</p>
 			</div>
 		</div>
 	</div>

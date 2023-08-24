@@ -25,9 +25,9 @@
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-8 col-lg-6">
 				<h1>About</h1>
-				<p class="intro">We were born to make the world’s most creative and effective ideas to help brands prosper.</p>
-				<p class="intro">Born to break down the silos between advertising agencies and design companies to deliver seamless thinking from shelf to screen.</p>
-				<p class="intro">Born to make a difference. To brands, to businesses, to communities and to everyone that works at Federation.</p>
+				<p class="intro">At Federation, we’re proudly independent and fiercely ambitious for our clients.</p>
+				<p class="intro">Your definition of success defines our mission. It also helps us assemble the right team - experts from a range of digital, creative and design disciplines.</p>
+				<p class="intro">Whether you’re a brand, a business or a community, you can trust us to hunt down your success.</p>
 			</div>
 		</div>
 	</div>
@@ -35,7 +35,7 @@
 <section>
 	<div class="container container-xxl">
 		<h3>People &amp; Culture</h3>
-		<p>We're an eclectic group of like-minded individuals who enjoy working together and making things that matter to our clients, their customers, and each of us.</p>
+		<p>We’re an eclectic group of like-minded people who enjoy making work that matters - to our clients and their customers.</p>
 		<div id="people-cards" class="cards">
 			<!-- People Cards -->
 			<?php
@@ -59,7 +59,7 @@
 		</div>
 		<div class="finger__text">
 			<h2>Our services</h2>
-			<p>Smarts come as standard at Federation. We sweat the big and the small to deliver transformative results, working at the speed you need to solve challenges and optimise opportunities.</p>
+			<p>Yes, we sweat the big stuff. But we also sweat the smallest of details to help you succeed.</p>
 			<a class="button">See more</a>
 		</div>
 	</div>
