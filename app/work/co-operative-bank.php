@@ -110,8 +110,8 @@
 
 	<?php
 		includeServiceSectionVideo(
-			"TVC (video needed)",
-			$video_path . ".mp4",
+			"TVC",
+			$video_path . "920x518_COOP_launch_45_tvc_v1.mp4",
 			$img_path . "Coop-video-XL.webp",
 		);
 		includeServiceSection(
