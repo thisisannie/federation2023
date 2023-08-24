@@ -53,7 +53,7 @@
 	}
 
 	$img_path = HTML_ROOT . '/assets/images/work/' . $page_data['slug'] . '/';
-	$video_path = HTML_ROOT . '/assets/videos/work/';
+	$video_path = HTML_ROOT . '/assets/videos/work/' . $page_data['slug'] . '/';
 
 	include ABSPATH . '/partials/header.php';
 ?>
@@ -93,10 +93,10 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Social Videos (video needed)",
+				"title" => "Social Videos",
 				"mobile" => $img_path . 'Social-videos-mobile.webp',
 				"desktop" => $img_path . 'Social-videos-XL-Desktop.webp',
-				"mp4" => false,
+				"mp4" => $video_path . '920x518_sounds_mobile_v1_1.mp4',
 			],
 			[
 				"title" => "Website",
