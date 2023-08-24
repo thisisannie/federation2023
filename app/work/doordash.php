@@ -120,8 +120,8 @@
 
 	<?php
 		includeServiceSectionVideo(
-			"TVC (video needed)",
-			$video_path . ".mp4",
+			"TVC",
+			$video_path . "920x518_Doordash_30_v1.mp4",
 			$img_path . "DoorDash-TVC-XL.webp",
 		);
 		includeServiceSection(
@@ -132,8 +132,8 @@
 			$img_path . "DoorDash-Billboard_XL.webp",
 		);
 		includeServiceSectionVideo(
-			"Social (video needed)",
-			$video_path . ".mp4",
+			"Social Videos",
+			$video_path . "920x518_DoorDash_social_vids_v1.mp4",
 			$img_path . "DoorDash-Social-XL.webp",
 		);
 	?>
