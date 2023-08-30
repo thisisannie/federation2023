@@ -122,7 +122,7 @@
 			"Bus Side Closeup",
 			"Bus Side Closeup",
 			$img_path . "Mission-Electric-closeUp-mobile.webp",
-			$img_path . "Mission-Electric-BusBack-desktop.webp",
+			$img_path . "Mission-Electric-closeUp-desktop.webp",
 			$img_path . "Mission-Electric-closeUp-XL-desktop.webp",
 		);
 		includeServiceSection(
