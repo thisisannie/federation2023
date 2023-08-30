@@ -83,12 +83,8 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<!-- <h5>The Challenge</h5> -->
-				<p>With Emirates direct daily flights to Bali, getting there has never been so easy. Our interactive activation gave people a taste of the magical island experience and the chance to win return flights, direct to blissful Bali.</p>
-				<!-- <h5>The Solution</h5>
-				<p>Lorem ipsum.</p>
-				<h5>Results</h5>
-				<p>Lorem ipsum.</p> -->
+				<p>Bali is on every travellers’ bucket list. And now Emirates flies you there, every single day.<br>
+				To spread this tropical news, we took our red door activation to the streets. Consumers could open the door to choose the Bali experience of their dreams. And perhaps even win it. Radio and social told our audience where to find our activation, and eager travellers chased the red door team across the city.</p>
 			</div>
 		</div>
 	</div>

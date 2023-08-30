@@ -234,9 +234,8 @@ $work = [
 		"thumb_primary_m" => "",
 		"gradient" => true,
 		"tags" => [
-			"Brand",
-			"OOH",
-			"Social",
+			"Activation",
+			"PR",
 		],
 	],
 	"at-drive-karma" => [
