@@ -125,9 +125,9 @@
 		includeServiceSection(
 			"Bus Decal",
 			"Massey University bus decal",
-			$img_path . "Massey-BusBack-mobile.webp",
-			$img_path . "Massey-BusBack.webp",
-			$img_path . "Massey-BusBack_XL.webp",
+			$img_path . "Massey-BusBack-mobile-v2.webp",
+			$img_path . "Massey-BusBack-v2.webp",
+			$img_path . "Massey-BusBack_XL-v2.webp",
 		);
 	?>
 </div>
