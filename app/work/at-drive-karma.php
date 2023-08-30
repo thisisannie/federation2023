@@ -85,7 +85,7 @@
 			<div class="col col-12 col-md-6">
 				<h5>The Challenge</h5>
 				<p>Zero deaths on Auckland’s roads by 2050. To achieve this ambitious goal, we needed to create a behaviour change campaign showing the link between speed and other road users.</p>
-				<p>Blood and gore simply don’t work. Viewers just switch off. But happiness is contagious, and this also applies to our driving.  Good drivers stick to the speed limit and spread positivity. In engaging content, we modelled the behaviour we want to see – calmer, safer driving.</p>
+				<p>Blood and gore simply don’t work. Viewers just switch off. But happiness is contagious, and this also applies to our driving.  Good drivers stick to the speed limit and spread positivity. In engaging content, we modeled the behaviour we want to see – calmer, safer driving.</p>
 				<!-- <h5>The Solution</h5>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam, doloribus quidem accusamus excepturi maiores consectetur perspiciatis quisquam incidunt odio.</p>
 				<h5>Results</h5>
