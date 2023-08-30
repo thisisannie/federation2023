@@ -53,7 +53,7 @@
 	}
 
 	$img_path = HTML_ROOT . '/assets/images/work/' . $page_data['slug'] . '/';
-	// $video_path = HTML_ROOT . '/assets/videos/work/' . $page_data['slug'] . '/';
+	$video_path = HTML_ROOT . '/assets/videos/work/' . $page_data['slug'] . '/';
 
 	include ABSPATH . '/partials/header.php';
 ?>
@@ -121,7 +121,7 @@
 		);
 		includeServiceSectionVideo(
 			"Social videos",
-			HTML_ROOT . "/assets/videos/work/Macbeth_retarget_920x518.mp4",
+			$video_path . "1920x1080_macbeth_retarget mobile_short_v3.mp4",
 			$img_path . "Macbeth-Social-XL.webp",
 		);
 		includeServiceSection(
