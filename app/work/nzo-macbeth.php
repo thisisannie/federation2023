@@ -26,7 +26,7 @@
 
 	// Data
 	$page_title = "NZ Opera - Macbeth";
-	$page_description = "";
+	$page_description = "Using retargeting algorithms, our digital creative followed our audience around the internet, descending further and further into madness.";
 	$styles = [
 		'work__detail.css',
 		'slick.css'
@@ -84,10 +84,12 @@
 			</div>
 			<div class="col col-12 col-md-6">
 				<h5>Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>NZ Opera was at a crossroads. With an audience in its golden years, we needed to attract an entirely new group of theatre-goers to the opera and their new production of Macbeth. But how?</p>
 				<h5>Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
-			</div>
+				<p>By following them wherever they go. After King Duncan’s murder, Macbeth’s paranoia becomes all-consuming. So we created the ‘paranoid campaign’ – one that accused the viewer of eavesdropping on it, and even staring at it. Using retargeting algorithms, our digital creative followed our audience around the internet, descending further and further into madness.</p>
+				<p>We also created provocative OOH outside selected McDonald’s and Burger King restaurants urging diners to come and meet the real King.</p>
+				<h5>Success</h5>
+				<p>Feisty and attitudinal, yes.  Definitely not old school. Our campaign resulted in record engagement, and our “McDonald’s” and “Burger King” ambush drove earned media across the globe.</p>
 			</div>
 		</div>
 	</div>

@@ -82,11 +82,14 @@
 			</div>
 			<div class="col col-12 col-md-6">
 				<h5>Challenge</h5>
-				<p>In a highly competitive market, local and international universities found themselves fighting over the same students. But from a marketing point of view, it was all a sea of same-ness. Research showed that Massey had the second to lowest conversion from consideration preference across all universities. With a much smaller share of voice, Massey needed to do things differently.</p>
+				<p>New Zealanders have a symbiotic relationship with the water – it’s both our playground and our pantry. But we don’t always treat the water with the respect it deserves, particularly boaties aged 45+. They’re a notoriously stubborn bunch that refuse to be told what to do or wear. And this shows in the statistics.</p>
 				<h5>Solution</h5>
-				<p>The tertiary sector is rife with images of students gazing misty-eyed into the future. But the truth is that student life can be difficult and even overwhelming. We embraced the irrefutable fact that only mahi gets results. Success comes from a thousand crazy, exhausting, exhilarating moments. In a visually distinctive way, and with a whole lot of personality, we brought to life one student insight after another, showing how Massey walks beside their students to help them succeed.</p>
-				<h5>Results</h5>
-				<p>While the competition waved their chequebooks, we increased awareness and conversion on a small budget. Our new platform worked its socks off. Massey went from the number five spot to the most preferred University in New Zealand, in just three months. Job done.</p>
+				<p>In the first phase of our behaviour change platform, we created an ownable piece of language that encouraged respect for the ocean and reflected our culture.<br>
+				Having created an emotional connection, we began to plant more specific advice.<br>
+				To launch Safer Boating Week, and to highlight the place where the known becomes the unknown, we created a spectacular ‘human life-line’ activation at a popular launch spot.<br>
+				Salty Sid, hero of the high seas, became the face of the Boaties Safety line. <br>
+				His message? Cross this line without knowing the ways of the water, and your chances of returning home safe and sound are reduced.
+				</p>
 			</div>
 		</div>
 	</div>
@@ -98,12 +101,12 @@
 		<div class="service align-items-center">
 			<div class="service__image">
 				<div class="text-graphic text-graphic--row" style="background-color:#f28503;">
-					<div class="stat-number">#1</div>
-					<div class="stat d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, animi.</div>
+					<div class="stat-number">39%</div>
+					<div class="stat d-none d-md-block">Reduction in deaths (Despite a rise in recreational craft&nbsp;use)</div>
 				</div>
 			</div>
 			<div class="service__text">
-				<h4 class="d-md-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quas?</h4>
+				<h4 class="d-md-none">Reduction in deaths (Despite a rise in recreational craft&nbsp;use)</h4>
 			</div>
 		</div>
 	</section>
