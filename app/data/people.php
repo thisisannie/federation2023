@@ -33,9 +33,9 @@ $people = [
 		"slug" => "liz",
 		"name" => "Liz Adams",
 		"role" => "Group Business Director",
-		"thumb" => "placeholder-280x400.webp",
-		"image_mobile" => "placeholder-280x400.webp",
-		"image_desktop" => "placeholder-280x400.webp",
+		"thumb" => "Liz_thumb.png",
+		"image_mobile" => "Liz_mob.png",
+		"image_desktop" => "Liz_dsk.png",
 		"bio" => "There’s not much that surprises Liz. An experienced customer marketer, Liz has the patience of a saint and the tenaciousness of a terrier. She delivers the goods while others are still making plans to meet for coffee. ",
 	],
 	"ollie" => [
@@ -45,7 +45,7 @@ $people = [
 		"thumb" => "Ollie-thmb.webp",
 		"image_mobile" => "Ollie-mob.webp",
 		"image_desktop" => "Ollie-dsk.webp",
-		"bio" => "After spending time in London working on product launch and brand campaigns for Apple, Ollie has rejoined our client service team. He has a particular interest in sports marketing, brand strategy and creative execution. Having also worked on Spark, Volvo and Vodafone, Ollie has an impressive array of experience.",
+		"bio" => "Growing up on a sun-drenched vineyard in Marlborough must have been hell. But our Ollie’s a trooper. He overcame this difficult start to forge a successful career in advertising. A keen athlete, he has a passion for sports marketing. This makes him something of a conversational chameleon – capable of discussing the subtleties of the All Black lineout as well as an organic sauvignon blanc.",
 	],
 	"carolina" => [
 		"slug" => "carolina",
@@ -92,15 +92,6 @@ $people = [
 		"image_desktop" => "Emma-dsk.webp",
 		"bio" => "Emma Fern is one of New Zealand’s most experienced integrated communications Planning Directors. She works alongside Federation’s clients to create strategies that win the hearts and minds of consumers. ",
 	],
-	"tony" => [
-		"slug" => "tony",
-		"name" => "Tony Clewett",
-		"role" => "CCO",
-		"thumb" => "Tony-thmb.webp",
-		"image_mobile" => "Tony-mob.webp",
-		"image_desktop" => "Tony-dsk.webp",
-		"bio" => "The creative leader behind some of NZ’s most-loved, well-known, and internationally-acclaimed brand campaigns of recent memory. Previously the Chief Creative Officer and overall Creative lead of FCB NZ; earning over 100 awards for creativity and effectiveness along the way.",
-	],
 	"bobbie" => [
 		"slug" => "bobbie",
 		"name" => "Bobbie McKay",
@@ -108,7 +99,11 @@ $people = [
 		"thumb" => "Bobbie-thmb.webp",
 		"image_mobile" => "Bobbie-mob.webp",
 		"image_desktop" => "Bobbie-dsk.webp",
-		"bio" => "Lorem",
+		"bio" => "Bobbie has a love affair with words.</p>
+		<p>An award-winning creative, she has worked on some of New Zealand’s most iconic brands across brand, retail, experiential and behaviour change space. When she’s not adding a little theatre to a presentation, she’s likely to be entertaining her kids with outlandish stories or spinning a good yarn.</p>
+		<p>There’s very little Bobbie won’t do to ensure the success of a job, including running across Eden Park dressed as the ‘Spud’ mascot for Auckland Rugby.</p>
+		<p>Yup, you say po-tay-to, she says po-tah-to.
+		",
 	],
 	"jeremy" => [
 		"slug" => "jeremy",
@@ -142,18 +137,21 @@ $people = [
 		"slug" => "gene",
 		"name" => "Gene Wheaton",
 		"role" => "Digital Art Director",
-		"thumb" => "placeholder-280x400.webp",
-		"image_mobile" => "placeholder-280x400.webp",
-		"image_desktop" => "placeholder-280x400.webp",
-		"bio" => "Gene has been into Design since his teenage years. During his career he has gained a broad range of experience in the digital sphere. He loves a good creative digital challenge, believes in constant improvement and bringing the best possible experience for the end user. In his spare time he enjoys crate diving for vinyl & whipping up a storm in the kitchen.",
+		"thumb" => "Gene_thumb.png",
+		"image_mobile" => "Gene_mob.png",
+		"image_desktop" => "Gene_dsk.png",
+		"bio" => "Gene has been described as ‘effortlessly cool’.</p>
+		<p>Something of a magpie, he takes inspiration from music, art and pop culture, a designer who brings them together in fresh ways.</p>
+		<p>Gene believes in constantly improving and in creating the best possible experience for the end user. In some instances, that’s him. Gene’s bold, audacious designs have even featured in some of his tattoos. And If that isn’t evidence of a confident designer, we don’t know what is.
+		",
 	],
 	"miranda" => [
 		"slug" => "miranda",
 		"name" => "Miranda Kennedy",
 		"role" => "Creative Services Lead",
-		"thumb" => "miranda-thmb.webp",
-		"image_mobile" => "miranda-mob.webp",
-		"image_desktop" => "miranda-dsk.webp",
+		"thumb" => "Miranda_thmb.png",
+		"image_mobile" => "Miranda_mob.png",
+		"image_desktop" => "Miranda_dsk.png",
 		"bio" => "Miranda’s official title is Creative Delivery Lead but she’s better described as an energiser battery wrapped in cashmere. Reflecting on her career, Miranda comments how lucky she is to have worked in advertising in the 90s. Not only does she have better work stories than most, but it was during this time that she developed her love affair for craft and typography.
 		Every day, Miranda aspires to be an effective presence in the workplace. Job done, Miranda.",
 	],
@@ -182,8 +180,43 @@ $people = [
 		"thumb" => "Theo-thmb.webp",
 		"image_mobile" => "Theo-mob.webp",
 		"image_desktop" => "Theo-dsk.webp",
-		"bio" => "Lorem",
+		"bio" => "Theo likes to flex his muscles – both his mental and his physical ones.</p>
+		<p>As a designer, he loves to tackle new challenges, pushing creative boundaries to create successful outcomes for clients.</p>
+		<p>As a human being, he enjoys pumping iron while listening to history podcasts</p>
+		<p>Leg day, arm day, brain day. Now, does it get any more well-rounded than that?
+		",
 	],
+	"sarah" => [
+		"slug" => "sarah",
+		"name" => "Sarah Walden",
+		"role" => "Account Director",
+		"thumb" => "Sarah_thmb.png",
+		"image_mobile" => "Sarah_mob.png",
+		"image_desktop" => "Sarah_dsk.png",
+		"bio" => "(Work) Sarah is a commercially focused marketing strategist, with over 10 years’ experience both publisher and client-side. My background includes brand planning, marketing strategy, performance marketing, digital communications, advertising technology, analytics as well as client relationship management and business development. Most recently Sarah was the Marketing Lead for a land development consultancy and prior to that drove the digital brand strategy for BurgerFuel. </p>
+		<p>(Personal) Sarah enjoys spending time with her family, is a musician and has an interest in design, ceramics and getting into nature.
+		",
+	],
+	"ben" => [
+		"slug" => "ben",
+		"name" => "Ben Rogers",
+		"role" => "Account Manager",
+		"thumb" => "Ben_thumb.png",
+		"image_mobile" => "Ben_mobile.png",
+		"image_desktop" => "Ben_desktop.png",
+		"bio" => "(Work) Sarah is a commercially focused marketing strategist, with over 10 years’ experience both publisher and client-side. My background includes brand planning, marketing strategy, performance marketing, digital communications, advertising technology, analytics as well as client relationship management and business development. Most recently Sarah was the Marketing Lead for a land development consultancy and prior to that drove the digital brand strategy for BurgerFuel. </p>
+		<p>(Personal) Sarah enjoys spending time with her family, is a musician and has an interest in design, ceramics and getting into nature.
+		",
+	],
+	// "tony" => [
+	// 	"slug" => "tony",
+	// 	"name" => "Tony Clewett",
+	// 	"role" => "CCO",
+	// 	"thumb" => "Tony-thmb.webp",
+	// 	"image_mobile" => "Tony-mob.webp",
+	// 	"image_desktop" => "Tony-dsk.webp",
+	// 	"bio" => "The creative leader behind some of NZ’s most-loved, well-known, and internationally-acclaimed brand campaigns of recent memory. Previously the Chief Creative Officer and overall Creative lead of FCB NZ; earning over 100 awards for creativity and effectiveness along the way.",
+	// ],
 	// "tim" => [
 	// 	"slug" => "tim",
 	// 	"name" => "Tim Huse",
