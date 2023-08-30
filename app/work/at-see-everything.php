@@ -96,8 +96,8 @@
 		[
 			[
 				"title" => "Out of Home",
-				"mobile" => $img_path . 'AT_Bird_heads-lozenge-mobile-OOH.webp',
-				"desktop" => $img_path . 'AT_Bird_heads-lozenge-Desktop-OOH.webp',
+				"mobile" => $img_path . 'AT_Bird_heads-lozenge-mobile-OOH-v2.webp',
+				"desktop" => $img_path . 'AT_Bird_heads-lozenge-Desktop-OOH-v2.webp',
 				"mp4" => false,
 			],
 			[
