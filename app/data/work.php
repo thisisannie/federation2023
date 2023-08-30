@@ -239,6 +239,8 @@ $work = [
 		"tags" => [
 			"Activation",
 			"PR",
+			"Ambient",
+			"Experiential",
 		],
 	],
 	"at-drive-karma" => [
@@ -250,15 +252,16 @@ $work = [
 		"thumb_primary_m" => "",
 		"gradient" => true,
 		"tags" => [
+			"TVC",
 			"OOH",
 			"Social",
-			"Digital",
+			"Brand",
 		],
 	],
 	"auckland-council" => [
 		"slug" => "auckland-council",
 		"company" => "Auckland Council",
-		"brief" => "Whānau",
+		"brief" => "Whānau – Oh So Many",
 		"thumb" => "thumb-420x600.webp",
 		"thumb_sq" => "thumb-650x650.webp",
 		"thumb_primary_m" => "",
