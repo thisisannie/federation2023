@@ -1,9 +1,9 @@
 <?php 
 $testimonials = [
 	"at" => [
-		"quote" => "lorem ipsum dolor sit amet",
+		"quote" => "They're very hands-on, consistently demonstrating true partnership and accountability at every level",
 		"name" => "Kevin Leith",
-		"role" => "Group Manager Marketing & Customer Engagement",
+		"role" => "GMr Marketing &amp; Customer Engagement",
 		"company" => "Auckland Transport",
 		"image_desktop" => "Desktop-HP-937x609-AT.webp",
 		"image_mobile" => "Mobile-HP-610x450-AT.webp",
