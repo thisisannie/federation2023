@@ -81,6 +81,7 @@
 						}
 					?>
 				</p>
+				<a href="https://www.ekepanuku.co.nz/" class="button" target="_blank">Launch site</a>
 			</div>
 			<div class="col col-12 col-md-6">
 				<p>Rock stars of urban regeneration, Eke Panuku turns urban jungle into vibrant, harmonious spaces. We were tasked with exciting locals about completed developments, as well as attracting developers and investors to future projects.</p>
@@ -90,72 +91,57 @@
 	</div>
 </section>
 
-<div class="services">
 
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-			<div class="text-graphic" style="background-color:#d2de4b;">
-					<div class="stat-number">#1</div>
-					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
-				</div>
-			</div>
-			<div class="service__text">
-				<h4 class="d-md-none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, mollitia.</h4>
-			</div>
-		</div>
-	</section>
-
-	<?php
-		includeServiceSection(
-			"Brand Guidelines",
-			"Brand Guidelines",
-			$img_path . "Eke-Panuku-Brand-guidelines-mobile.webp",
-			$img_path . "Eke-Panuku-Brand-guidelines.webp",
-			$img_path . "Eke-Panuku-Brand-guidelines-XL.webp",
-		);
-		includeServiceSection(
-			"Website",
-			"Eke Panuku Website",
-			$img_path . "Eke-Panuku-Webpage-mobile.webp",
-			$img_path . "Eke-Panuku-Webpage.webp",
-			$img_path . "Eke-Panuku-Webpage-XL.webp",
-		);
-		includeServiceSectionSlickH(
-			"Website Pages",
-			true,
+<?php
+	includeServiceSectionSlickHW(
+		[
 			[
-				[
-					"title" => "Eke Panuku Homepage screenshot",
-					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-1-mobile.webp",
-					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-1.webp",
-				],
-				[
-					"title" => "Eke Panuku Key Manukau projects and events screenshot",
-					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-2-mobile.webp",
-					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-2.webp",
-				],
-				[
-					"title" => "Eke Panuku Select your neighbourhood screenshot",
-					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-3-mobile.webp",
-					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-3.webp",
-				],
-				[
-					"title" => "Eke Panuku Community hub screenshot",
-					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-4-mobile.webp",
-					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-4.webp",
-				],
-				[
-					"title" => "Eke Panuku Project milestones screenshot",
-					"mobile" => $img_path . "carousel/Eke-Panuku-carousel-5-mobile.webp",
-					"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-5.webp",
-				],
-			]
-		);
-	?>
+				"title" => "Brand Guidelines",
+				"mobile" => $img_path . 'Eke-Panuku-Brand-guidelines-mobile.webp',
+				"desktop" => $img_path . 'Eke-Panuku-Brand-guidelines-xl.webp',
+				"mp4" => false,
+			],
+			[
+				"title" => "Website",
+				"mobile" => $img_path . 'Eke-Panuku-Webpage-mobile.webp',
+				"desktop" => $img_path . 'Eke-Panuku-Webpage-XL.webp',
+				"mp4" => false,
+			],
+		]
+	);
 
-<!-- END .services -->
-</div> 
+	// includeServiceSectionSlickH(
+	// 	"Website Pages",
+	// 	true,
+	// 	[
+	// 		[
+	// 			"title" => "Eke Panuku Homepage screenshot",
+	// 			"mobile" => $img_path . "carousel/Eke-Panuku-carousel-1-mobile.webp",
+	// 			"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-1.webp",
+	// 		],
+	// 		[
+	// 			"title" => "Eke Panuku Key Manukau projects and events screenshot",
+	// 			"mobile" => $img_path . "carousel/Eke-Panuku-carousel-2-mobile.webp",
+	// 			"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-2.webp",
+	// 		],
+	// 		[
+	// 			"title" => "Eke Panuku Select your neighbourhood screenshot",
+	// 			"mobile" => $img_path . "carousel/Eke-Panuku-carousel-3-mobile.webp",
+	// 			"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-3.webp",
+	// 		],
+	// 		[
+	// 			"title" => "Eke Panuku Community hub screenshot",
+	// 			"mobile" => $img_path . "carousel/Eke-Panuku-carousel-4-mobile.webp",
+	// 			"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-4.webp",
+	// 		],
+	// 		[
+	// 			"title" => "Eke Panuku Project milestones screenshot",
+	// 			"mobile" => $img_path . "carousel/Eke-Panuku-carousel-5-mobile.webp",
+	// 			"desktop" => $img_path . "carousel/Eke-Panuku-Carousel-5.webp",
+	// 		],
+	// 	]
+	// );
+?>
 
 <?php
 	includeNextItem($next_page_data['slug'], $next_page_data["company"], $next_page_data["brief"], $next_page_data["thumb_sq"], $next_page_data["gradient"], $next_page_data["tags"]);
