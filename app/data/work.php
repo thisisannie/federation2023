@@ -182,9 +182,8 @@ $work = [
 		"thumb_primary_m" => "",
 		"gradient" => true,
 		"tags" => [
-			"Brand",
-			"OOH",
 			"Social",
+			"Audio",
 		],
 	],
 	"sue-the-sea" => [
@@ -263,9 +262,9 @@ $work = [
 		"thumb_primary_m" => "",
 		"gradient" => true,
 		"tags" => [
-			"Brand",
 			"OOH",
 			"Social",
+			"Digital",
 		],
 	],
 	"at-see-everything" => [

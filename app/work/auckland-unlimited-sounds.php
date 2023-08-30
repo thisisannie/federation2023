@@ -83,7 +83,10 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum in suscipit optio velit, odit, consectetur mollitia provident consequatur, voluptas molestias ratione dolore quasi fugit cupiditate. Vel animi, placeat ullam fuga eveniet mollitia quo, neque aut repellat commodi eius voluptates similique minima quibusdam et facere dolor voluptatibus nostrum odit? Amet eum beatae et quasi inventore enim harum neque dolor cum ipsam maxime vero ipsum at nemo ducimus iste quas corporis rem maiores sed voluptates deleniti.</p>
+				<p>Aussies think they know New Zealand. Yawn. No surprises there. <br>
+				To convince these cynical tourists to cross the ditch, we chose to give them a unique and visceral experience - one that would get inside their heads.<br>
+				Neuroscience tells us that when we listen to sounds without visual stimulus, the visual part of our brain kicks in, leading to a deeper sensory experience. With this in mind, we created a series of bespoke videos of Auckland’s tourism gems, using surround binaural audio recordings. <br>
+				Then we told people not to look at them. Just to listen.</p>
 			</div>
 		</div>
 	</div>
