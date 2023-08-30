@@ -84,9 +84,11 @@
 			</div>
 			<div class="col col-12 col-md-6">
 				<h5>Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>A climate emergency requires all hands-on deck. Committed to reducing their footprint by 85%, Auckland Transport began rolling out a fleet of low emission vehicles - goodbye dirty old diesel, hello planet-friendly electric and hydrogen. But despite significant investments to create a sustainable network, many Aucklanders remained oblivious.</p>
 				<h5>Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>Every mission needs a rallying cry. So, we created ‘Mission Electric’, a positive multi-year platform to promote Auckland Transport’s emissions reduction plan. Speaking directly to residents of the areas going electric, we even created a ‘transparent’ bus wrap to give Aucklanders a peek under the hood of the vehicle and the tech that powers it.</p>
+				<h5>Success</h5>
+				<p>AT reduced greenhouse gas emissions by approx. 11 % annually. And now Aucklanders actually know about this epic feat.</p>
 			</div>
 		</div>
 	</div>
@@ -98,12 +100,12 @@
 		<div class="service align-items-center">
 			<div class="service__image">
 				<div class="text-graphic" style="background-image:url(<?=$img_path?>Mission-Electric-Call-out-mobile.webp); background-size: cover;">
-					<div class="stat-number">356%</div>
-					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
+					<div class="stat-number">11%</div>
+					<div class="stat d-none d-md-block">Annual reduction in greenhouse gas emissions annually</div>
 				</div>
 			</div>
 			<div class="service__text">
-				<h4 class="d-md-none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, mollitia.</h4>
+				<h4 class="d-md-none">Annual reduction in greenhouse gas emissions annually</h4>
 			</div>
 		</div>
 	</section>

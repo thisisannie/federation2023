@@ -97,9 +97,7 @@ $work = [
 		"thumb_primary_m" => "thumb-650x650.webp",
 		"gradient" => true,
 		"tags" => [
-			"Brand",
 			"OOH",
-			"Social",
 		],
 	],
 	"at-proof" => [
@@ -178,7 +176,7 @@ $work = [
 	"auckland-unlimited-sounds" => [
 		"slug" => "auckland-unlimited-sounds",
 		"company" => "Auckland Unlimited",
-		"brief" => "Sounds of Auckland",
+		"brief" => "Hear. See. Feel.",
 		"thumb" => "Sound_of_Auckland-thumb-420x600.webp",
 		"thumb_sq" => "Sound_of_Auckland-thumb-650x650.webp",
 		"thumb_primary_m" => "",
