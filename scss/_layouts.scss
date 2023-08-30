@@ -96,3 +96,11 @@ section {
 .container.container--case-study-copy {
 	max-width: 1170px;
 }
+
+// About Hero show full image
+.page--about .hero {
+	height: auto;
+	.feature-img.d-md-none {
+		height: auto;
+	}
+}
