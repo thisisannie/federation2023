@@ -26,7 +26,7 @@
 
 	// Data
 	$page_title = "DoorDash Launch";
-	$page_description = "";
+	$page_description = "With Kiwi tongue planted firmly in cheek, we brought the platform of ‘delivering the goods from your hood’ to life. Tom Sainsbury, popular local comedian, brought the Nu Zild attitude in social and on radio. And prominent OOH appeared in every single local Auckland hood.";
 	$styles = [
 		'work__detail.css',
 	];
@@ -81,7 +81,14 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<p>Since launching Auckland on 5 July, DoorDash have built a positive sales momentum, signing new merchants and pacing ahead of their Q3 target. So good, that their sales teams are receiving positive reactions everywhere with top merchants considering breaking exclusivity contracts with UberEats to come on board!</p>
+				<h5>Challenge</h5>
+				<p>DoorDash, the number one food delivery service in the States, was poised to take Auckland by storm. But despite being run by locals and delivering local goods, DoorDash was viewed as an outsider. So how best to convince Kiwis that this international brand was local as?</p> 
+				<h5>Solution</h5>
+				<p>By celebrating the awesomeness of ‘local’ through local knowledge, local tastes and local humour. With Kiwi tongue planted firmly in cheek, we brought the platform of ‘delivering the goods from your hood’ to life. Tom Sainsbury, popular local comedian, brought the Nu Zild attitude in social and on radio. And prominent OOH appeared in every single local Auckland hood.</p>
+				<h5>Success</h5>
+				<p>DoorDash began signing new merchants and smashing targets immediately. Top merchants even began breaking exclusive contracts with UberEats to join the food delivery juggernaut.</p>
+
+				<!-- <p>Since launching Auckland on 5 July, DoorDash have built a positive sales momentum, signing new merchants and pacing ahead of their Q3 target. So good, that their sales teams are receiving positive reactions everywhere with top merchants considering breaking exclusivity contracts with UberEats to come on board!</p>
 				<p>Current DoorDash NZ perceptions are:</p>
         <ul>
           <li>Deliver great service, while UberEats has a mix of good and bad experiences</li>
@@ -90,7 +97,7 @@
           <li>Are American. While they are proud of their global family, we want to reinforce our local approach.  This is supported by our “Delivering the goods from your hood” platform</li>
           <li>We know a key benefit for consumers to use DoorDash is in discovering new restaurants. </li>
           <li>We know merchants use DoorDash for marketing reach and are looking for more ways to leverage DoorDash to find new customers.</li>
-        </ul>
+        </ul> -->
 			</div>
 		</div>
 	</div>
@@ -108,12 +115,12 @@
 
 				<?php /* Desktop only */ ?>
 				<div class="text-graphic d-none d-md-flex" style="background-color: #EB1700; background-image:url(<?=$img_path?>DoorDash-Call-out-XL.webp); background-size: cover;">
-					<div class="stat-number">46%</div>
-					<div class="stat">increase in brand awareness within 6 weeks of launch</div>
+					<div class="stat-number">56%</div>
+					<div class="stat">category penetration within 6 weeks</div>
 				</div>
 			</div>
 			<div class="service__text">
-				<h4 class="d-md-none">increase in brand awareness within 6 weeks of launch</h4>
+				<h4 class="d-md-none">category penetration within 6 weeks</h4>
 			</div>
 		</div>
 	</section>
