@@ -60,7 +60,7 @@
 		<div class="finger__text">
 			<h2>Our services</h2>
 			<p>Yes, we sweat the big stuff. But we also sweat the smallest of details to help you succeed.</p>
-			<a class="button">See more</a>
+			<a href="<?=HTML_ROOT;?>/services.php" class="button">See more</a>
 		</div>
 	</div>
 </section>

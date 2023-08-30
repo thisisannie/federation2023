@@ -30,7 +30,7 @@
 						</div>
 						<div class="col col-12 col-md-6">
 							<div class="connect">
-								<p class="small"><a target="_blank" href="https://nz.linkedin.com/company/federation."></a>Connect with us: <img src="<?=HTML_ROOT;?>/assets/images/utility/linkedin.svg" class="svg linkedin" alt="LinkedIn" title="LinkedIn"></p>
+								<p class="small"><a target="_blank" href="https://nz.linkedin.com/company/federation.">Connect with us: <img src="<?=HTML_ROOT;?>/assets/images/utility/linkedin.svg" class="svg linkedin" alt="LinkedIn" title="LinkedIn"></a></p>
 							</div>
 						</div>
 					</div>
