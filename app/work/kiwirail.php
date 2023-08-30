@@ -97,18 +97,19 @@
 				
 				<?php /* Mobile only */ ?>
 				<div class="text-graphic d-md-none" style="background-color: #fc503c; background-image:url(<?=$img_path?>Kiwirail-Call-out-mobile.webp); background-size: cover;">
-					<div class="stat-number" style="color: #f1eea7">#1</div>
+					<!-- <div class="stat-number" style="color: #f1eea7">#1</div> -->
+					<h4 class="d-md-none" style="color: #f1eea7">It’s exciting to have a partner with the deep expertise, innovation and commitment of Federation.” Megan Drayton - KiwiRail</h4>
 				</div>
 
 				<?php /* Desktop only */ ?>
 				<div class="text-graphic d-none d-md-flex" style="background-color: #fc503c; background-image:url(<?=$img_path?>Kiwirail-Call-out-XL.webp); background-size: cover;">
-					<div class="stat-number" style="color: #f1eea7">#1</div>
-					<div class="stat" style="color: #f1eea7">Lorem ipsum dolor sit amet consectetur adipisicing elit eaque</div>
+					<!-- <div class="stat-number" style="color: #f1eea7">#1</div> -->
+					<div class="stat" style="color: #f1eea7">It’s exciting to have a partner with the deep expertise, innovation and commitment of Federation.” Megan Drayton - KiwiRail</div>
 				</div>
 			</div>
-			<div class="service__text">
-				<h4 class="d-md-none">Lorem ipsum dolor sit amet consectetur adipisicing elit eaque</h4>
-			</div>
+			<!-- <div class="service__text">
+				<h4 class="d-md-none">It’s exciting to have a partner with the deep expertise, innovation and commitment of Federation.” Megan Drayton - KiwiRail</h4>
+			</div> -->
 		</div>
 	</section>
 

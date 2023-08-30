@@ -57,6 +57,9 @@ $work = [
 		"tags" => [
 			"Brand",
 			"OOH",
+			"TVC",
+			"Social",
+			"Website"
 		],
 	],
 	"massey" => [
