@@ -115,8 +115,8 @@
 
 	<?php
 		includeServiceSectionVideo(
-			"Video (video needed)",
-			$video_path . ".mp4",
+			"Video",
+			$video_path . "920x518_Kiwirail_tvc.mp4",
 			$img_path . "Kiwirail-video-XL.webp",
 		);
 		includeServiceSection(
