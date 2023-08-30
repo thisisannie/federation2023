@@ -83,13 +83,7 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<h5>The Challenge</h5>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quae dolores nisi laboriosam, harum inventore explicabo amet suscipit at doloribus.</p>
-				<h5>The Solution</h5>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quae dolores nisi laboriosam, harum inventore explicabo amet suscipit at doloribus.</p> 
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quae dolores nisi laboriosam, harum inventore explicabo amet suscipit at doloribus.</p>
-				<h5>Results</h5>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quae dolores nisi laboriosam, harum inventore explicabo amet suscipit at doloribus.</p>
+				<p>Too many motorcyclists are being injured at Auckland’s intersections. To counter this, we created a striking campaign using imagery of NZ birds of prey, well known for their razor sharp vision - all to remind bikers to see everything at intersections in order to react to anything - because they have the most at stake. </p>
 			</div>
 		</div>
 	</div>
