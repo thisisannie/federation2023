@@ -109,9 +109,9 @@
 		includeServiceSection(
 			"Out of Home",
 			"Out of Home",
-			$img_path . "POD-OOH-mobile.webp",
-			$img_path . "POD-OOH-desktop.webp",
-			$img_path . "POD-OOH-XL-desktop.webp",
+			$img_path . "POD-OOH-mobile-v2.webp",
+			$img_path . "POD-OOH-desktop-v2.webp",
+			$img_path . "POD-OOH-XL-desktop-v2.webp",
 		);
 		includeServiceSectionVideo(
 			"TVC – First time tapper",
