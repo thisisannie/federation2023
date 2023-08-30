@@ -54,7 +54,7 @@
 	}
 
 	$img_path = HTML_ROOT . '/assets/images/work/' . $page_data['slug'] . '/';
-	$video_path = HTML_ROOT . '/assets/videos/work/';
+	$video_path = HTML_ROOT . '/assets/videos/work/' . $page_data['slug'] . '/';
 
 	include ABSPATH . '/partials/header.php';
 ?>
@@ -95,10 +95,10 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Video (video needed)",
+				"title" => "Video",
 				"mobile" => $img_path . 'Sue_the_Sea-video-mobile.webp',
 				"desktop" => $img_path . 'Sue_the_Sea-video-XL-Desktop.webp',
-				"mp4" => false,
+				"mp4" => $video_path . '920x518_Suethesea_vid.mp4',
 			],
 		]
 	);
