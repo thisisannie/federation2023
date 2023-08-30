@@ -83,10 +83,8 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<h5>Challenge</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
-				<h5>Solution</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem dicta tenetur excepturi! Incidunt expedita repellendus nemo repudiandae illum commodi, dolorem corporis, minima laborum quia blanditiis, ad earum ipsa consectetur.</p>
+				<p>Rock stars of urban regeneration, Eke Panuku turns urban jungle into vibrant, harmonious spaces. We were tasked with exciting locals about completed developments, as well as attracting developers and investors to future projects.</p>
+				<p>Our new creative platform, ‘Thrive’, allows us to discuss innovative projects at a city-wide level, as well as giving each suburb its own unique voice. Visually, our new designs added attitude and vibrancy to every touch point.</p>
 			</div>
 		</div>
 	</div>
