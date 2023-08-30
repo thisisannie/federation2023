@@ -223,9 +223,7 @@ $work = [
 		"thumb_primary_m" => "",
 		"gradient" => true,
 		"tags" => [
-			"Brand",
 			"OOH",
-			"Social",
 		],
 	],
 	"emirates" => [

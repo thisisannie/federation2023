@@ -83,13 +83,9 @@
 				</p>
 			</div>
 			<div class="col col-12 col-md-6">
-				<h5>The Challenge</h5>
-				<p>How do you get more Aucklanders out on bikes? Like all behaviour change programs, it’s easier said than done. We knew that true bike enthusiasts were already pedalling up a storm, so our strategy focused on the next-most-likely audience – casual cyclists. And many of their bikes were just gathering dust in the back of the shed. </p>
-				<h5>The Solution</h5>
-				<p>We gave this group a potent and compelling reason to dust off their bikes - ‘point-to-point journeys’. We combined something they loved, such as a trip to their local ice cream shop, with cycling. In doing so, we were able to re-introduce the joy and convenience of cycling to a behaviour they were already receptive to.</p> 
-				<p>Local café? Cycle there. Saturday sports? Bike there. Mates BBQ? Pedal instead. Bright, bold, striking imagery helped re-enforce the feeling of fun and ease.</p>
-				<h5>Results</h5>
-				<p>By combining the familiar, we were able to increase short journeys (under 2kms) around Auckland by 23%*. Which equates to about 15,000kms per week. Many of them not even in lycra. </p>
+				<p>How do you get more Aucklanders out on bikes? With bike enthusiasts already pedaling up a storm, we focused on the casual cyclists, those with bikes gathering dust in the shed. </p>
+				<p>We gave this group a compelling reason to dust off their bikes - ‘point-to-point journeys’. Local café? Cycle there. Saturday sports? Bike there. Mates BBQ? Pedal instead.</p> 
+				<p>By combining something they loved (a trip for icecreams) with the familiar, we were able to get Aucklanders on their bikes in droves - many of them not even wearing lycra.</p>
 			</div>
 		</div>
 	</div>
