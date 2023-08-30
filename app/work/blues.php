@@ -29,10 +29,10 @@
 	$page_description = "";
 	$styles = [
 		'work__detail.css',
-		// 'slick.css'
+		'slick.css'
 	];
 	$scripts = [
-		// 'slick.min.js',
+		'slick.min.js',
 	// 	'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js',
 	];
 	include ABSPATH . '/data/work.php';
@@ -93,32 +93,19 @@
 	</div>
 </section>
 
-<div class="services">
-
-	<section class="service-section">
-		<div class="service align-items-center">
-			<div class="service__image">
-			<div class="text-graphic text-graphic--row" style="background-color:#023c7f;">
-					<div class="stat-number">#1</div>
-					<div class="stat d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
-				</div>
-			</div>
-			<div class="service__text">
-				<h4 class="d-md-none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, mollitia.</h4>
-			</div>
-		</div>
-	</section>
-
 	<?php
-		includeServiceSectionVideo(
-			"Case study",
-			$video_path . '920x518_video_Blues.mp4',
-			$img_path . 'Blues-lozenge_Desktop_XL.webp',
+		includeServiceSectionSlickHW(
+			[
+				[
+					"title" => "Case study",
+					"mobile" => $img_path . 'Blues-lozenge_Mobile.webp',
+					"desktop" => $img_path . 'Blues-lozenge_Desktop_XL.webp',
+					"mp4" => $video_path . '920x518_video_Blues.mp4',
+				],
+			]
 		);
 	?>
 
-<!-- END .services -->
-</div> 
 
 <?php
 	includeNextItem($next_page_data['slug'], $next_page_data["company"], $next_page_data["brief"], $next_page_data["thumb_sq"], $next_page_data["gradient"], $next_page_data["tags"]);
