@@ -101,14 +101,14 @@
 			],
 			[
 				"title" => "",
-				"mobile" => $img_path . 'Whanau-Mobile-pic-1.webp',
-				"desktop" => $img_path . 'Whanau-XL-Desktop-pic-1.webp',
+				"mobile" => $img_path . 'Whanau-Mobile-pic-Auckland-Pools-leisure.webp',
+				"desktop" => $img_path . 'Whanau-XL-Desktop-pic-Auckland-Pools-leisure.webp',
 				"mp4" => false,
 			],
 			[
 				"title" => "",
-				"mobile" => $img_path . 'Whanau-Mobile-pic-2.webp',
-				"desktop" => $img_path . 'Whanau-XL-Desktop-pic-2.webp',
+				"mobile" => $img_path . 'Whanau-Mobile-pic-Auckland public transport.webp',
+				"desktop" => $img_path . 'Whanau-XL-Desktop-pic-Auckland-public-transport.webp',
 				"mp4" => false,
 			],
 		]
