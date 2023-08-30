@@ -1,19 +1,35 @@
 <?php 
 $testimonials = [
-	"kevin" => [
-		"quote" => "They're very hands-on, consistantly demonstrating true partnership and accountability at every level.",
+	"at" => [
+		"quote" => "lorem ipsum dolor sit amet",
+		"name" => "Kevin Leith",
+		"role" => "Group Manager Marketing & Customer Engagement",
+		"company" => "Auckland Transport",
+		"image_desktop" => "Desktop-HP-937x609-AT.webp",
+		"image_mobile" => "Mobile-HP-610x450-AT.webp",
+	],
+	"maritime" => [
+		"quote" => "What truly sets Federation apart is their strategic thinking and dedication to creating captivating campaigns that resonate with our target audience.",
 		"name" => "Adrian Stephenson",
 		"role" => "Senior Advisor Communications and Marketing",
-		"company" => "Maritime NZ",
-		"image_desktop" => "testimonial-d.webp",
-		"image_mobile" => "testimonial-m.webp",
+		"company" => "Maritime",
+		"image_desktop" => "Desktop-HP-937x609-Maritime.webp",
+		"image_mobile" => "Mobile-HP-610x450-Maritime.webp",
 	],
-	// "moe" => [
-	// 	"quote" => "I recently celebrated my birthday here and it was an all-around great experience.",
-	// 	"name" => "I.P. Freely",
-	// 	"role" => "Manager",
-	// 	"company" => "Moe's",
-	// 	"image_desktop" => "testimonial-d.webp",
-	// 	"image_mobile" => "testimonial-m.webp",
-	// ],
+	"co-op" => [
+		"quote" => "We’re thrilled to be working with Federation on this major new evolution for our brand. They’re collaborative and ambitious on our behalf. Culturally, it’s a great fit.",
+		"name" => "Catherine Bateman",
+		"role" => "Chief Marketing Officer",
+		"company" => "The Co-operative Bank",
+		"image_desktop" => "Desktop-HP-937x609-Co-op.webp",
+		"image_mobile" => "Mobile-HP-610x450-Co-op.webp",
+	],
+	"kiwirail" => [
+		"quote" => "It’s exciting to have a partner with the deep expertise, innovation and commitment of Federation.",
+		"name" => "Megan Drayton",
+		"role" => "Foundation Manager",
+		"company" => "TrackSAFE Foundation NZ",
+		"image_desktop" => "Desktop-HP-937x609-KiwiRail.webp",
+		"image_mobile" => "Mobile-HP-610x450-KiwiRail.webp",
+	],
 ];
