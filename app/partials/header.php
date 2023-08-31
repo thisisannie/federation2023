@@ -44,9 +44,9 @@
 		</div>
 		<nav>
 			<div id="nav__click-out"></div>
-			<div class="nav-item"><a href="<?=HTML_ROOT;?>/work.php">Work</a></div>
-			<div class="nav-item"><a href="<?=HTML_ROOT;?>/about.php">About</a></div>
-			<div class="nav-item"><a href="<?=HTML_ROOT;?>/services.php">Services</a></div>
+			<div class="nav-item"><a href="<?=HTML_ROOT;?>/work">Work</a></div>
+			<div class="nav-item"><a href="<?=HTML_ROOT;?>/about">About</a></div>
+			<div class="nav-item"><a href="<?=HTML_ROOT;?>/services">Services</a></div>
 			<!-- <div class="nav-item has-child"><a>About </a>
 				<div class="has-child__click-out"></div>
 				<div class="nav-sub-items">
@@ -55,7 +55,7 @@
 					<div class="nav-sub-item"><a>Things</a></div>
 				</div>
 			</div> -->
-			<div class="nav-item"><a href="<?=HTML_ROOT;?>/contact.php">Contact</a></div>
+			<div class="nav-item"><a href="<?=HTML_ROOT;?>/contact">Contact</a></div>
 		</nav>
 	</header>
 	

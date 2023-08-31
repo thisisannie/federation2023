@@ -1,6 +1,6 @@
 <div class="section-next cards">
 	<h2 class="d-none d-lg-block section-next--next">Next</h2>
-	<a href="<?=HTML_ROOT;?>/work/<?=$slug;?>.php" class="card card--next">
+	<a href="<?=HTML_ROOT;?>/work/<?=$slug;?>" class="card card--next">
 		<div class="card__img gradient-<?= $gradient ?>">
 			<img src="<?=HTML_ROOT;?>/assets/images/work/<?=$slug;?>/<?=$img;?>" alt="<?=$company;?> - <?=$brief;?>" class="">
 		</div>

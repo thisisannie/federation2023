@@ -11,7 +11,7 @@
 	*/
 ?>
 
-<a href="<?=HTML_ROOT;?>/work/<?= $slug ?>.php" class="card">
+<a href="<?=HTML_ROOT;?>/work/<?= $slug ?>" class="card">
 	<div class="card__img gradient-<?= $gradient ?>">
 		<img src="<?=HTML_ROOT;?>/assets/images/work/<?= $slug ?>/<?= $img_m ?>" alt="<?=$company;?> - <?=$brief;?>" class="d-md-none">
 		<img src="<?=HTML_ROOT;?>/assets/images/work/<?= $slug ?>/<?= $img_d ?>" alt="<?=$company;?> - <?=$brief;?>" class="d-none d-md-block">

@@ -38,7 +38,7 @@
 				<p>It’s a simple question, but it’s a powerful one. And it’s a question we ask every one of our clients. After all, if we don’t know where we’re heading, how can we hope to get you there?<br>
 				Welcome to Federation, an independent advertising agency in Aotearoa, New Zealand.</p>
 				<p>Let’s hunt down your success together.</p>
-				<a href="<?=HTML_ROOT;?>/about.php" class="button">About us</a>
+				<a href="<?=HTML_ROOT;?>/about" class="button">About us</a>
 			</div>
 		</div>	
 	</div>
@@ -52,7 +52,7 @@
 				<a href="" class="button button--spot prev slick-work-prev"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt="<"></a>
 				<a href="" class="button button--spot next slick-work-next"><img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/chevron-right.svg" alt=">"></a>
 				<span class="our-work-button-spacer"></span>
-				<a href="<?=HTML_ROOT;?>/work.php" class="button button--reverse">See all work <img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/arrow-right.svg" alt=">"></a>
+				<a href="<?=HTML_ROOT;?>/work" class="button button--reverse">See all work <img class="svg" src="<?=HTML_ROOT;?>/assets/images/utility/arrow-right.svg" alt=">"></a>
 			</div>
 		</div>
 		<div class="finger__image">

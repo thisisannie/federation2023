@@ -12,10 +12,10 @@
 							<div class="footer-menu">
 								<ul class="small caps">
 									<li><a href="<?=HTML_ROOT;?>">Home</a></li>
-									<li><a href="<?=HTML_ROOT;?>/work.php">Work</a></li>
-									<li><a href="<?=HTML_ROOT;?>/about.php">About</a></li>
-									<li><a href="<?=HTML_ROOT;?>/services.php">Services</a></li>
-									<li><a href="<?=HTML_ROOT;?>/contact.php">Contact</a></li>
+									<li><a href="<?=HTML_ROOT;?>/work">Work</a></li>
+									<li><a href="<?=HTML_ROOT;?>/about">About</a></li>
+									<li><a href="<?=HTML_ROOT;?>/services">Services</a></li>
+									<li><a href="<?=HTML_ROOT;?>/contact">Contact</a></li>
 								</ul>
 							</div>
 						</div>

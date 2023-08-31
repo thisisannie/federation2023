@@ -1,0 +1,11 @@
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+
+# Manually re-route work/ requests to our-work
+RewriteCond %{REQUEST_FILENAME} work/$
+RewriteRule ^(.*)/$ $1 
+
+# Hide extension
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
