@@ -59,7 +59,7 @@
 			position: absolute;
 			bottom: 0;
 			width: 100%;
-			padding: 2.5% 13%;
+			padding: 2.5% 12%;
 			text-align: center;
 			color: white;
 			&.shadow-1 {
@@ -72,15 +72,17 @@
 			}
 			.card__header--md {
 				display: block;
+				margin-bottom: 4px;
 				font-weight: 700;
 				font-size: 18px;
-				margin-bottom: 4px;
 			}
 			.card__header--lg {
 				display: block;
+				margin-top: 4px;
+				margin-bottom: 8px;
 				font-weight: 900;
 				font-size: 20px;
-				margin-bottom: 4px;
+				line-height: 1.1;
 			}
 			.label {
 				display: none;
@@ -111,13 +113,32 @@
 					display: inline-block;
 				}
 				.card__header--sm {
-					font-size: 13px;
+					font-size: 1.1vw;
 				}
 				.card__header--md {
 					font-size: 22px;
 				}
 				.card__header--lg {
-					font-size: 26px;
+					font-size: 2.2vw;
+				}
+				.label {
+					font-size: 12px;
+				}
+			}
+		}
+		@media (min-width: $bp--lg) {
+			.text {
+				.label {
+					display: inline-block;
+				}
+				.card__header--sm {
+					font-size: 0.85vw;
+				}
+				.card__header--md {
+					font-size: 22px;
+				}
+				.card__header--lg {
+					font-size: 1.7vw;
 				}
 				.label {
 					font-size: 12px;
@@ -128,7 +149,7 @@
 }
 
 #people-cards {
-	margin: 0 -$margin--card;
+	margin: 0 (-$margin--card);
 	margin-top: $gutter;
 	row-gap: $gutter;
 	.card {

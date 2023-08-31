@@ -12,6 +12,30 @@
 	.cards.work-cards--primary {
 		padding-bottom: $gutter;
 	}
+	.cards.work-cards--secondary {		
+		.card .text {
+			.card__header--sm {
+			}
+			.card__header--lg {
+				margin-top: 0;
+				margin-bottom: 4px;
+				@media (min-width: $bp--lg) {
+					font-size: 1.5vw;
+				}
+			}
+			.label {
+				margin-bottom: 7px;
+				padding: 0 6px 1px 6px;
+			}
+		}
+		.button.button--spot {
+			padding: 8px;
+			svg {
+				max-height: 14px;
+				max-width: 14px;
+			}
+		}
+	}
 
 	// mobile only
 	@media (max-width: $bp--md) {
@@ -86,8 +110,8 @@
 		}
 	}
 
-	// hide label, just for secondary case studies up to the large breakpoint
-	@media (max-width: $bp--lg) {
+	// hide label, just for secondary case studies up to the extra large breakpoint
+	@media (max-width: $bp--xl) {
 		.cards.work-cards--secondary .text .label {
 			display: none;
 		}
