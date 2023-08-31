@@ -51,8 +51,9 @@ $slick-opacity-not-active: 0.25 !default;
 	align-items: flex-start;
 }
 
+// Adjust this when changing number of slides
 .slick-list .slick-slide.card {
-	margin: 0 0.6%;
+	margin: 0 0.3%;
 }
 
 // Slick Work
@@ -90,16 +91,30 @@ $slick-opacity-not-active: 0.25 !default;
 				background: linear-gradient(90deg, white 0%, transparent 100%);
 			}
 		}
+
+		// Adjust this when changing number of slides, nth-child number must be same as, or divisble by the number of slides
 		.card {
 			position: relative;
-			&:nth-child(4n + 1) { // second
+			&:nth-child(9n + 1) { // second
 				margin-top: 60px;
 			}
-			&:nth-child(4n + 2) { // third
+			&:nth-child(9n + 2) { // third
 				margin-top: 20px;
 			}
-			&:nth-child(4n + 3) { // fourth
+			&:nth-child(9n + 3) { // fourth
 				margin-top: 40px;
+			}
+			&:nth-child(9n + 5) { // sixth
+				margin-top: 60px;
+			}
+			&:nth-child(9n + 6) { // seventh
+				margin-top: 20px;
+			}
+			&:nth-child(9n + 7) { // eighth
+				margin-top: 40px;
+			}
+			&:nth-child(9n + 8) { // ninth
+				margin-top: 60px;
 			}
 		}
 	}

@@ -59,7 +59,7 @@
 			<div id="slick__work" class="cards">
 				<!-- Work Cards -->
 				<?php
-					// note: number of items must match css nth-child or animation will be jerky
+					// note: number of items must match css nth-child in slick.scss or animation will be jerky
 					$four_work_items = array_slice($work, 0, 9); 
 					foreach ($four_work_items as $item) {
 						includeWorkItem($item["slug"], $item["company"], $item["brief"], $item["thumb_primary_m"], $item["thumb"], $item["gradient"], $item["tags"]);
