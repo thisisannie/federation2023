@@ -99,16 +99,16 @@
 	includeServiceSectionSlickHW(
 		[
 			[
-				"title" => "Out of Home",
-				"mobile" => $img_path . 'Drive-karma-OOH-Mobile.webp',
-				"desktop" => $img_path . 'Drive-karma-OOH-XL-Desktop.webp',
-				"mp4" => false,
-			],
-			[
 				"title" => "TVC",
 				"mobile" => $img_path . 'Drive-karma-video-Mobile.webp',
 				"desktop" => $img_path . 'Drive-karma-video-XL-Desktop.webp',
 				"mp4" => $video_path . '920x518_tvc_Karma.mp4',
+			],
+			[
+				"title" => "Out of Home",
+				"mobile" => $img_path . 'Drive-karma-OOH-Mobile.webp',
+				"desktop" => $img_path . 'Drive-karma-OOH-XL-Desktop.webp',
+				"mp4" => false,
 			],
 		]
 	);

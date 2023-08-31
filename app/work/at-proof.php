@@ -95,12 +95,12 @@
 		<div class="service align-items-center">
 			<div class="service__image">
 				<div class="text-graphic text-graphic--row" style="background-color:#2d7caf;">
-					<div class="stat-number">#1</div>
-					<div class="stat d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex architecto eligendi incidunt.</div>
+					<div class="stat-number">2.4</div>
+					<div class="stat d-none d-md-block">million increase in Public Transport boardings (compared to 2020 target)</div>
 				</div>
 			</div>
 			<div class="service__text">
-				<h4 class="d-md-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex architecto eligendi incidunt.</h4>
+				<h4 class="d-md-none">million increase in Public Transport boardings (compared to 2020 target)</h4>
 			</div>
 		</div>
 	</section>

@@ -21,7 +21,7 @@
 		<div class="row justify-content-center">
 			<div class="col col-12 col-md-8 col-lg-6">
 				<h1>Our Work</h1>
-				<p class="intro">Building brands, winning hearts, opening wallets. Here are some of our most talked-about and effective advertising campaigns.</p>
+				<p class="intro">Building brands, winning hearts, opening wallets. Here&nbsp;are&nbsp;some&nbsp;of our most talked-about and effective advertising campaigns.</p>
 				<!-- <div id="work-filters">
 					<h5 class="filter-by">Filter by service:</h5>
 					<a id="filter--brand" class="label">Brand</a>

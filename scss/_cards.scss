@@ -71,15 +71,16 @@
 				font-size: 12px;
 			}
 			.card__header--md {
+				font-family: "Fivo", sans-serif;
 				display: block;
 				margin-bottom: 4px;
 				font-weight: 700;
 				font-size: 18px;
 			}
 			.card__header--lg {
+				font-family: "Fivo", sans-serif;
 				display: block;
-				margin-top: 4px;
-				margin-bottom: 8px;
+				margin: 4px 0;
 				font-weight: 900;
 				font-size: 20px;
 				line-height: 1.1;
@@ -145,6 +146,13 @@
 				}
 			}
 		}
+	}
+	.section-next--next {
+		position: relative;
+		width: 0;
+    top: 6vw;
+    right: 5vw;
+		z-index: 10;
 	}
 }
 
