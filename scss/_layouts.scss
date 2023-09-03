@@ -7,8 +7,17 @@ section {
 		margin: $gutter--lg 0;
 	}
 }
+.gutter--lg {
+	padding-top: $gutter--lg;
+}
 .gutter {
-	margin-top: $gutter;
+	padding-top: $gutter;
+}
+.gutter--sm {
+	padding-top: $gutter--sm;
+}
+.gutter--xs {
+	padding-top: $gutter--xs;
 }
 .finger {
 	width: 100%;
