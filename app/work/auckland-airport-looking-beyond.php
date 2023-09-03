@@ -60,7 +60,7 @@
 
 <?php
 	includeHeroImage(
-		$img_path . 'Auckland-Airport-Hero-mobile.webp',
+		$img_path . 'Auckland-Airport-hero-mobile.webp',
 		$img_path . 'Auckland-Airport-Hero.webp',
 		$img_path . 'Auckland-Airport-hero-dxl.webp',
 		$page_title,

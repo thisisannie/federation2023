@@ -26,7 +26,7 @@
 
 <section>
 	<div class="finger align-items-center">
-		<div class="finger__image">
+		<div class="finger__image finger__image--contact">
 			<!-- <img src="<?=HTML_ROOT;?>/assets/images/contact/map.webp" alt="Level 1, 111 Wellesley Street West, Auckland 1010"> -->
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1637.9455160764653!2d174.75734153649358!3d-36.848906287243906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47f1e6053cbf%3A0xb837e4a9991cb353!2sLevel%201%2F111%20Wellesley%20Street%20West%2C%20Auckland%20CBD%2C%20Auckland%201010!5e0!3m2!1sen!2snz!4v1687473214873!5m2!1sen!2snz" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>

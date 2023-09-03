@@ -7,7 +7,8 @@
 		</div>
 		<div class="col col-12 col-md-6 modal-bio--text">
 			<div class="text">
-				<h2><?=$name;?></h2>
+				<h3 class="d-md-none"><?=$name;?></h3>
+				<h2 class="d-none d-md-block"><?=$name;?></h2>
 				<h5 class="caps"><?=$role;?></h5>
 				<p><?=$bio;?></p>
 			</div>

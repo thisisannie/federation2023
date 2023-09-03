@@ -30,8 +30,13 @@ section {
 			object-fit: cover;
 			width: 100%;
 			aspect-ratio: $aspect-ratio--finger--m;
-			border-radius: $border-radius--finger--left;
 		}
+		@media (max-width: $bp--md){
+			&.finger__image--contact {
+				padding: 0 5%;
+			}
+		}
+		
 	}
 	@media (min-width: $bp--md) {
 		display: flex!important;
@@ -65,6 +70,7 @@ section {
   z-index: 20;
 	height: 100%;
 	min-height: 100vh;
+	z-index: 110;
 	&.active {
 		visibility: visible;
 		opacity: 1;

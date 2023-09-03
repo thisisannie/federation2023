@@ -9,7 +9,7 @@ $work = [
 		"thumb" => "DoorDash-thumb-420x600.webp",
 		"thumb_sq" => "DoorDash-thumb-650x650.webp",
 		"thumb_primary_m" => "DoorDash-mobile-1167x544.webp",
-		"gradient" => true,
+		"gradient" => false,
 		"tags" => [
 			"Brand",
 			"OOH",

@@ -38,6 +38,7 @@
 				<p>It’s a simple question, but it’s a powerful one. And it’s a question we ask every one of our clients. After all, if we don’t know where we’re heading, how can we hope to get you there?<br>
 				Welcome to Federation, an independent advertising agency in Aotearoa, New Zealand.</p>
 				<p>Let’s hunt down your success together.</p>
+				<div class="gutter--xs"></div>
 				<a href="<?=HTML_ROOT;?>/about" class="button">About us</a>
 			</div>
 		</div>	
